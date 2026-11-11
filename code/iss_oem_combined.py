@@ -30,7 +30,10 @@ for x in Q['prediction']:
     rows.append(dict(campaign=2,pass_=x['pass_'],receivers=q['receivers'],dt_ms=x['dt_ms'],oem=x['oem'],dt_oem_ms=x['dt_oem_ms'],
                      age_created_h=x['age_h'],age_start_h=x['prop_age_h'],night='p2_%d'%q['night'],order=q['order'],
                      tle_post_ms=q['tle_post_ms']))
-for r in rows: r['diff_ms']=r['dt_ms']-r['dt_oem_ms']
+for r in rows:
+    r['diff_ms']=r['dt_ms']-r['dt_oem_ms']
+    # physical night (local evening to morning): date of the pass time minus 12 h, the same for both campaigns
+    r['night']=(dt.datetime.strptime(r['pass_'],'%Y%m%d_%H%M')-dt.timedelta(hours=12)).strftime('%Y-%m-%d')
 def st(v):
     v=np.array(v,float)
     if not len(v): return None

@@ -130,6 +130,9 @@ All scripts are run from `code/`. The results of every step are already in `resu
 | ISS timing of both campaigns against the OEM predictions with one rule (latest file created before the pass; age from its initial state and from its creation), per-pass table | `iss_oem_combined.py` | `results/iss_oem_combined.json` | Sec. 6, Supplementary S10 |
 | SGP4 element set fitted to three days of each OEM file: along-track residual, its spectrum, and comparison with delta t at the Phase 2 passes | `sgp4_oem_fit.py` (needs `data/tle/phase2/`) | `results/sgp4_oem_fit.json` | Sec. 6, Supplementary S10 |
 | Cross-receiver coincidence of the Phase 2 detections and of the null exceedances | `coincidence.py` | `results/coincidence.json` | Sec. 10.2 |
+| Other objects of the Phase 2 element sets (debris included) whose Doppler matches the echo track of each detection; test with a common tau at several receivers | `catalog_association.py` (needs `data/tle/phase2/`) | `results/catalog_association.json` | Sec. 10.2 |
+| Sunlight effect of the V2-mini passes in one logistic model (receiver, margin, elevation, altitude, UTC window), errors clustered by satellite and by recording | `shadow_glm.py` | `results/shadow_glm.json` | Sec. 10.3 |
+| Supplementary Table S2 (ISS passes against the OEM predictions) | `supp_table_s10.py` | `results/table_s10.tex` | Supplementary S10 |
 | Every number quoted in the paper, from the result files; check of the manuscript against them | `paper_numbers.py`, `check_numbers.py` (manuscript sources in `paper/` if present) | `results/paper_numbers.json` | — |
 | Comparison of two result folders; headline numbers | `compare_results.py`, `key_numbers.py` | — | `REPRODUCTION.md` |
 | Development versions kept for reference, not used for the published numbers | `fastsearch_v1.py`, `fastsearch_v2.py`, `fast_validate.py` (`results/fast_validate.json`), `bb_track.py`, `fig_iss_detection.py` | — | — |

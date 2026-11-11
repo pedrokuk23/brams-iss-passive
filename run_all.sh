@@ -64,6 +64,9 @@ python3 confound_checks.py
 python3 phase2_iss_timing.py && python3 phase2_iss_summary.py   # ISS timing in Phase 2 against the archived NASA OEM files (Sec. 6)
 python3 iss_oem_combined.py && python3 sgp4_oem_fit.py         # both campaigns with one rule; SGP4 fitted to the OEM (Sec. 6, Supplementary S10)
 python3 coincidence.py                                 # cross-receiver coincidence of the Phase 2 detections (Sec. 10.2)
+python3 catalog_association.py                         # other catalog objects compatible with each detection (Sec. 10.2)
+python3 shadow_glm.py                                  # sunlight effect in one logistic model, clustered errors (Sec. 10.3)
+python3 supp_table_s10.py                              # Supplementary Table S2
 OUTTAG=_rerun shards python3 uemr_search.py; UEMRGLOB='../results/uemr_search_rerun_*.json' python3 uemr_search_analyze.py   # one-way search, frozen list of recordings
 python3 fig_graphical_abstract.py                      # graphical abstract (needs the Phase 2 results above)
 python3 paper_numbers.py && python3 check_numbers.py   # every number quoted in the paper, checked against the manuscript

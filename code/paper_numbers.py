@@ -41,8 +41,8 @@ add('both_fresh_n1',C['by_start_age_excl_20261025']['0-24 h|1']['n'],'(%d of Pha
 add('both_fresh_m',fr['rms_ms']*7.4,'about %d~m'%(round(fr['rms_ms']*7.35/10)*10))
 r=C['fresh_regression']; add('both_slope',r['slope'],'slope of $%s\\pm%s$ ($r=%s$)'%(f2(r['slope']),f2(r['slope_se']),f2(r['r'])))
 sc=C['fresh_scatter']
-add('within_night',sc['within_sd_ms'],'scatter by %s~ms (standard deviation, %d degrees of freedom), against %s~ms between the means of the %s nights'%(f0(sc['within_sd_ms']),sc['within_dof'],f0(sc['between_sd_of_means_ms']),{8:'eight'}.get(sc['n_nights'],str(sc['n_nights']))))
-add('night_mean',sc['mean_of_night_means_ms'],'($+%s\\pm%s$~ms over the eight nights)'%(f0(sc['mean_of_night_means_ms']),f0(sc['se_night_level_ms'])))
+add('within_night',sc['within_sd_ms'],'scatter by %s~ms (standard deviation, %d degrees of freedom), against %s~ms between the means of the %s nights'%(f0(sc['within_sd_ms']),sc['within_dof'],f0(sc['between_sd_of_means_ms']),{7:'seven',8:'eight'}.get(sc['n_nights'],str(sc['n_nights']))))
+add('night_mean',sc['mean_of_night_means_ms'],'($+%s\\pm%s$~ms over the seven nights)'%(f0(sc['mean_of_night_means_ms']),f0(sc['se_night_level_ms'])))
 b2=C['by_start_age_excl_20261025']['24-48 h|both']; b3=C['by_start_age_excl_20261025']['48- h|both']
 add('age_1_2d',b2['rms_ms'],'%s~ms rms for 1--2 days (%d passes, of which the two of Phase~1 agree to %s~ms)'%(f0(b2['rms_ms']),b2['n'],f0(C['by_start_age_excl_20261025']['24-48 h|1']['rms_ms'])),('main',))
 add('age_2d',b3['rms_ms'],'%s~ms beyond two days (%d passes)'%(f0(b3['rms_ms']),b3['n']))
@@ -74,19 +74,21 @@ add('uemr_p',ch['p_ge_obs_poisson'],'%s for a Poisson count, %s for the exact'%(
 add('uemr_ul',ch['ul95_excess_frac']*100,'%s\\%% of passes for a Poisson count'%f2(ch['ul95_excess_frac']*100))
 add('uemr_ul0',ch['ul95_frac_no_subtraction']*100,'or %s\\%% without'%f1(ch['ul95_frac_no_subtraction']*100))
 add('uemr_shadow_ul',ch['one_sided_ul95_shadow_1_of_380']*100,'one-sided 95\\%% upper bound %s\\%%'%f1(ch['one_sided_ul95_shadow_1_of_380']*100))
-CC=J('confound_checks.json')['v2mini_by_altitude_adjusted']
-lo=[x for x in CC if x['lo']==0][0]; hi=[x for x in CC if x['lo']==450][0]
-add('alt_or',hi['mh']['or_mh'],'odds ratios are %s (%s--%s) and %s (%s--%s)'%(f0(hi['mh']['or_mh']),f0(hi['mh']['ci95'][0]),f0(hi['mh']['ci95'][1]),f1(lo['mh']['or_mh']),f1(lo['mh']['ci95'][0]),f1(lo['mh']['ci95'][1])))
-add('alt_zen',hi['plate_shadow_el_gt60']['pd']*100,'%s\\%% against %s\\%% at 450--500~km and %s\\%% against %s\\%% below 450~km'%(f1(hi['plate_shadow_el_gt60']['pd']*100),f1(hi['plate_sunlit_el_gt60']['pd']*100),f1(lo['plate_shadow_el_gt60']['pd']*100),f1(lo['plate_sunlit_el_gt60']['pd']*100)))
 IC=J('inject_test_clean.json')['summary']
 add('inj_clean',None,'steady echo is detected in %s and 100\\%% and the glint in %s and %s\\%%'%(', '.join(f0(IC['steady'][l]['pd']*100) for l in ('1.0','1.25','1.5')),', '.join(f0(IC['glint'][l]['pd']*100) for l in ('1.0','1.25','1.5')),f0(IC['glint']['2.0']['pd']*100)))
 FV=J('cluster_stats.json')['feasibility']
 add('feas_obs',FV['observed'],'%s'%format(FV['observed'],','))
 add('feas_pred',FV['predicted'],'%s'%format(round(FV['predicted']),','))
-SS=J('shadow_strata.json')['phase2|Starlink V2-mini']['elevation']['>=60']
-add('shadow_zen',SS['plate_shadow']['pd']*100,'%s\\%% in shadow'%f0(SS['plate_shadow']['pd']*100) if False else '23\\%',('main',))
-add('sunlit_zen',SS['plate_sunlit']['pd']*100,'1.3\\%',('main',))
+GL=J('shadow_glm.json'); cs=GL['cluster_satellite']; cr=GL['cluster_recording']; ab=GL['shadow_by_altitude_bin']
+add('glm_or',cs['or_shadow'],'is %s (95\\%% interval %s--%s with errors clustered by satellite, %s--%s clustered by recording; %s passes of %s satellites)'%(f0(cs['or_shadow']),f1(cs['ci95'][0]),f0(cs['ci95'][1]),f1(cr['ci95'][0]),f0(cr['ci95'][1]),format(GL['n'],','),format(GL['n_sat'],',')))
+add('glm_alt',ab['1']['or_shadow'],'(odds ratio %s, %s--%s), and absent below (%s, %s--%s)'%(f0(ab['1']['or_shadow']),f0(ab['1']['ci95'][0]),f0(ab['1']['ci95'][1]),f1(ab['0']['or_shadow']),f1(ab['0']['ci95'][0]),f1(ab['0']['ci95'][1])))
+add('glm_concl',cs['or_shadow'],'with %s times higher odds'%f0(cs['or_shadow']))
+CA=J('catalog_association.json')['summary']
+add('cat_n',CA['n_objects_in_catalog'],'each of the %s objects'%format(CA['n_objects_in_catalog'],','))
+add('cat_alt',CA['n_with_alternative'],'for %d of the %s detections that could be tested (of %s) another object'%(CA['n_with_alternative'],format(CA['n_checked'],','),format(CA['n_detections'],',')))
+add('cat_multi',CA['n_multi_rx_alternative_surviving'],'in only %d of %d'%(CA['n_multi_rx_alternative_surviving'],CA['n_multi_rx']))
+add('cat_ast',CA['ambiguous_by_class']['AST SpaceMobile'],'up to %d of the %d BlueBird detections and %d of the %d V1.x'%(CA['ambiguous_by_class']['AST SpaceMobile'],CA['by_class']['AST SpaceMobile']['n'],CA['ambiguous_by_class']['Starlink V1.x'],CA['by_class']['Starlink V1.x']['n']))
 out=dict(n=len(reg),entries=reg,
          stale=['20--60~ms','18--39~ms','61~ms rms in','21~ms rms','sub-kilometer level','in 19 passes','set by the predictions','45 Phase~2 recordings',
-                'A likely cause','comparable to the drift','day-old','20-ms agreement','20--125~km','four of five receivers','below 0.2\\%','\\amarelo{20~ms rms','Poisson probability of 10 or more','about 0.35\\% of passes)'])
+                'A likely cause','comparable to the drift','day-old','20-ms agreement','20--125~km','In near-zenith passes','declared by the author','designed after the Phase~2','first version, used to select','four of five receivers','below 0.2\\%','\\amarelo{20~ms rms','Poisson probability of 10 or more','about 0.35\\% of passes)'])
 json.dump(out,open(R+'paper_numbers.json','w'),indent=1); print(len(reg),'entries')
