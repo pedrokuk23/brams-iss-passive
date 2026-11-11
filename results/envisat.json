@@ -1,0 +1,1752 @@
+[
+ {
+  "case": "pass",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 778.322107160913,
+  "z": 4.050419397277963,
+  "tau": -0.5,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_0020_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 2.9371644950492635,
+  "tau": 1.0,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_1005_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.1692986781833357,
+  "tau": 6.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_2355_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 2.9174395565400117,
+  "tau": 5.5,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1730_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 5.244524415895086,
+  "tau": 6.0,
+  "df": 7.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 785.5913553027256,
+  "z": 3.2924425190849305,
+  "tau": -5.0,
+  "df": -5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_1010_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.4222190483896173,
+  "tau": 0.0,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 4.431278552426133,
+  "tau": 2.0,
+  "df": -9.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_0530_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.768208096773066,
+  "tau": 5.5,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.5240941379891013,
+  "tau": 5.0,
+  "df": 6.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 775.8622967487696,
+  "z": 3.591207648815198,
+  "tau": 0.0,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_2350_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 4.617826542536342,
+  "tau": 3.5,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1500_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.906617480038077,
+  "tau": -2.0,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1630_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 4.028507301614726,
+  "tau": 2.5,
+  "df": -9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_0040_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.3224367470346263,
+  "tau": -4.5,
+  "df": 4.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 783.4435653828833,
+  "z": 1.9041091360392692,
+  "tau": 1.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_0830_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 4.289991696164678,
+  "tau": -6.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1020_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.2004739075138247,
+  "tau": -6.0,
+  "df": -4.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1000_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.070905550287241,
+  "tau": 5.5,
+  "df": 2.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1900_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.392780605348025,
+  "tau": 4.0,
+  "df": 11.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261103_0240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 777.3002507470991,
+  "z": 3.775362204092243,
+  "tau": -4.5,
+  "df": 1.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1600_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.2074273088187315,
+  "tau": 0.5,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_1630_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.478062422059824,
+  "tau": -1.5,
+  "df": -10.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_0730_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.0322014957330232,
+  "tau": -2.5,
+  "df": 8.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261103_0241",
+  "file": "RAD_BEDOUR_20261104_2100_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261103_0240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.609690341033936,
+  "tau": 5.0,
+  "df": 8.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0200_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 965.6786660806794,
+  "z": 2.6093944821817847,
+  "tau": 5.5,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_2030_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.8189711953338263,
+  "tau": -5.5,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1230_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 4.1161215238549955,
+  "tau": -4.0,
+  "df": 1.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1430_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.6244646124658275,
+  "tau": -4.5,
+  "df": -7.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1300_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.0717288132264793,
+  "tau": -0.5,
+  "df": 7.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0200_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 947.1308457129597,
+  "z": 3.6580036672241754,
+  "tau": 6.0,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261105_0310_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 2.859673089545705,
+  "tau": 0.0,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261105_0005_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.9678732444915386,
+  "tau": -5.5,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0135_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 4.643968876319352,
+  "tau": 4.0,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261103_1000_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 2.7455375882051705,
+  "tau": -5.5,
+  "df": 11.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0200_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 976.1640199864158,
+  "z": 3.7328204267091363,
+  "tau": -5.0,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1130_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 6.460160620700459,
+  "tau": 6.0,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0035_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 7.1748102424055995,
+  "tau": -6.0,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_2030_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.5106235975108513,
+  "tau": 5.5,
+  "df": 8.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1330_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.8718450193916847,
+  "tau": -4.5,
+  "df": -5.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0200_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 947.3213426413579,
+  "z": 2.635575146152367,
+  "tau": 1.5,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1500_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.354669452472382,
+  "tau": -4.0,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1005_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 3.6519146525785,
+  "tau": 6.0,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261103_0220_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.4799297320325158,
+  "tau": 1.5,
+  "df": 8.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0530_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.546895290039737,
+  "tau": 1.0,
+  "df": -8.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0200_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 971.6157885213103,
+  "z": 3.855329703288431,
+  "tau": -6.0,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1330_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.189153450722995,
+  "tau": 3.5,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_0600_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.373470721021262,
+  "tau": 6.0,
+  "df": -10.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1430_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.6389751101490164,
+  "tau": 1.5,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_0203",
+  "file": "RAD_BEDOUR_20261104_1200_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_0200_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.187305613376085,
+  "tau": -4.5,
+  "df": 1.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1320_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 787.062152183002,
+  "z": 4.378077983144942,
+  "tau": -4.5,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0500_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.227153303906713,
+  "tau": 1.0,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1130_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 4.295709824882974,
+  "tau": 4.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0020_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.521545126208191,
+  "tau": -4.0,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1230_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 2.77103584938248,
+  "tau": -3.0,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1320_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 798.9842812483344,
+  "z": 2.997591813205707,
+  "tau": -2.5,
+  "df": 4.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1500_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.5794378152018305,
+  "tau": 6.0,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1330_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 5.153583625878561,
+  "tau": -5.5,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0015_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.2545163360875877,
+  "tau": -5.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0730_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.3829377415008013,
+  "tau": 2.0,
+  "df": -8.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1320_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 781.4028090645787,
+  "z": 3.3646654049387164,
+  "tau": 2.0,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261103_0040_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 2.877948417926373,
+  "tau": -5.5,
+  "df": -4.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0020_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 2.763537884370079,
+  "tau": -2.0,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1430_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.1704731296357362,
+  "tau": -3.0,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1930_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.8039698329480878,
+  "tau": 6.0,
+  "df": 2.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1320_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 790.6300007844887,
+  "z": 6.774778204432069,
+  "tau": -1.5,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0900_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.497977577328738,
+  "tau": 0.5,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1900_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.265799223570722,
+  "tau": -0.5,
+  "df": 6.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_0700_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 3.4190281728818164,
+  "tau": -5.0,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1500_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 78.02810189518347,
+  "tau": 6.0,
+  "df": -12.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1320_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 786.2345345969051,
+  "z": 3.518636086134672,
+  "tau": 0.5,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1130_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.0646476234981472,
+  "tau": 5.0,
+  "df": -9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1930_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.967673772300581,
+  "tau": 1.5,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1400_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.2202204918440613,
+  "tau": -4.0,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261104_1322",
+  "file": "RAD_BEDOUR_20261104_1015_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261104_1320_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.9680392364031936,
+  "tau": -3.0,
+  "df": -3.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0300_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 937.6516498297257,
+  "z": 3.1440643408585247,
+  "tau": -4.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1730_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 5.277388179490696,
+  "tau": 0.5,
+  "df": -3.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0130_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.708070235155288,
+  "tau": -4.5,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1400_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.440596136565884,
+  "tau": 2.0,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1300_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.3923854410792598,
+  "tau": -3.5,
+  "df": -9.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0305_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 937.6533955125849,
+  "z": 3.6782301428211905,
+  "tau": -6.0,
+  "df": 8.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_2350_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 2.891884148560834,
+  "tau": -2.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0800_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.8850100828834244,
+  "tau": -3.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1025_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 2.648890954866005,
+  "tau": -3.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1010_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.820071183958861,
+  "tau": -5.5,
+  "df": 3.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0300_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 955.4068101257598,
+  "z": 3.0837991410860828,
+  "tau": -5.5,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.404417707119427,
+  "tau": -4.5,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1800_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.4593756750516995,
+  "tau": -4.0,
+  "df": 6.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0000_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.3646124452071855,
+  "tau": -2.5,
+  "df": -11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.077800075542125,
+  "tau": -6.0,
+  "df": 7.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0305_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 955.40685880215,
+  "z": 5.186181525433943,
+  "tau": -5.5,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_2350_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 9.463368412563423,
+  "tau": -6.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0005_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 10.646682840354664,
+  "tau": -6.0,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0500_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 15.637774245169037,
+  "tau": -6.0,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 8.45222034357275,
+  "tau": -6.0,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0300_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 930.1414670671745,
+  "z": 3.0329833963891737,
+  "tau": -6.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1930_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.9991448033514296,
+  "tau": -3.5,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1100_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.0891273516672886,
+  "tau": -3.0,
+  "df": -1.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261103_2355_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.512281313334166,
+  "tau": -3.5,
+  "df": -11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_2305_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.785446361138436,
+  "tau": 1.5,
+  "df": 10.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0305_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 930.14143203818,
+  "z": 10.196640927272563,
+  "tau": -6.0,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1200_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 7.271889901300451,
+  "tau": -6.0,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 6.106884987766265,
+  "tau": -5.0,
+  "df": 6.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 10.839196639658903,
+  "tau": -5.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 8.573687964874715,
+  "tau": -5.0,
+  "df": 11.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0300_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 957.0094485166293,
+  "z": 2.1935783454205153,
+  "tau": -6.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1030_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 10.315729835340026,
+  "tau": -1.0,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261103_1000_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.955417108290463,
+  "tau": -3.0,
+  "df": 6.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1600_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 3.272352950960557,
+  "tau": -3.5,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_2100_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.2124204407629335,
+  "tau": -5.5,
+  "df": -2.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0305_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 957.0094331239686,
+  "z": 9.130837133052935,
+  "tau": -5.5,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0125_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 12.956438069670677,
+  "tau": -6.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0530_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 8.204679982088328,
+  "tau": -6.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0135_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 7.929897489184135,
+  "tau": -6.0,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1500_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 12.114240589579559,
+  "tau": -6.0,
+  "df": 10.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0300_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 931.967977485408,
+  "z": 3.6570879108180985,
+  "tau": -2.0,
+  "df": -6.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1000_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 4.1189164186240035,
+  "tau": -5.0,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1025_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.0377115959884367,
+  "tau": -1.0,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0630_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 6.324687311951461,
+  "tau": 3.0,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_0530_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0300_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.350071803727725,
+  "tau": -3.0,
+  "df": -6.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261105_0305_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 931.9680102124934,
+  "z": 21.402506233151154,
+  "tau": -6.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_2100_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 27.32816592607895,
+  "tau": -6.0,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_2000_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 15.712794932421296,
+  "tau": -5.5,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1600_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 19.236286454672747,
+  "tau": -6.0,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_0304",
+  "file": "RAD_BEDOUR_20261104_1230_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_0305_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 21.642146520084435,
+  "tau": -6.0,
+  "df": 9.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 928.6652713777003,
+  "z": 3.5703881723478084,
+  "tau": -2.0,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1500_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.4067579990037737,
+  "tau": -3.5,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_2350_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.6928445983142777,
+  "tau": 2.0,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1900_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.5129916348006884,
+  "tau": 2.5,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1020_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.2667423870745997,
+  "tau": -2.0,
+  "df": -6.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1245_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "rrmin": 928.6649947379663,
+  "z": 3.441876315608787,
+  "tau": -6.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1130_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 5.413055559690208,
+  "tau": -6.0,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0630_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.5815512411357826,
+  "tau": -5.0,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_1025_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 3.461704026206178,
+  "tau": -5.5,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1200_BEOTTI_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOTTI_SYS001.wav",
+  "st": "BEOTTI",
+  "z": 4.35617976423192,
+  "tau": -5.0,
+  "df": 11.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 906.0672407433029,
+  "z": 3.3075377141275886,
+  "tau": -5.5,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_1000_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.0227576816767994,
+  "tau": -5.0,
+  "df": 7.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1330_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.227881570605179,
+  "tau": -5.0,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0135_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.4865270068146788,
+  "tau": -5.5,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1020_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 4.796995979745634,
+  "tau": -6.0,
+  "df": 8.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1245_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "rrmin": 906.0672284433745,
+  "z": 5.029982422662308,
+  "tau": 3.5,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.3925328829234647,
+  "tau": 3.0,
+  "df": 6.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1230_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.443435910303735,
+  "tau": 3.5,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1005_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 6.302170517763944,
+  "tau": 4.0,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_1020_BEOUDS_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEOUDS_SYS001.wav",
+  "st": "BEOUDS",
+  "z": 3.895340721594317,
+  "tau": 1.0,
+  "df": 11.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 944.7980429263737,
+  "z": 3.6958319437008766,
+  "tau": -5.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.4193062242925785,
+  "tau": -1.5,
+  "df": -4.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1015_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.494924843498851,
+  "tau": -4.5,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1730_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 2.7139585594669513,
+  "tau": 0.0,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1600_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 4.06467255963971,
+  "tau": -4.5,
+  "df": 4.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1245_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "rrmin": 944.7980390328963,
+  "z": 3.114048274877336,
+  "tau": -1.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0005_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.818620749739745,
+  "tau": -1.5,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1015_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.9005074115368834,
+  "tau": -2.5,
+  "df": 6.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_2350_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.5806173083852353,
+  "tau": -4.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1200_FRMAUB_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_FRMAUB_SYS001.wav",
+  "st": "FRMAUB",
+  "z": 3.4719368491526654,
+  "tau": 0.0,
+  "df": 7.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 920.4185106839503,
+  "z": 3.014931494925329,
+  "tau": 1.0,
+  "df": -5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_2030_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.876374555923379,
+  "tau": -2.5,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_2305_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 4.246730702569178,
+  "tau": 5.5,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0830_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 3.4288951069482367,
+  "tau": 4.5,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0700_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 2.187558248670539,
+  "tau": -4.0,
+  "df": 11.5
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1245_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "rrmin": 920.4185193708347,
+  "z": 3.7528948084983402,
+  "tau": -3.0,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1500_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 3.384295750750663,
+  "tau": -1.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261103_0220_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 4.0349026276348,
+  "tau": -1.0,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0800_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 4.176354186841879,
+  "tau": -4.5,
+  "df": 11.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0730_BEHUMA_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEHUMA_SYS001.wav",
+  "st": "BEHUMA",
+  "z": 4.74726149647299,
+  "tau": -2.0,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 931.764099051228,
+  "z": 3.4724728454043676,
+  "tau": -2.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0600_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 2.9655878260439956,
+  "tau": -2.5,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1000_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.839463076614531,
+  "tau": -6.0,
+  "df": 1.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1230_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.30310729836318,
+  "tau": -4.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0530_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1240_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.5214122011016626,
+  "tau": -4.0,
+  "df": 8.0
+ },
+ {
+  "case": "pass",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261105_1245_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "rrmin": 931.7640975234287,
+  "z": 6.372169112763741,
+  "tau": 6.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_2030_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 2.7483089468317483,
+  "tau": -6.0,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1600_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 4.810009568688958,
+  "tau": 0.5,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_0130_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 3.8514952712670807,
+  "tau": 3.5,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "pass_": "20261105_1244",
+  "file": "RAD_BEDOUR_20261104_1530_BEUCCE_SYS001.wav",
+  "geom": "RAD_BEDOUR_20261105_1245_BEUCCE_SYS001.wav",
+  "st": "BEUCCE",
+  "z": 5.978796983107227,
+  "tau": 5.0,
+  "df": 12.0
+ }
+]

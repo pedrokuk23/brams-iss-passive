@@ -1,0 +1,1703 @@
+[
+ {
+  "case": "pass",
+  "file": "20261103_0040_BEOUDS",
+  "obj": "STARLINK-11196 [DTC]",
+  "rrmin": 371.619492317626,
+  "z": 67.14859610940887,
+  "tau": 0.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1025_BEOUDS_SYS001.wav",
+  "geom": "20261103_0040_BEOUDS",
+  "obj": "STARLINK-11196 [DTC]",
+  "z": 3.6760270079416215,
+  "tau": 1.5,
+  "df": -2.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2350_BEOUDS_SYS001.wav",
+  "geom": "20261103_0040_BEOUDS",
+  "obj": "STARLINK-11196 [DTC]",
+  "z": 3.8685642502977857,
+  "tau": 3.0,
+  "df": 2.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0040_FRMAUB",
+  "obj": "STARLINK-11196 [DTC]",
+  "rrmin": 368.83005611194136,
+  "z": 3.0184486336963743,
+  "tau": -1.5,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "geom": "20261103_0040_FRMAUB",
+  "obj": "STARLINK-11196 [DTC]",
+  "z": 2.7388775727273584,
+  "tau": 5.0,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1200_FRMAUB_SYS001.wav",
+  "geom": "20261103_0040_FRMAUB",
+  "obj": "STARLINK-11196 [DTC]",
+  "z": 3.624109218855248,
+  "tau": 0.5,
+  "df": 8.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-1191",
+  "rrmin": 399.5076564435858,
+  "z": 4.25724013599637,
+  "tau": 6.0,
+  "df": -9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-1191",
+  "z": 4.068235174844012,
+  "tau": 3.5,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1600_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-1191",
+  "z": 4.416990232309735,
+  "tau": -2.5,
+  "df": -9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11087 [DTC]",
+  "rrmin": 395.2134667134618,
+  "z": 6.400796544191396,
+  "tau": 0.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_2350_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11087 [DTC]",
+  "z": 3.5136860680963706,
+  "tau": -1.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0800_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11087 [DTC]",
+  "z": 3.9435435132749665,
+  "tau": -6.0,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11136 [DTC]",
+  "rrmin": 377.3051602419641,
+  "z": 53.44501899923594,
+  "tau": 0.5,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11136 [DTC]",
+  "z": 3.7346155980416706,
+  "tau": 5.0,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1005_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11136 [DTC]",
+  "z": 3.850661520337474,
+  "tau": -1.5,
+  "df": -6.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11330 [DTC]",
+  "rrmin": 375.6565653083555,
+  "z": 52.679448789759505,
+  "tau": -2.0,
+  "df": 7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1025_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11330 [DTC]",
+  "z": 4.733148469705436,
+  "tau": -5.0,
+  "df": -1.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1730_BEOUDS_SYS001.wav",
+  "geom": "20261103_0045_BEOUDS",
+  "obj": "STARLINK-11330 [DTC]",
+  "z": 4.356606263119985,
+  "tau": 1.0,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11087 [DTC]",
+  "rrmin": 385.9167574204129,
+  "z": 4.111110385460618,
+  "tau": -5.0,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11087 [DTC]",
+  "z": 3.1364608414863433,
+  "tau": -4.5,
+  "df": -9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1300_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11087 [DTC]",
+  "z": 3.184521865591547,
+  "tau": -5.0,
+  "df": -5.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11136 [DTC]",
+  "rrmin": 377.3489317815341,
+  "z": 3.0968530395221436,
+  "tau": -1.5,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0700_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11136 [DTC]",
+  "z": 3.7092685856444327,
+  "tau": -5.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_2350_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11136 [DTC]",
+  "z": 3.852930854658254,
+  "tau": -1.5,
+  "df": 2.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11330 [DTC]",
+  "rrmin": 385.4707979177547,
+  "z": 3.316869737066901,
+  "tau": -0.5,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0930_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11330 [DTC]",
+  "z": 2.959177783602581,
+  "tau": -5.0,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1430_FRMAUB_SYS001.wav",
+  "geom": "20261103_0045_FRMAUB",
+  "obj": "STARLINK-11330 [DTC]",
+  "z": 4.320663043230812,
+  "tau": 5.0,
+  "df": 2.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0215_BEOUDS",
+  "obj": "STARLINK-11319 [DTC]",
+  "rrmin": 397.554164647845,
+  "z": 7.905133839198328,
+  "tau": -0.5,
+  "df": -7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2100_BEOUDS_SYS001.wav",
+  "geom": "20261103_0215_BEOUDS",
+  "obj": "STARLINK-11319 [DTC]",
+  "z": 2.93163330808581,
+  "tau": -5.5,
+  "df": 2.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0130_BEOUDS_SYS001.wav",
+  "geom": "20261103_0215_BEOUDS",
+  "obj": "STARLINK-11319 [DTC]",
+  "z": 4.819567060330411,
+  "tau": -5.0,
+  "df": -8.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0215_FRMAUB",
+  "obj": "STARLINK-11319 [DTC]",
+  "rrmin": 375.11550790874645,
+  "z": 4.178466007342156,
+  "tau": -6.0,
+  "df": -4.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1830_FRMAUB_SYS001.wav",
+  "geom": "20261103_0215_FRMAUB",
+  "obj": "STARLINK-11319 [DTC]",
+  "z": 4.85027638538319,
+  "tau": 2.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0600_FRMAUB_SYS001.wav",
+  "geom": "20261103_0215_FRMAUB",
+  "obj": "STARLINK-11319 [DTC]",
+  "z": 3.97212923921053,
+  "tau": -4.5,
+  "df": 0.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0220_BEOUDS",
+  "obj": "STARLINK-11247 [DTC]",
+  "rrmin": 380.0650904155451,
+  "z": 9.219307566150858,
+  "tau": -1.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1430_BEOUDS_SYS001.wav",
+  "geom": "20261103_0220_BEOUDS",
+  "obj": "STARLINK-11247 [DTC]",
+  "z": 3.309663130556738,
+  "tau": 5.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1000_BEOUDS_SYS001.wav",
+  "geom": "20261103_0220_BEOUDS",
+  "obj": "STARLINK-11247 [DTC]",
+  "z": 3.293062058067097,
+  "tau": 3.0,
+  "df": -7.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_0220_FRMAUB",
+  "obj": "STARLINK-11247 [DTC]",
+  "rrmin": 372.00410165174264,
+  "z": 3.320439848480226,
+  "tau": 4.5,
+  "df": -6.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "geom": "20261103_0220_FRMAUB",
+  "obj": "STARLINK-11247 [DTC]",
+  "z": 3.166054861721126,
+  "tau": 5.0,
+  "df": 8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1930_FRMAUB_SYS001.wav",
+  "geom": "20261103_0220_FRMAUB",
+  "obj": "STARLINK-11247 [DTC]",
+  "z": 4.107446109635924,
+  "tau": -1.0,
+  "df": -8.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-1227",
+  "rrmin": 390.6066841798791,
+  "z": 9.976149407511276,
+  "tau": 0.0,
+  "df": 1.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "geom": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-1227",
+  "z": 3.61099787102763,
+  "tau": -2.0,
+  "df": -10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "geom": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-1227",
+  "z": 4.958357421830923,
+  "tau": -0.5,
+  "df": -5.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-11340 [DTC]",
+  "rrmin": 387.50561296950013,
+  "z": 11.158494089111496,
+  "tau": -0.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0015_BEOUDS_SYS001.wav",
+  "geom": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-11340 [DTC]",
+  "z": 3.308662603151773,
+  "tau": -5.5,
+  "df": -11.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1020_BEOUDS_SYS001.wav",
+  "geom": "20261103_2350_BEOUDS",
+  "obj": "STARLINK-11340 [DTC]",
+  "z": 2.933402035911377,
+  "tau": 5.0,
+  "df": -12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2350_FRMAUB",
+  "obj": "STARLINK-11340 [DTC]",
+  "rrmin": 369.3849278818477,
+  "z": 3.9737721387993328,
+  "tau": -6.0,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2000_FRMAUB_SYS001.wav",
+  "geom": "20261103_2350_FRMAUB",
+  "obj": "STARLINK-11340 [DTC]",
+  "z": 4.105674106245348,
+  "tau": -4.5,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1030_FRMAUB_SYS001.wav",
+  "geom": "20261103_2350_FRMAUB",
+  "obj": "STARLINK-11340 [DTC]",
+  "z": 3.680557310138123,
+  "tau": -5.0,
+  "df": -5.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-1226",
+  "rrmin": 391.5857445500476,
+  "z": 5.60501739710168,
+  "tau": 0.0,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2335_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-1226",
+  "z": 4.404703091813367,
+  "tau": -2.5,
+  "df": -4.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0630_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-1226",
+  "z": 3.9218261893695336,
+  "tau": 3.0,
+  "df": 9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-2033",
+  "rrmin": 337.5072940250009,
+  "z": 2.9798467075859816,
+  "tau": 4.0,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1630_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-2033",
+  "z": 4.337509626894686,
+  "tau": 4.5,
+  "df": 4.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1200_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-2033",
+  "z": 4.381456501112085,
+  "tau": -5.5,
+  "df": -9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-11081 [DTC]",
+  "rrmin": 387.8669230864474,
+  "z": 7.645021526011109,
+  "tau": 0.0,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1200_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-11081 [DTC]",
+  "z": 3.7912316376953816,
+  "tau": -3.5,
+  "df": 7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1900_BEOUDS_SYS001.wav",
+  "geom": "20261103_2355_BEOUDS",
+  "obj": "STARLINK-11081 [DTC]",
+  "z": 3.7465809399412278,
+  "tau": -5.0,
+  "df": -5.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-2033",
+  "rrmin": 330.1416481564371,
+  "z": 3.7302266294972024,
+  "tau": 0.0,
+  "df": 10.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-2033",
+  "z": 3.5496774601169148,
+  "tau": -1.5,
+  "df": 10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2100_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-2033",
+  "z": 3.2947097337199733,
+  "tau": 0.0,
+  "df": -7.0
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11081 [DTC]",
+  "rrmin": 379.01855871942536,
+  "z": 3.2539706392450936,
+  "tau": 5.0,
+  "df": 1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1800_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11081 [DTC]",
+  "z": 3.6880928181646926,
+  "tau": -2.5,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1005_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11081 [DTC]",
+  "z": 3.9751601071762708,
+  "tau": 5.5,
+  "df": -3.5
+ },
+ {
+  "case": "pass",
+  "file": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11312 [DTC]",
+  "rrmin": 380.69516459708643,
+  "z": 2.988914510744951,
+  "tau": 5.0,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0040_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11312 [DTC]",
+  "z": 2.887241343608491,
+  "tau": 1.5,
+  "df": -9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0130_FRMAUB_SYS001.wav",
+  "geom": "20261103_2355_FRMAUB",
+  "obj": "STARLINK-11312 [DTC]",
+  "z": 3.95315211925434,
+  "tau": -1.5,
+  "df": 11.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1422",
+  "rrmin": 391.2679293605268,
+  "z": 3.268797886230705,
+  "tau": 5.5,
+  "df": 1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2310_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1422",
+  "z": 4.41338667962059,
+  "tau": 6.0,
+  "df": -8.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2335_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1422",
+  "z": 3.3515133583682357,
+  "tau": 1.5,
+  "df": 3.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1609",
+  "rrmin": 380.82554584319456,
+  "z": 4.362922218217333,
+  "tau": -3.0,
+  "df": -6.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0035_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1609",
+  "z": 3.2586365888587334,
+  "tau": 3.5,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0900_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-1609",
+  "z": 3.733592796611519,
+  "tau": 2.5,
+  "df": -10.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11293 [DTC]",
+  "rrmin": 371.0975805592803,
+  "z": 7.756094885253044,
+  "tau": -4.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1500_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11293 [DTC]",
+  "z": 2.8930665356982317,
+  "tau": -5.0,
+  "df": 2.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2030_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11293 [DTC]",
+  "z": 3.725563327339864,
+  "tau": 5.0,
+  "df": 4.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11488 [DTC]",
+  "rrmin": 380.33759094824995,
+  "z": 22.8239908420349,
+  "tau": -6.0,
+  "df": -7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0005_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11488 [DTC]",
+  "z": 3.4400680673754636,
+  "tau": -3.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1100_BEOUDS_SYS001.wav",
+  "geom": "20261104_0125_BEOUDS",
+  "obj": "STARLINK-11488 [DTC]",
+  "z": 4.012829358958966,
+  "tau": -3.5,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1422",
+  "rrmin": 391.5909320014649,
+  "z": 3.2708982544776877,
+  "tau": 4.5,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2340_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1422",
+  "z": 3.4525254279008544,
+  "tau": 1.5,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0015_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1422",
+  "z": 4.564382860521939,
+  "tau": -4.0,
+  "df": -2.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1609",
+  "rrmin": 390.2629505790908,
+  "z": 3.7761984447334678,
+  "tau": -3.5,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_2355_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1609",
+  "z": 2.9325664153337168,
+  "tau": -4.0,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0215_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-1609",
+  "z": 3.7260915385239075,
+  "tau": -2.5,
+  "df": 3.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11293 [DTC]",
+  "rrmin": 375.7174152998246,
+  "z": 2.9551841897774827,
+  "tau": 2.0,
+  "df": 4.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0930_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11293 [DTC]",
+  "z": 4.729916741436788,
+  "tau": -3.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0630_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11293 [DTC]",
+  "z": 3.436987463834812,
+  "tau": 0.0,
+  "df": -12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11488 [DTC]",
+  "rrmin": 381.83155430768005,
+  "z": 4.0492084012640746,
+  "tau": 5.5,
+  "df": 10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1000_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11488 [DTC]",
+  "z": 4.39822958931705,
+  "tau": -4.5,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0600_FRMAUB_SYS001.wav",
+  "geom": "20261104_0125_FRMAUB",
+  "obj": "STARLINK-11488 [DTC]",
+  "z": 14.134928447387946,
+  "tau": -3.0,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-1762",
+  "rrmin": 381.72161984017475,
+  "z": 4.014919594223862,
+  "tau": 3.5,
+  "df": 6.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1300_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-1762",
+  "z": 3.934152507232508,
+  "tau": 0.5,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1530_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-1762",
+  "z": 3.5332812132269082,
+  "tau": -2.0,
+  "df": 9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11317 [DTC]",
+  "rrmin": 370.19956954057284,
+  "z": 46.09754419365846,
+  "tau": -4.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2305_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11317 [DTC]",
+  "z": 3.1834590866651435,
+  "tau": -4.0,
+  "df": 7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0600_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11317 [DTC]",
+  "z": 5.111234233839536,
+  "tau": 2.0,
+  "df": -9.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11466 [DTC]",
+  "rrmin": 390.9324679191154,
+  "z": 12.983979141602282,
+  "tau": -2.5,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_2350_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11466 [DTC]",
+  "z": 4.185371246004411,
+  "tau": -5.5,
+  "df": 1.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0500_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "STARLINK-11466 [DTC]",
+  "z": 4.532547526380853,
+  "tau": -2.5,
+  "df": 10.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YM",
+  "rrmin": 396.5445400479451,
+  "z": 3.4669418495318713,
+  "tau": -3.5,
+  "df": -6.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1010_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YM",
+  "z": 4.080946118142709,
+  "tau": 2.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YM",
+  "z": 3.352667217380694,
+  "tau": -1.5,
+  "df": -9.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "rrmin": 399.92320789614865,
+  "z": 3.827129925567951,
+  "tau": -4.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1930_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "z": 4.172416827537488,
+  "tau": -4.0,
+  "df": 1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1530_BEOUDS_SYS001.wav",
+  "geom": "20261104_0130_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "z": 3.975933932330372,
+  "tau": -3.5,
+  "df": 1.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1365",
+  "rrmin": 376.32441947179916,
+  "z": 5.067496197854337,
+  "tau": -5.0,
+  "df": -6.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1015_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1365",
+  "z": 5.072842705940265,
+  "tau": -6.0,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0220_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1365",
+  "z": 4.507881831569885,
+  "tau": -5.0,
+  "df": -5.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1762",
+  "rrmin": 392.93282570388124,
+  "z": 3.6717478630566927,
+  "tau": 0.5,
+  "df": 7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2030_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1762",
+  "z": 3.6339045151538323,
+  "tau": -1.5,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0000_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-1762",
+  "z": 3.6941928240463393,
+  "tau": -0.5,
+  "df": 1.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11317 [DTC]",
+  "rrmin": 367.76026091142336,
+  "z": 4.195217150776373,
+  "tau": -4.5,
+  "df": -4.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0045_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11317 [DTC]",
+  "z": 3.451497937191333,
+  "tau": -5.0,
+  "df": -10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1130_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11317 [DTC]",
+  "z": 3.214504502386495,
+  "tau": -3.0,
+  "df": -7.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11466 [DTC]",
+  "rrmin": 395.4459261157333,
+  "z": 4.384350051746831,
+  "tau": 1.0,
+  "df": -9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0530_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11466 [DTC]",
+  "z": 3.756281691637001,
+  "tau": 5.0,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2350_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "STARLINK-11466 [DTC]",
+  "z": 4.1746995282547905,
+  "tau": -0.5,
+  "df": 2.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YM",
+  "rrmin": 391.8531783585191,
+  "z": 4.63325949740506,
+  "tau": -1.5,
+  "df": 2.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1800_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YM",
+  "z": 2.990173245259298,
+  "tau": -4.0,
+  "df": -6.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1005_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YM",
+  "z": 3.3632278184951314,
+  "tau": 2.0,
+  "df": 6.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YN",
+  "rrmin": 392.440571946836,
+  "z": 3.1693889244164093,
+  "tau": -1.0,
+  "df": -10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0045_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YN",
+  "z": 5.470298035286488,
+  "tau": -5.5,
+  "df": 4.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "geom": "20261104_0130_FRMAUB",
+  "obj": "ISS OBJECT YN",
+  "z": 4.439410085092339,
+  "tau": -2.0,
+  "df": -9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0135_BEOUDS",
+  "obj": "STARLINK-31826",
+  "rrmin": 355.29407698530287,
+  "z": 3.5374536133409817,
+  "tau": 6.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0040_BEOUDS_SYS001.wav",
+  "geom": "20261104_0135_BEOUDS",
+  "obj": "STARLINK-31826",
+  "z": 3.2307783785294344,
+  "tau": -3.5,
+  "df": -1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2000_BEOUDS_SYS001.wav",
+  "geom": "20261104_0135_BEOUDS",
+  "obj": "STARLINK-31826",
+  "z": 4.728867918049219,
+  "tau": 4.5,
+  "df": -9.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_0135_FRMAUB",
+  "obj": "STARLINK-31826",
+  "rrmin": 357.3452703007173,
+  "z": 3.7798941555906245,
+  "tau": -6.0,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0900_FRMAUB_SYS001.wav",
+  "geom": "20261104_0135_FRMAUB",
+  "obj": "STARLINK-31826",
+  "z": 3.416378069185959,
+  "tau": -5.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1020_FRMAUB_SYS001.wav",
+  "geom": "20261104_0135_FRMAUB",
+  "obj": "STARLINK-31826",
+  "z": 3.3943861110439744,
+  "tau": -3.5,
+  "df": 3.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2300_BEOUDS",
+  "obj": "STARLINK-11472 [DTC]",
+  "rrmin": 372.8384067779964,
+  "z": 3.6760822586692075,
+  "tau": 4.5,
+  "df": 1.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "geom": "20261104_2300_BEOUDS",
+  "obj": "STARLINK-11472 [DTC]",
+  "z": 4.881438553867408,
+  "tau": 5.5,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1600_BEOUDS_SYS001.wav",
+  "geom": "20261104_2300_BEOUDS",
+  "obj": "STARLINK-11472 [DTC]",
+  "z": 3.7936795952851194,
+  "tau": 2.0,
+  "df": -11.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2300_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "rrmin": 396.4141844641257,
+  "z": 3.4121794088333974,
+  "tau": 6.0,
+  "df": -3.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1000_BEOUDS_SYS001.wav",
+  "geom": "20261104_2300_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "z": 3.2926816404295085,
+  "tau": -3.0,
+  "df": -7.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2310_BEOUDS_SYS001.wav",
+  "geom": "20261104_2300_BEOUDS",
+  "obj": "ISS OBJECT YN",
+  "z": 3.961808742466046,
+  "tau": 0.0,
+  "df": 10.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2300_FRMAUB",
+  "obj": "STARLINK-11472 [DTC]",
+  "rrmin": 371.91566316801163,
+  "z": 4.034735781996851,
+  "tau": 2.0,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1130_FRMAUB_SYS001.wav",
+  "geom": "20261104_2300_FRMAUB",
+  "obj": "STARLINK-11472 [DTC]",
+  "z": 3.2817287336436287,
+  "tau": 0.5,
+  "df": 11.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2100_FRMAUB_SYS001.wav",
+  "geom": "20261104_2300_FRMAUB",
+  "obj": "STARLINK-11472 [DTC]",
+  "z": 3.8752776072064505,
+  "tau": -5.0,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1338",
+  "rrmin": 246.96670820645184,
+  "z": 3.612288723123226,
+  "tau": -3.5,
+  "df": 9.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0045_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1338",
+  "z": 4.312056121541546,
+  "tau": 5.0,
+  "df": -11.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1600_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1338",
+  "z": 3.5500145547828077,
+  "tau": 5.0,
+  "df": 11.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1402",
+  "rrmin": 340.87035569724253,
+  "z": 3.882511570554476,
+  "tau": 0.5,
+  "df": -4.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1020_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1402",
+  "z": 3.2983517482905835,
+  "tau": 0.0,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1830_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-1402",
+  "z": 3.129169555051863,
+  "tau": 0.5,
+  "df": -7.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-2015",
+  "rrmin": 378.82294579885894,
+  "z": 6.7432956113661975,
+  "tau": -2.0,
+  "df": 7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1400_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-2015",
+  "z": 3.7982298418133924,
+  "tau": -3.5,
+  "df": -8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1010_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-2015",
+  "z": 3.404198267570759,
+  "tau": 3.0,
+  "df": -9.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11335 [DTC]",
+  "rrmin": 372.5412318774349,
+  "z": 4.170207138188898,
+  "tau": 4.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0630_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11335 [DTC]",
+  "z": 4.521193146810278,
+  "tau": -3.5,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0045_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11335 [DTC]",
+  "z": 2.906410940863704,
+  "tau": -5.5,
+  "df": -12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11474 [DTC]",
+  "rrmin": 384.57491992830074,
+  "z": 4.3089199989960765,
+  "tau": -5.5,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_0005_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11474 [DTC]",
+  "z": 4.4253812451866406,
+  "tau": 2.5,
+  "df": 10.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1600_BEOUDS_SYS001.wav",
+  "geom": "20261104_2305_BEOUDS",
+  "obj": "STARLINK-11474 [DTC]",
+  "z": 3.4109722135843086,
+  "tau": -3.0,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1338",
+  "rrmin": 251.0956939824471,
+  "z": 4.296620006778277,
+  "tau": -2.0,
+  "df": 12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1005_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1338",
+  "z": 3.409418470400143,
+  "tau": 5.5,
+  "df": -5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0130_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1338",
+  "z": 5.188130168911884,
+  "tau": 2.5,
+  "df": -9.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1402",
+  "rrmin": 356.32258651341516,
+  "z": 3.4740479141391547,
+  "tau": 5.0,
+  "df": 2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0015_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1402",
+  "z": 3.9761188643407923,
+  "tau": 4.5,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-1402",
+  "z": 3.04687710350745,
+  "tau": -0.5,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-2015",
+  "rrmin": 382.125270752385,
+  "z": 4.079435817649736,
+  "tau": -1.0,
+  "df": 5.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1000_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-2015",
+  "z": 3.5925264008137754,
+  "tau": 2.0,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0135_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-2015",
+  "z": 4.080802323495894,
+  "tau": -1.5,
+  "df": -1.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11335 [DTC]",
+  "rrmin": 376.81591423258357,
+  "z": 3.852282285390339,
+  "tau": -1.5,
+  "df": 3.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2340_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11335 [DTC]",
+  "z": 4.367178701057777,
+  "tau": 1.0,
+  "df": 9.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0730_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11335 [DTC]",
+  "z": 3.26644345839131,
+  "tau": 5.0,
+  "df": 12.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11474 [DTC]",
+  "rrmin": 387.78488529848227,
+  "z": 3.41298515917232,
+  "tau": 3.5,
+  "df": -10.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11474 [DTC]",
+  "z": 3.866588856980365,
+  "tau": 6.0,
+  "df": 3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "geom": "20261104_2305_FRMAUB",
+  "obj": "STARLINK-11474 [DTC]",
+  "z": 3.994202876660007,
+  "tau": -4.5,
+  "df": 10.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1452",
+  "rrmin": 349.8747057712252,
+  "z": 3.0806740331077385,
+  "tau": -3.5,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2350_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1452",
+  "z": 3.1122365940329892,
+  "tau": 2.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0900_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1452",
+  "z": 3.4896402860196263,
+  "tau": -3.5,
+  "df": 1.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1456",
+  "rrmin": 376.7233167567835,
+  "z": 4.001619809933145,
+  "tau": 3.5,
+  "df": 8.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0135_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1456",
+  "z": 3.934210090685946,
+  "tau": 3.0,
+  "df": -0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2350_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-1456",
+  "z": 3.029577873527208,
+  "tau": -3.5,
+  "df": -6.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-11296 [DTC]",
+  "rrmin": 370.37363622320674,
+  "z": 3.2375244609718106,
+  "tau": 6.0,
+  "df": -2.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-11296 [DTC]",
+  "z": 3.5124580883290415,
+  "tau": -2.5,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_2030_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "STARLINK-11296 [DTC]",
+  "z": 3.5071497979246993,
+  "tau": -4.0,
+  "df": 11.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_BEOUDS",
+  "obj": "KNACKSAT-2",
+  "rrmin": 359.69518389740875,
+  "z": 4.303040191590177,
+  "tau": -6.0,
+  "df": 5.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1020_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "KNACKSAT-2",
+  "z": 3.6984669220903044,
+  "tau": 0.5,
+  "df": -3.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261103_1000_BEOUDS_SYS001.wav",
+  "geom": "20261104_2310_BEOUDS",
+  "obj": "KNACKSAT-2",
+  "z": 3.4587922092838674,
+  "tau": -5.0,
+  "df": -11.5
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-1452",
+  "rrmin": 362.7410287813176,
+  "z": 4.863996753472889,
+  "tau": 2.0,
+  "df": -5.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0035_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-1452",
+  "z": 3.4884709152345765,
+  "tau": 5.0,
+  "df": 0.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-1452",
+  "z": 3.3360774122651238,
+  "tau": -1.5,
+  "df": 9.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-11296 [DTC]",
+  "rrmin": 365.234829123298,
+  "z": 4.041749635438136,
+  "tau": 4.0,
+  "df": -7.5
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1930_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-11296 [DTC]",
+  "z": 3.578113485291604,
+  "tau": 2.0,
+  "df": -3.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0135_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "STARLINK-11296 [DTC]",
+  "z": 4.532825612993392,
+  "tau": -2.0,
+  "df": 4.0
+ },
+ {
+  "case": "pass",
+  "file": "20261104_2310_FRMAUB",
+  "obj": "KNACKSAT-2",
+  "rrmin": 371.9872812043131,
+  "z": 4.6752976635426515,
+  "tau": 4.0,
+  "df": -12.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_1025_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "KNACKSAT-2",
+  "z": 4.171718363521785,
+  "tau": -6.0,
+  "df": 0.0
+ },
+ {
+  "case": "null",
+  "file": "RAD_BEDOUR_20261104_0130_FRMAUB_SYS001.wav",
+  "geom": "20261104_2310_FRMAUB",
+  "obj": "KNACKSAT-2",
+  "z": 2.937167748323334,
+  "tau": -6.0,
+  "df": -6.0
+ }
+]

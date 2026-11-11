@@ -1,0 +1,2013 @@
+{
+ "summary": {
+  "n": 200,
+  "frac_bistatic_higher": 1.0,
+  "median_z_bistatic": 8.999363568852708,
+  "median_z_oneway": 3.4190970450820934,
+  "median_ratio": 0.3753673544383541,
+  "frac_oneway_ge_z_bistatic": 0.0,
+  "nu_search_abs_median_Hz": 6.0
+ },
+ "rows": [
+  {
+   "file": "20261019_0430_BEHUMA",
+   "obj": "STARLINK-11328",
+   "cls": "Starlink DTC",
+   "z_search": 6.028919174729092,
+   "nu_search": 7.5,
+   "z_bistatic": 6.028919174729092,
+   "z_oneway": 4.22948481637031,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261019_0430_BEHUMA",
+   "obj": "STARLINK-30825",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.530719854534975,
+   "nu_search": -3.5,
+   "z_bistatic": 6.530719854534975,
+   "z_oneway": 3.1254640386703176,
+   "nu_oneway": 5.5
+  },
+  {
+   "file": "20261019_0825_BEOUDS",
+   "obj": "STARLINK-11249",
+   "cls": "Starlink DTC",
+   "z_search": 8.769754751342312,
+   "nu_search": -4.0,
+   "z_bistatic": 8.769754751342312,
+   "z_oneway": 3.2169567973884785,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261019_0825_BEOUDS",
+   "obj": "STARLINK-34964",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.108451471195728,
+   "nu_search": -6.0,
+   "z_bistatic": 11.108451471195728,
+   "z_oneway": 4.158465521776351,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261019_0920_BEHUMA",
+   "obj": "STARLINK-11264",
+   "cls": "Starlink DTC",
+   "z_search": 8.128995556864334,
+   "nu_search": -3.5,
+   "z_bistatic": 8.128995556864334,
+   "z_oneway": 3.0595851600100463,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261019_0920_BEOUDS",
+   "obj": "STARLINK-11264",
+   "cls": "Starlink DTC",
+   "z_search": 9.488899338551414,
+   "nu_search": -3.0,
+   "z_bistatic": 9.488899338551414,
+   "z_oneway": 3.8835319874005436,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261019_1350_BEOUDS",
+   "obj": "STARLINK-38492",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.161426355502938,
+   "nu_search": 8.0,
+   "z_bistatic": 11.161426355502938,
+   "z_oneway": 3.7800062569364963,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261020_0620_BEHUMA",
+   "obj": "STARLINK-11090",
+   "cls": "Starlink DTC",
+   "z_search": 8.087886573914316,
+   "nu_search": 6.0,
+   "z_bistatic": 8.087886573914316,
+   "z_oneway": 5.303572483647985,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261020_0700_BEOUDS",
+   "obj": "STARLINK-11466",
+   "cls": "Starlink DTC",
+   "z_search": 22.08354913392828,
+   "nu_search": -2.0,
+   "z_bistatic": 22.08354913392828,
+   "z_oneway": 3.0837534266315774,
+   "nu_oneway": 0.5
+  },
+  {
+   "file": "20261020_0720_BEHUMA",
+   "obj": "STARLINK-11308",
+   "cls": "Starlink DTC",
+   "z_search": 6.188519642240393,
+   "nu_search": 0.0,
+   "z_bistatic": 6.188519642240393,
+   "z_oneway": 3.3929372982332167,
+   "nu_oneway": -2.5
+  },
+  {
+   "file": "20261020_0755_BEOUDS",
+   "obj": "STARLINK-11261",
+   "cls": "Starlink DTC",
+   "z_search": 15.700595528715475,
+   "nu_search": -11.0,
+   "z_bistatic": 15.700595528715475,
+   "z_oneway": 3.8992186192065486,
+   "nu_oneway": 4.5
+  },
+  {
+   "file": "20261020_1010_FRMAUB",
+   "obj": "STARLINK-11466",
+   "cls": "Starlink DTC",
+   "z_search": 11.666662688995729,
+   "nu_search": -5.5,
+   "z_bistatic": 11.666662688995729,
+   "z_oneway": 2.8353705240652376,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261020_1340_BEHUMA",
+   "obj": "STARLINK-38310",
+   "cls": "Starlink V2-mini",
+   "z_search": 13.368259934210995,
+   "nu_search": 8.5,
+   "z_bistatic": 13.368259934210995,
+   "z_oneway": 3.238411940976753,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261020_1340_BEHUMA",
+   "obj": "STARLINK-38493",
+   "cls": "Starlink V2-mini",
+   "z_search": 19.494200230094183,
+   "nu_search": 6.5,
+   "z_bistatic": 19.494200230094183,
+   "z_oneway": 4.424370731535336,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261021_0015_BEOUDS",
+   "obj": "STARLINK-11233",
+   "cls": "Starlink DTC",
+   "z_search": 15.688295571621573,
+   "nu_search": 10.0,
+   "z_bistatic": 15.688295571621573,
+   "z_oneway": 2.9000111195625027,
+   "nu_oneway": -2.5
+  },
+  {
+   "file": "20261021_0015_BEOUDS",
+   "obj": "STARLINK-32209",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.341666414346683,
+   "nu_search": -1.0,
+   "z_bistatic": 8.341666414346683,
+   "z_oneway": 4.483387618466094,
+   "nu_oneway": 8.0
+  },
+  {
+   "file": "20261021_0015_BEOUDS",
+   "obj": "STARLINK-35143",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.41451756341664,
+   "nu_search": 8.5,
+   "z_bistatic": 6.41451756341664,
+   "z_oneway": 3.605897002792612,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261021_0015_BEOUDS",
+   "obj": "STARLINK-37380",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.138858556500772,
+   "nu_search": 8.0,
+   "z_bistatic": 11.138858556500772,
+   "z_oneway": 3.9923108368867264,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261021_0255_BEOTTI",
+   "obj": "STARLINK-11393",
+   "cls": "Starlink DTC",
+   "z_search": 6.205850977500806,
+   "nu_search": -10.0,
+   "z_bistatic": 6.205850977500806,
+   "z_oneway": 2.6056622315133433,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261021_0345_BEOUDS",
+   "obj": "STARLINK-37144",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.980089031805825,
+   "nu_search": -3.0,
+   "z_bistatic": 6.980089031805825,
+   "z_oneway": 2.933981018625795,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261021_0605_BEOUDS",
+   "obj": "STARLINK-11393",
+   "cls": "Starlink DTC",
+   "z_search": 9.568710992232848,
+   "nu_search": -5.0,
+   "z_bistatic": 9.568710992232848,
+   "z_oneway": 3.592805516368794,
+   "nu_oneway": 3.5
+  },
+  {
+   "file": "20261021_0700_BEHUMA",
+   "obj": "STARLINK-11318",
+   "cls": "Starlink DTC",
+   "z_search": 11.246611708965881,
+   "nu_search": -11.0,
+   "z_bistatic": 11.246611708965881,
+   "z_oneway": 3.407128592891913,
+   "nu_oneway": 3.0
+  },
+  {
+   "file": "20261021_0705_BEHUMA",
+   "obj": "STARLINK-11319",
+   "cls": "Starlink DTC",
+   "z_search": 10.325471351736907,
+   "nu_search": 8.5,
+   "z_bistatic": 10.325471351736907,
+   "z_oneway": 3.188207189440562,
+   "nu_oneway": -5.0
+  },
+  {
+   "file": "20261021_0720_BEOUDS",
+   "obj": "STARLINK-11266",
+   "cls": "Starlink DTC",
+   "z_search": 7.023226461985072,
+   "nu_search": -3.5,
+   "z_bistatic": 7.023226461985072,
+   "z_oneway": 2.8697858841047883,
+   "nu_oneway": -2.5
+  },
+  {
+   "file": "20261021_0840_BEHUMA",
+   "obj": "STARLINK-38395",
+   "cls": "Starlink V2-mini",
+   "z_search": 15.626861553019328,
+   "nu_search": -5.5,
+   "z_bistatic": 15.626861553019328,
+   "z_oneway": 2.461893685458299,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261021_0900_BEOUDS",
+   "obj": "STARLINK-11081",
+   "cls": "Starlink DTC",
+   "z_search": 21.117660297560665,
+   "nu_search": -1.0,
+   "z_bistatic": 21.117660297560665,
+   "z_oneway": 3.3623740977539667,
+   "nu_oneway": 7.0
+  },
+  {
+   "file": "20261021_0935_BEOUDS",
+   "obj": "STARLINK-11109",
+   "cls": "Starlink DTC",
+   "z_search": 9.611370305786698,
+   "nu_search": -10.5,
+   "z_bistatic": 9.611370305786698,
+   "z_oneway": 3.3028020021277844,
+   "nu_oneway": -9.5
+  },
+  {
+   "file": "20261021_1940_BEOUDS",
+   "obj": "STARLINK-11142",
+   "cls": "Starlink DTC",
+   "z_search": 8.184539596391451,
+   "nu_search": 8.5,
+   "z_bistatic": 8.184539596391451,
+   "z_oneway": 3.9493083310297203,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261021_1940_BEOUDS",
+   "obj": "STARLINK-11360",
+   "cls": "Starlink DTC",
+   "z_search": 13.954748789926768,
+   "nu_search": -4.5,
+   "z_bistatic": 13.954748789926768,
+   "z_oneway": 3.376345945464832,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261021_1940_BEOUDS",
+   "obj": "STARLINK-37838",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.17206009345646,
+   "nu_search": 10.5,
+   "z_bistatic": 7.17206009345646,
+   "z_oneway": 2.923724288585298,
+   "nu_oneway": 7.0
+  },
+  {
+   "file": "20261021_1940_BEOUDS",
+   "obj": "STARLINK-37912",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.449182375525496,
+   "nu_search": 10.5,
+   "z_bistatic": 8.449182375525496,
+   "z_oneway": 3.1543985351780237,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261021_1940_BEOUDS",
+   "obj": "STARLINK-38154",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.029227001898628,
+   "nu_search": -3.5,
+   "z_bistatic": 11.029227001898628,
+   "z_oneway": 4.677851223364062,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261022_0210_BEHUMA",
+   "obj": "STARLINK-31693",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.595214592079336,
+   "nu_search": 3.0,
+   "z_bistatic": 5.595214592079336,
+   "z_oneway": 3.148665081407236,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261022_0210_BEHUMA",
+   "obj": "STARLINK-37435",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.748778148975731,
+   "nu_search": 2.5,
+   "z_bistatic": 5.748778148975731,
+   "z_oneway": 3.2727615774430032,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261022_0210_BEHUMA",
+   "obj": "STARLINK-37665",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.184401006398527,
+   "nu_search": 0.5,
+   "z_bistatic": 8.184401006398527,
+   "z_oneway": 3.323468267987508,
+   "nu_oneway": 2.5
+  },
+  {
+   "file": "20261022_0210_BEOUDS",
+   "obj": "STARLINK-11377",
+   "cls": "Starlink DTC",
+   "z_search": 17.12506846829475,
+   "nu_search": -0.5,
+   "z_bistatic": 17.12506846829475,
+   "z_oneway": 3.183305279307452,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261022_0210_BEOUDS",
+   "obj": "STARLINK-31264",
+   "cls": "Starlink V2-mini",
+   "z_search": 13.554936392121265,
+   "nu_search": 5.0,
+   "z_bistatic": 13.554936392121265,
+   "z_oneway": 3.9499433696384285,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261022_0210_BEOUDS",
+   "obj": "STARLINK-32656",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.448588354266445,
+   "nu_search": 3.5,
+   "z_bistatic": 6.448588354266445,
+   "z_oneway": 3.6728687677845606,
+   "nu_oneway": -5.5
+  },
+  {
+   "file": "20261022_0210_BEOUDS",
+   "obj": "STARLINK-32720",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.0453881735015,
+   "nu_search": 10.5,
+   "z_bistatic": 11.0453881735015,
+   "z_oneway": 4.629679404777735,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261022_0210_BEOUDS",
+   "obj": "STARLINK-34486",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.6492024331127775,
+   "nu_search": -3.5,
+   "z_bistatic": 7.6492024331127775,
+   "z_oneway": 3.0783526909477423,
+   "nu_oneway": 4.5
+  },
+  {
+   "file": "20261022_0210_FRMAUB",
+   "obj": "STARLINK-11377",
+   "cls": "Starlink DTC",
+   "z_search": 29.506392906133254,
+   "nu_search": 0.0,
+   "z_bistatic": 29.506392906133254,
+   "z_oneway": 4.1186088181314595,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261022_0225_BEOUDS",
+   "obj": "STARLINK-32194",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.87947758928845,
+   "nu_search": -7.0,
+   "z_bistatic": 9.87947758928845,
+   "z_oneway": 3.2840978540219408,
+   "nu_oneway": -1.5
+  },
+  {
+   "file": "20261022_0225_BEOUDS",
+   "obj": "STARLINK-34069",
+   "cls": "Starlink V2-mini",
+   "z_search": 10.741467509353596,
+   "nu_search": -3.5,
+   "z_bistatic": 10.741467509353596,
+   "z_oneway": 3.381304865360045,
+   "nu_oneway": -5.0
+  },
+  {
+   "file": "20261022_0225_BEOUDS",
+   "obj": "STARLINK-34677",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.690313952277496,
+   "nu_search": -0.5,
+   "z_bistatic": 6.690313952277496,
+   "z_oneway": 3.465086341960288,
+   "nu_oneway": -3.0
+  },
+  {
+   "file": "20261022_0225_BEOUDS",
+   "obj": "STARLINK-37132",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.370775969683714,
+   "nu_search": 0.5,
+   "z_bistatic": 7.370775969683714,
+   "z_oneway": 3.1810874654359322,
+   "nu_oneway": 3.5
+  },
+  {
+   "file": "20261022_0225_BEOUDS",
+   "obj": "STARLINK-37506",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.316662120941857,
+   "nu_search": -4.0,
+   "z_bistatic": 6.316662120941857,
+   "z_oneway": 3.2967533958836297,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261022_0540_BEHUMA",
+   "obj": "STARLINK-11262",
+   "cls": "Starlink DTC",
+   "z_search": 12.95901866308005,
+   "nu_search": -7.0,
+   "z_bistatic": 12.95901866308005,
+   "z_oneway": 4.538651613839839,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261022_0600_BEOUDS",
+   "obj": "STARLINK-11394",
+   "cls": "Starlink DTC",
+   "z_search": 16.548624013567114,
+   "nu_search": 11.0,
+   "z_bistatic": 16.548624013567114,
+   "z_oneway": 3.7351058054412283,
+   "nu_oneway": -11.0
+  },
+  {
+   "file": "20261022_0610_BEOUDS",
+   "obj": "STARLINK-11490",
+   "cls": "Starlink DTC",
+   "z_search": 10.457848261169715,
+   "nu_search": 7.0,
+   "z_bistatic": 10.457848261169715,
+   "z_oneway": 3.142285811559818,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261022_0705_BEHUMA",
+   "obj": "STARLINK-11313",
+   "cls": "Starlink DTC",
+   "z_search": 9.260372819232492,
+   "nu_search": -5.5,
+   "z_bistatic": 9.260372819232492,
+   "z_oneway": 3.05967620338826,
+   "nu_oneway": -2.5
+  },
+  {
+   "file": "20261022_0915_BEOUDS",
+   "obj": "STARLINK-11205",
+   "cls": "Starlink DTC",
+   "z_search": 15.420637460558345,
+   "nu_search": 9.5,
+   "z_bistatic": 15.420637460558345,
+   "z_oneway": 3.6028876715294107,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261022_2045_BEHUMA",
+   "obj": "STARLINK-11077",
+   "cls": "Starlink DTC",
+   "z_search": 10.39003478891807,
+   "nu_search": 1.0,
+   "z_bistatic": 10.39003478891807,
+   "z_oneway": 3.3439917150690825,
+   "nu_oneway": 4.0
+  },
+  {
+   "file": "20261022_2045_BEHUMA",
+   "obj": "STARLINK-30295",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.284269350055164,
+   "nu_search": 9.5,
+   "z_bistatic": 7.284269350055164,
+   "z_oneway": 2.925649782014126,
+   "nu_oneway": 4.5
+  },
+  {
+   "file": "20261019_0510_BEHUMA",
+   "obj": "STARLINK-11474",
+   "cls": "Starlink DTC",
+   "z_search": 11.499092193938106,
+   "nu_search": 7.0,
+   "z_bistatic": 11.499092193938106,
+   "z_oneway": 3.215702850753449,
+   "nu_oneway": 0.5
+  },
+  {
+   "file": "20261019_0510_BEHUMA",
+   "obj": "STARLINK-32445",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.960253039417395,
+   "nu_search": -3.0,
+   "z_bistatic": 8.960253039417395,
+   "z_oneway": 3.018509638199955,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261019_0655_BEHUMA",
+   "obj": "STARLINK-11433",
+   "cls": "Starlink DTC",
+   "z_search": 10.755727196988722,
+   "nu_search": 8.0,
+   "z_bistatic": 10.755727196988722,
+   "z_oneway": 2.9911867615384864,
+   "nu_oneway": -4.0
+  },
+  {
+   "file": "20261019_0825_BEHUMA",
+   "obj": "STARLINK-34964",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.8050397263722,
+   "nu_search": -3.0,
+   "z_bistatic": 6.8050397263722,
+   "z_oneway": 3.4203810785791884,
+   "nu_oneway": -3.0
+  },
+  {
+   "file": "20261019_0855_BEOUDS",
+   "obj": "STARLINK-11467",
+   "cls": "Starlink DTC",
+   "z_search": 6.696466222725304,
+   "nu_search": 7.0,
+   "z_bistatic": 6.696466222725304,
+   "z_oneway": 3.4919508980075813,
+   "nu_oneway": 6.5
+  },
+  {
+   "file": "20261020_0620_BEOUDS",
+   "obj": "STARLINK-11090",
+   "cls": "Starlink DTC",
+   "z_search": 19.282418185601053,
+   "nu_search": 5.0,
+   "z_bistatic": 19.282418185601053,
+   "z_oneway": 3.8651156076633137,
+   "nu_oneway": -7.5
+  },
+  {
+   "file": "20261020_0620_BEOUDS",
+   "obj": "STARLINK-11326",
+   "cls": "Starlink DTC",
+   "z_search": 12.141032681117059,
+   "nu_search": 10.0,
+   "z_bistatic": 12.141032681117059,
+   "z_oneway": 4.489339355520162,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261020_0625_BEOUDS",
+   "obj": "STARLINK-11262",
+   "cls": "Starlink DTC",
+   "z_search": 20.626122449875204,
+   "nu_search": 3.5,
+   "z_bistatic": 20.626122449875204,
+   "z_oneway": 3.9521038568909463,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261020_0625_BEOUDS",
+   "obj": "STARLINK-11343",
+   "cls": "Starlink DTC",
+   "z_search": 9.869717276159468,
+   "nu_search": 4.0,
+   "z_bistatic": 9.869717276159468,
+   "z_oneway": 3.6547360337478665,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261020_0655_BEHUMA",
+   "obj": "STARLINK-11488",
+   "cls": "Starlink DTC",
+   "z_search": 5.456867584788388,
+   "nu_search": -5.0,
+   "z_bistatic": 5.456867584788388,
+   "z_oneway": 4.010720148362381,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261020_0740_BEHUMA",
+   "obj": "STARLINK-33533",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.253502383573134,
+   "nu_search": 6.0,
+   "z_bistatic": 6.253502383573134,
+   "z_oneway": 3.5581576521021567,
+   "nu_oneway": 8.0
+  },
+  {
+   "file": "20261020_0945_BEHUMA",
+   "obj": "STARLINK-11147",
+   "cls": "Starlink DTC",
+   "z_search": 7.400011703747394,
+   "nu_search": 11.5,
+   "z_bistatic": 7.400011703747394,
+   "z_oneway": 3.5043978380779004,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261020_1010_BEUCCE",
+   "obj": "STARLINK-11466",
+   "cls": "Starlink DTC",
+   "z_search": 7.257933541873101,
+   "nu_search": -6.5,
+   "z_bistatic": 7.257933541873101,
+   "z_oneway": 3.014907405696096,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261020_1335_BEOUDS",
+   "obj": "STARLINK-38468",
+   "cls": "Starlink V2-mini",
+   "z_search": 15.440976069106654,
+   "nu_search": 7.5,
+   "z_bistatic": 15.440976069106654,
+   "z_oneway": 3.9979704794156876,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261020_1340_BEOUDS",
+   "obj": "STARLINK-38310",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.744497219336378,
+   "nu_search": 4.0,
+   "z_bistatic": 6.744497219336378,
+   "z_oneway": 3.0764028791843665,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261021_0015_BEHUMA",
+   "obj": "STARLINK-11233",
+   "cls": "Starlink DTC",
+   "z_search": 14.254170810488064,
+   "nu_search": 10.5,
+   "z_bistatic": 14.254170810488064,
+   "z_oneway": 3.5880225273586763,
+   "nu_oneway": -5.5
+  },
+  {
+   "file": "20261021_0015_BEHUMA",
+   "obj": "STARLINK-38388",
+   "cls": "Starlink V2-mini",
+   "z_search": 10.985158493123796,
+   "nu_search": 4.0,
+   "z_bistatic": 10.985158493123796,
+   "z_oneway": 2.9738299681773106,
+   "nu_oneway": 8.0
+  },
+  {
+   "file": "20261021_0255_BEHUMA",
+   "obj": "STARLINK-11393",
+   "cls": "Starlink DTC",
+   "z_search": 7.052975392392356,
+   "nu_search": -9.0,
+   "z_bistatic": 7.052975392392356,
+   "z_oneway": 3.512956657702187,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261021_0255_BEHUMA",
+   "obj": "STARLINK-35205",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.636086802911493,
+   "nu_search": 5.0,
+   "z_bistatic": 8.636086802911493,
+   "z_oneway": 3.0503499213250116,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261021_0255_BEOUDS",
+   "obj": "STARLINK-11393",
+   "cls": "Starlink DTC",
+   "z_search": 17.011986688979448,
+   "nu_search": -9.0,
+   "z_bistatic": 17.011986688979448,
+   "z_oneway": 3.174349724047237,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261021_0255_BEOUDS",
+   "obj": "STARLINK-37503",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.62679557406535,
+   "nu_search": 6.5,
+   "z_bistatic": 7.62679557406535,
+   "z_oneway": 3.4084824458540366,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261021_0430_BEHUMA",
+   "obj": "STARLINK-38476",
+   "cls": "Starlink V2-mini",
+   "z_search": 10.91641046518865,
+   "nu_search": 8.5,
+   "z_bistatic": 10.91641046518865,
+   "z_oneway": 3.646228329407039,
+   "nu_oneway": -5.5
+  },
+  {
+   "file": "20261021_0430_BEOUDS",
+   "obj": "STARLINK-38476",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.68999364840506,
+   "nu_search": 7.5,
+   "z_bistatic": 8.68999364840506,
+   "z_oneway": 3.44256379137286,
+   "nu_oneway": -0.5
+  },
+  {
+   "file": "20261021_0610_FRMAUB",
+   "obj": "STARLINK-11396",
+   "cls": "Starlink DTC",
+   "z_search": 9.759152244392313,
+   "nu_search": -11.5,
+   "z_bistatic": 9.759152244392313,
+   "z_oneway": 4.1812966168278605,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261021_0835_BEOUDS",
+   "obj": "STARLINK-35633",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.279016650472811,
+   "nu_search": 10.5,
+   "z_bistatic": 6.279016650472811,
+   "z_oneway": 3.380474510689553,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261021_0920_BEHUMA",
+   "obj": "STARLINK-11223",
+   "cls": "Starlink DTC",
+   "z_search": 6.731249030966177,
+   "nu_search": 6.0,
+   "z_bistatic": 6.731249030966177,
+   "z_oneway": 3.3325433049484587,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261021_1755_BEHUMA",
+   "obj": "STARLINK-11210",
+   "cls": "Starlink DTC",
+   "z_search": 7.28027157829407,
+   "nu_search": 5.5,
+   "z_bistatic": 7.28027157829407,
+   "z_oneway": 2.9189742066212703,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261021_1940_BEHUMA",
+   "obj": "STARLINK-37912",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.588116308968077,
+   "nu_search": -8.0,
+   "z_bistatic": 5.588116308968077,
+   "z_oneway": 3.070705441194136,
+   "nu_oneway": 1.0
+  },
+  {
+   "file": "20261021_1940_BEHUMA",
+   "obj": "STARLINK-38154",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.2297335403866825,
+   "nu_search": -4.0,
+   "z_bistatic": 6.2297335403866825,
+   "z_oneway": 3.670486226853889,
+   "nu_oneway": 1.5
+  },
+  {
+   "file": "20261022_0205_BEHUMA",
+   "obj": "STARLINK-32291",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.640114681967695,
+   "nu_search": 8.5,
+   "z_bistatic": 7.640114681967695,
+   "z_oneway": 3.806061803013033,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261022_0205_BEOUDS",
+   "obj": "STARLINK-31773",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.788149174758671,
+   "nu_search": 1.5,
+   "z_bistatic": 6.788149174758671,
+   "z_oneway": 3.9016059778022956,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261022_0225_BEHUMA",
+   "obj": "STARLINK-11411",
+   "cls": "Starlink DTC",
+   "z_search": 7.342673393050885,
+   "nu_search": 3.5,
+   "z_bistatic": 7.342673393050885,
+   "z_oneway": 3.2200663118462183,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261022_0225_BEHUMA",
+   "obj": "STARLINK-34069",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.606009968496895,
+   "nu_search": -3.0,
+   "z_bistatic": 9.606009968496895,
+   "z_oneway": 2.6255041014687857,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261022_0345_BEOUDS",
+   "obj": "STARLINK-11390",
+   "cls": "Starlink DTC",
+   "z_search": 9.107604922472959,
+   "nu_search": 4.0,
+   "z_bistatic": 9.107604922472959,
+   "z_oneway": 3.0956680042767353,
+   "nu_oneway": 3.5
+  },
+  {
+   "file": "20261022_0345_BEOUDS",
+   "obj": "STARLINK-31294",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.864611235174665,
+   "nu_search": -0.5,
+   "z_bistatic": 6.864611235174665,
+   "z_oneway": 3.6183687584859916,
+   "nu_oneway": 5.0
+  },
+  {
+   "file": "20261022_0440_BEHUMA",
+   "obj": "STARLINK-11340",
+   "cls": "Starlink DTC",
+   "z_search": 13.273180873639395,
+   "nu_search": -9.5,
+   "z_bistatic": 13.273180873639395,
+   "z_oneway": 2.4970101786963155,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261022_0520_BEHUMA",
+   "obj": "STARLINK-11476",
+   "cls": "Starlink DTC",
+   "z_search": 5.431953502408378,
+   "nu_search": -6.5,
+   "z_bistatic": 5.431953502408378,
+   "z_oneway": 4.655740976746609,
+   "nu_oneway": -5.0
+  },
+  {
+   "file": "20261022_0520_BEOUDS",
+   "obj": "STARLINK-11234",
+   "cls": "Starlink DTC",
+   "z_search": 7.1313830681840145,
+   "nu_search": -11.0,
+   "z_bistatic": 7.1313830681840145,
+   "z_oneway": 2.7539411494620762,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261022_0610_BEHUMA",
+   "obj": "STARLINK-11490",
+   "cls": "Starlink DTC",
+   "z_search": 9.038474098288022,
+   "nu_search": 8.0,
+   "z_bistatic": 9.038474098288022,
+   "z_oneway": 2.2077785928666622,
+   "nu_oneway": 1.0
+  },
+  {
+   "file": "20261022_0700_BEHUMA",
+   "obj": "STARLINK-11300",
+   "cls": "Starlink DTC",
+   "z_search": 7.631828254799346,
+   "nu_search": -11.0,
+   "z_bistatic": 7.631828254799346,
+   "z_oneway": 3.8679930238958526,
+   "nu_oneway": -3.0
+  },
+  {
+   "file": "20261022_0700_BEOUDS",
+   "obj": "STARLINK-11300",
+   "cls": "Starlink DTC",
+   "z_search": 10.571105666330773,
+   "nu_search": -11.0,
+   "z_bistatic": 10.571105699827712,
+   "z_oneway": 2.7054897513597385,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261022_0700_FRMAUB",
+   "obj": "STARLINK-11300",
+   "cls": "Starlink DTC",
+   "z_search": 15.771573518763844,
+   "nu_search": 11.0,
+   "z_bistatic": 15.771573518763844,
+   "z_oneway": 3.215245633936133,
+   "nu_oneway": 0.5
+  },
+  {
+   "file": "20261026_0730_BEOUDS",
+   "obj": "STARLINK-11085",
+   "cls": "Starlink DTC",
+   "z_search": 15.063350888542967,
+   "nu_search": 11.0,
+   "z_bistatic": 15.06335095696877,
+   "z_oneway": 3.2045372662825513,
+   "nu_oneway": -2.0
+  },
+  {
+   "file": "20261026_0730_BEOUDS",
+   "obj": "STARLINK-33949",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.298756403340525,
+   "nu_search": 3.5,
+   "z_bistatic": 6.298756396674455,
+   "z_oneway": 3.2202079821399865,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261026_0210_BEHUMA",
+   "obj": "STARLINK-30914",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.667097691324549,
+   "nu_search": 11.0,
+   "z_bistatic": 7.667097712863319,
+   "z_oneway": 3.21728635908153,
+   "nu_oneway": -4.0
+  },
+  {
+   "file": "20261026_0210_BEHUMA",
+   "obj": "STARLINK-31311",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.198529413759491,
+   "nu_search": 8.5,
+   "z_bistatic": 9.198529410653796,
+   "z_oneway": 3.419815710217652,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261026_0035_BEOUDS",
+   "obj": "STARLINK-11316",
+   "cls": "Starlink DTC",
+   "z_search": 11.710510719202153,
+   "nu_search": 2.0,
+   "z_bistatic": 11.710510704963008,
+   "z_oneway": 3.3656574956741347,
+   "nu_oneway": -11.0
+  },
+  {
+   "file": "20261026_0035_BEOUDS",
+   "obj": "STARLINK-32373",
+   "cls": "Starlink V2-mini",
+   "z_search": 12.0201493136267,
+   "nu_search": -1.0,
+   "z_bistatic": 12.020149315155958,
+   "z_oneway": 3.2793006594194702,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261026_0035_BEOUDS",
+   "obj": "STARLINK-34280",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.4104175711657945,
+   "nu_search": 8.0,
+   "z_bistatic": 7.410417574182738,
+   "z_oneway": 3.69457680539806,
+   "nu_oneway": 5.5
+  },
+  {
+   "file": "20261026_0035_BEOUDS",
+   "obj": "STARLINK-34704",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.24722217360601,
+   "nu_search": 10.5,
+   "z_bistatic": 9.247222120110045,
+   "z_oneway": 2.8825905223244246,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261026_0035_BEOUDS",
+   "obj": "STARLINK-35497",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.632799818091854,
+   "nu_search": 0.0,
+   "z_bistatic": 9.63279998618344,
+   "z_oneway": 3.4700992522060763,
+   "nu_oneway": -9.5
+  },
+  {
+   "file": "20261025_0630_BEHUMA",
+   "obj": "STARLINK-11474",
+   "cls": "Starlink DTC",
+   "z_search": 11.891153400355792,
+   "nu_search": -9.5,
+   "z_bistatic": 11.891153146091343,
+   "z_oneway": 3.25722032359287,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261025_0610_BEOUDS",
+   "obj": "STARLINK-11254",
+   "cls": "Starlink DTC",
+   "z_search": 9.175998001055563,
+   "nu_search": 8.0,
+   "z_bistatic": 9.175997714090434,
+   "z_oneway": 3.4518524407717983,
+   "nu_oneway": 1.0
+  },
+  {
+   "file": "20261025_0500_BEOUDS",
+   "obj": "STARLINK-11481",
+   "cls": "Starlink DTC",
+   "z_search": 40.703717949193674,
+   "nu_search": -6.5,
+   "z_bistatic": 40.70371794685833,
+   "z_oneway": 4.176575428434085,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261025_0145_BEHUMA",
+   "obj": "STARLINK-11316",
+   "cls": "Starlink DTC",
+   "z_search": 5.961554465047123,
+   "nu_search": 3.5,
+   "z_bistatic": 5.961554468945862,
+   "z_oneway": 3.5191870461744403,
+   "nu_oneway": -0.5
+  },
+  {
+   "file": "20261025_0145_BEHUMA",
+   "obj": "STARLINK-32190",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.821926149361958,
+   "nu_search": 3.5,
+   "z_bistatic": 5.821926149333734,
+   "z_oneway": 3.8806606601846148,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261025_0120_BEOUDS",
+   "obj": "STARLINK-11321",
+   "cls": "Starlink DTC",
+   "z_search": 42.303790763858665,
+   "nu_search": -2.0,
+   "z_bistatic": 42.30379067322006,
+   "z_oneway": 4.1697707639079225,
+   "nu_oneway": 0.0
+  },
+  {
+   "file": "20261025_0120_BEOUDS",
+   "obj": "STARLINK-31296",
+   "cls": "Starlink V2-mini",
+   "z_search": 17.17541358320582,
+   "nu_search": 6.0,
+   "z_bistatic": 17.175413542275734,
+   "z_oneway": 4.100913985716769,
+   "nu_oneway": -10.0
+  },
+  {
+   "file": "20261025_0120_BEOUDS",
+   "obj": "STARLINK-34627",
+   "cls": "Starlink V2-mini",
+   "z_search": 12.824962888426061,
+   "nu_search": 2.5,
+   "z_bistatic": 12.824962984512048,
+   "z_oneway": 3.675253255128482,
+   "nu_oneway": 4.0
+  },
+  {
+   "file": "20261025_0120_BEOUDS",
+   "obj": "STARLINK-34789",
+   "cls": "Starlink V2-mini",
+   "z_search": 16.484670511247657,
+   "nu_search": 3.0,
+   "z_bistatic": 16.48467095167206,
+   "z_oneway": 3.4895596736044925,
+   "nu_oneway": -4.0
+  },
+  {
+   "file": "20261025_0120_BEOUDS",
+   "obj": "STARLINK-36323",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.651024776996941,
+   "nu_search": -8.5,
+   "z_bistatic": 8.651024845416883,
+   "z_oneway": 5.2505766790810355,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261024_0710_BEOUDS",
+   "obj": "STARLINK-11427",
+   "cls": "Starlink DTC",
+   "z_search": 6.892943065895208,
+   "nu_search": 7.5,
+   "z_bistatic": 6.892943024318506,
+   "z_oneway": 2.9956868042505618,
+   "nu_oneway": 7.0
+  },
+  {
+   "file": "20261024_0700_BEOUDS",
+   "obj": "STARLINK-37864",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.427200236301818,
+   "nu_search": 5.5,
+   "z_bistatic": 9.427200287892656,
+   "z_oneway": 3.797415216350538,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261024_0545_BEOUDS",
+   "obj": "STARLINK-36181",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.374684082829143,
+   "nu_search": 6.5,
+   "z_bistatic": 6.374684032417073,
+   "z_oneway": 3.3305733161601627,
+   "nu_oneway": -10.5
+  },
+  {
+   "file": "20261024_0455_BEHUMA",
+   "obj": "STARLINK-11262",
+   "cls": "Starlink DTC",
+   "z_search": 6.028332084999889,
+   "nu_search": 10.0,
+   "z_bistatic": 6.028332076277432,
+   "z_oneway": 2.664369194769405,
+   "nu_oneway": -0.5
+  },
+  {
+   "file": "20261024_0210_BEOUDS",
+   "obj": "STARLINK-34108",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.052181314995813,
+   "nu_search": -9.0,
+   "z_bistatic": 9.052181330388402,
+   "z_oneway": 3.4304590843942995,
+   "nu_oneway": 8.0
+  },
+  {
+   "file": "20261024_0210_BEOUDS",
+   "obj": "STARLINK-34614",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.879642481315401,
+   "nu_search": 1.5,
+   "z_bistatic": 6.879642499146718,
+   "z_oneway": 4.092528496495777,
+   "nu_oneway": 7.0
+  },
+  {
+   "file": "20261024_0210_BEOUDS",
+   "obj": "STARLINK-36333",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.077077024407394,
+   "nu_search": -1.0,
+   "z_bistatic": 8.077077017501463,
+   "z_oneway": 3.8034137483756782,
+   "nu_oneway": 1.0
+  },
+  {
+   "file": "20261023_0430_BEOUDS",
+   "obj": "STARLINK-34601",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.968380738051861,
+   "nu_search": 0.5,
+   "z_bistatic": 9.96838077127092,
+   "z_oneway": 3.506048114577938,
+   "nu_oneway": 2.0
+  },
+  {
+   "file": "20261023_0255_BEOUDS",
+   "obj": "STARLINK-11306",
+   "cls": "Starlink DTC",
+   "z_search": 23.993203251291842,
+   "nu_search": 3.5,
+   "z_bistatic": 23.993203216451708,
+   "z_oneway": 3.8880764917509203,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261023_0255_BEOUDS",
+   "obj": "STARLINK-35217",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.34871243372983,
+   "nu_search": 4.5,
+   "z_bistatic": 11.348712384596078,
+   "z_oneway": 2.9395869686605582,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261023_0255_BEOUDS",
+   "obj": "STARLINK-37288",
+   "cls": "Starlink V2-mini",
+   "z_search": 13.853819600762883,
+   "nu_search": 3.5,
+   "z_bistatic": 13.85381956239715,
+   "z_oneway": 3.4766755326472234,
+   "nu_oneway": -11.5
+  },
+  {
+   "file": "20261023_0255_BEOUDS",
+   "obj": "STARLINK-37640",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.5283902078953515,
+   "nu_search": 10.5,
+   "z_bistatic": 7.5283903156261704,
+   "z_oneway": 3.058164502236155,
+   "nu_oneway": 7.0
+  },
+  {
+   "file": "20261022_1305_BEOUDS",
+   "obj": "STARLINK-11117",
+   "cls": "Starlink DTC",
+   "z_search": 10.241409372244476,
+   "nu_search": 5.5,
+   "z_bistatic": 10.241409401869056,
+   "z_oneway": 3.2088199240661646,
+   "nu_oneway": 5.5
+  },
+  {
+   "file": "20261022_0835_BEOUDS",
+   "obj": "STARLINK-11234",
+   "cls": "Starlink DTC",
+   "z_search": 10.628091699507328,
+   "nu_search": -5.5,
+   "z_bistatic": 10.628091684868732,
+   "z_oneway": 3.8783705356003066,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261026_1345_BEOUDS",
+   "obj": "STARLINK-11169",
+   "cls": "Starlink DTC",
+   "z_search": 6.4866090658332585,
+   "nu_search": -2.0,
+   "z_bistatic": 6.486608999104707,
+   "z_oneway": 3.7537822401632135,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261026_0735_BEHUMA",
+   "obj": "STARLINK-11227",
+   "cls": "Starlink DTC",
+   "z_search": 5.639564675537494,
+   "nu_search": -10.0,
+   "z_bistatic": 5.639564629807342,
+   "z_oneway": 4.78580505973766,
+   "nu_oneway": -10.5
+  },
+  {
+   "file": "20261025_2305_BEOUDS",
+   "obj": "STARLINK-38398",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.740591699468741,
+   "nu_search": -0.5,
+   "z_bistatic": 11.740591797245708,
+   "z_oneway": 3.244116833922347,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261025_0820_BEHUMA",
+   "obj": "STARLINK-11476",
+   "cls": "Starlink DTC",
+   "z_search": 6.996811624706983,
+   "nu_search": 7.0,
+   "z_bistatic": 6.9968116631103765,
+   "z_oneway": 3.7165199436586485,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261025_0820_BEHUMA",
+   "obj": "STARLINK-32375",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.778732475570109,
+   "nu_search": 7.0,
+   "z_bistatic": 7.778732442886104,
+   "z_oneway": 3.7661477327258344,
+   "nu_oneway": 9.0
+  },
+  {
+   "file": "20261025_0750_BEOUDS",
+   "obj": "STARLINK-11200",
+   "cls": "Starlink DTC",
+   "z_search": 7.7850875014735115,
+   "nu_search": 9.5,
+   "z_bistatic": 7.785087512847789,
+   "z_oneway": 2.9330650101330153,
+   "nu_oneway": -0.5
+  },
+  {
+   "file": "20261025_0615_BEOUDS",
+   "obj": "STARLINK-37933",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.7882713755859,
+   "nu_search": -3.5,
+   "z_bistatic": 6.788271520103271,
+   "z_oneway": 2.7510092805531206,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261025_0425_BEHUMA",
+   "obj": "STARLINK-11089",
+   "cls": "Starlink DTC",
+   "z_search": 9.78353875232833,
+   "nu_search": -7.5,
+   "z_bistatic": 9.783538749566906,
+   "z_oneway": 3.503144807849916,
+   "nu_oneway": 5.0
+  },
+  {
+   "file": "20261025_0300_BEHUMA",
+   "obj": "STARLINK-11473",
+   "cls": "Starlink DTC",
+   "z_search": 16.29904043423456,
+   "nu_search": -6.0,
+   "z_bistatic": 16.299040606941546,
+   "z_oneway": 3.6461679750230496,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261025_0300_BEHUMA",
+   "obj": "STARLINK-31127",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.745114042061063,
+   "nu_search": -4.0,
+   "z_bistatic": 8.745114039716238,
+   "z_oneway": 4.198755639631933,
+   "nu_oneway": -4.0
+  },
+  {
+   "file": "20261025_0300_BEHUMA",
+   "obj": "STARLINK-32267",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.085672981496719,
+   "nu_search": 6.0,
+   "z_bistatic": 6.085673005166785,
+   "z_oneway": 3.881360121196799,
+   "nu_oneway": -2.5
+  },
+  {
+   "file": "20261025_0125_BEOUDS",
+   "obj": "STARLINK-31335",
+   "cls": "Starlink V2-mini",
+   "z_search": 14.858371665974596,
+   "nu_search": 8.5,
+   "z_bistatic": 14.858371646053888,
+   "z_oneway": 3.3174299936081626,
+   "nu_oneway": 6.5
+  },
+  {
+   "file": "20261025_0125_BEOUDS",
+   "obj": "STARLINK-34700",
+   "cls": "Starlink V2-mini",
+   "z_search": 10.56709487275136,
+   "nu_search": -4.5,
+   "z_bistatic": 10.567094923272162,
+   "z_oneway": 3.742305128239679,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261025_0125_BEOUDS",
+   "obj": "STARLINK-37183",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.725061185203096,
+   "nu_search": 7.0,
+   "z_bistatic": 7.72506121747099,
+   "z_oneway": 3.5803445696531204,
+   "nu_oneway": 12.0
+  },
+  {
+   "file": "20261025_0125_BEOUDS",
+   "obj": "STARLINK-37200",
+   "cls": "Starlink V2-mini",
+   "z_search": 11.233272275963271,
+   "nu_search": -2.5,
+   "z_bistatic": 11.233272353623063,
+   "z_oneway": 3.211556377374383,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261025_0125_BEOUDS",
+   "obj": "STARLINK-37489",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.216820921276258,
+   "nu_search": 11.5,
+   "z_bistatic": 7.216820971666805,
+   "z_oneway": 3.5128443665163887,
+   "nu_oneway": 5.5
+  },
+  {
+   "file": "20261024_2245_BEHUMA",
+   "obj": "STARLINK-31988",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.483432112429044,
+   "nu_search": 6.0,
+   "z_bistatic": 6.483431989894296,
+   "z_oneway": 3.247083102294709,
+   "nu_oneway": 4.0
+  },
+  {
+   "file": "20261024_2245_BEHUMA",
+   "obj": "STARLINK-32169",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.82632528532542,
+   "nu_search": -2.0,
+   "z_bistatic": 9.826325412297798,
+   "z_oneway": 3.512224301899434,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261024_2245_BEHUMA",
+   "obj": "STARLINK-37678",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.357091788313266,
+   "nu_search": 11.5,
+   "z_bistatic": 5.357092055977672,
+   "z_oneway": 3.3057414777431524,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261024_2245_BEHUMA",
+   "obj": "STARLINK-38425",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.673351543597194,
+   "nu_search": 9.0,
+   "z_bistatic": 6.673351378622145,
+   "z_oneway": 4.369381731305529,
+   "nu_oneway": 8.0
+  },
+  {
+   "file": "20261024_0525_BEHUMA",
+   "obj": "STARLINK-11394",
+   "cls": "Starlink DTC",
+   "z_search": 14.778806377953336,
+   "nu_search": 10.0,
+   "z_bistatic": 14.778806544793222,
+   "z_oneway": 4.055383745473346,
+   "nu_oneway": -1.5
+  },
+  {
+   "file": "20261024_0355_BEOUDS",
+   "obj": "STARLINK-11315",
+   "cls": "Starlink DTC",
+   "z_search": 11.499408083394583,
+   "nu_search": 2.0,
+   "z_bistatic": 11.499408065766497,
+   "z_oneway": 3.0535581332740396,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261024_0355_BEOUDS",
+   "obj": "STARLINK-37632",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.728639125541094,
+   "nu_search": 10.5,
+   "z_bistatic": 6.728639106897322,
+   "z_oneway": 3.5226876201956685,
+   "nu_oneway": 1.5
+  },
+  {
+   "file": "20261023_0710_BEHUMA",
+   "obj": "STARLINK-37341",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.792668222228638,
+   "nu_search": 0.5,
+   "z_bistatic": 5.792668317049922,
+   "z_oneway": 3.7055483275817687,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261026_1205_BEHUMA",
+   "obj": "STARLINK-11193",
+   "cls": "Starlink DTC",
+   "z_search": 7.689386994927845,
+   "nu_search": 7.5,
+   "z_bistatic": 7.6893870619294935,
+   "z_oneway": 3.857860324415785,
+   "nu_oneway": -1.0
+  },
+  {
+   "file": "20261026_1205_BEHUMA",
+   "obj": "STARLINK-38201",
+   "cls": "Starlink V2-mini",
+   "z_search": 10.6228514848219,
+   "nu_search": 9.0,
+   "z_bistatic": 10.622851442168617,
+   "z_oneway": 2.779590600861622,
+   "nu_oneway": -1.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-11424",
+   "cls": "Starlink DTC",
+   "z_search": 8.647277318572044,
+   "nu_search": 9.0,
+   "z_bistatic": 8.6472773033435,
+   "z_oneway": 3.2449804056470755,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-30914",
+   "cls": "Starlink V2-mini",
+   "z_search": 17.326072450282023,
+   "nu_search": 10.5,
+   "z_bistatic": 17.32607238451746,
+   "z_oneway": 3.635771213731506,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-31323",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.343647329495313,
+   "nu_search": -1.5,
+   "z_bistatic": 7.343647333039948,
+   "z_oneway": 3.2098493358341575,
+   "nu_oneway": -8.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-31377",
+   "cls": "Starlink V2-mini",
+   "z_search": 19.401370537940167,
+   "nu_search": 5.0,
+   "z_bistatic": 19.401370535047306,
+   "z_oneway": 3.7257564839184085,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-32029",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.740321759654522,
+   "nu_search": 9.0,
+   "z_bistatic": 8.74032179444768,
+   "z_oneway": 3.888219993208054,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-33997",
+   "cls": "Starlink V2-mini",
+   "z_search": 15.073454916999347,
+   "nu_search": -6.0,
+   "z_bistatic": 15.073454961188984,
+   "z_oneway": 3.2805076724393585,
+   "nu_oneway": 3.5
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-37163",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.049091969172256,
+   "nu_search": -0.5,
+   "z_bistatic": 8.04909195880796,
+   "z_oneway": 2.9110487718929523,
+   "nu_oneway": -6.0
+  },
+  {
+   "file": "20261026_0210_BEOUDS",
+   "obj": "STARLINK-37193",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.129892895800536,
+   "nu_search": 5.0,
+   "z_bistatic": 8.129892793163334,
+   "z_oneway": 3.1101530830435604,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261025_0425_BEOUDS",
+   "obj": "STARLINK-11089",
+   "cls": "Starlink DTC",
+   "z_search": 11.68883713791405,
+   "nu_search": 8.5,
+   "z_bistatic": 11.688837054092112,
+   "z_oneway": 3.7130859009413557,
+   "nu_oneway": -10.5
+  },
+  {
+   "file": "20261024_1030_BEHUMA",
+   "obj": "STARLINK-38231",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.29425662116523,
+   "nu_search": -8.0,
+   "z_bistatic": 9.294256631457252,
+   "z_oneway": 3.084093863296141,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261024_0700_BEHUMA",
+   "obj": "STARLINK-37864",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.865183247125652,
+   "nu_search": 5.5,
+   "z_bistatic": 8.865183233766317,
+   "z_oneway": 3.1761166831460654,
+   "nu_oneway": 4.0
+  },
+  {
+   "file": "20261023_0750_FRMAUB",
+   "obj": "STARLINK-11229",
+   "cls": "Starlink DTC",
+   "z_search": 8.331222406785406,
+   "nu_search": -11.5,
+   "z_bistatic": 8.331222491841132,
+   "z_oneway": 2.796077174036542,
+   "nu_oneway": 2.5
+  },
+  {
+   "file": "20261023_0710_BEOUDS",
+   "obj": "STARLINK-11474",
+   "cls": "Starlink DTC",
+   "z_search": 10.676036666523151,
+   "nu_search": 9.0,
+   "z_bistatic": 10.676036647398684,
+   "z_oneway": 3.232576894893848,
+   "nu_oneway": 4.5
+  },
+  {
+   "file": "20261023_0510_BEHUMA",
+   "obj": "STARLINK-11404",
+   "cls": "Starlink DTC",
+   "z_search": 6.507362213913335,
+   "nu_search": 3.5,
+   "z_bistatic": 6.507362191559165,
+   "z_oneway": 3.9103190880975562,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261023_0510_BEHUMA",
+   "obj": "STARLINK-31996",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.469342089691678,
+   "nu_search": -3.0,
+   "z_bistatic": 5.469342181959749,
+   "z_oneway": 3.4633112684365677,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261023_0255_BEHUMA",
+   "obj": "STARLINK-30882",
+   "cls": "Starlink V2-mini",
+   "z_search": 12.48391095011312,
+   "nu_search": -4.5,
+   "z_bistatic": 12.483910903040798,
+   "z_oneway": 2.9912868866210083,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261023_0255_BEHUMA",
+   "obj": "STARLINK-30934",
+   "cls": "Starlink V2-mini",
+   "z_search": 14.20079421211025,
+   "nu_search": -5.0,
+   "z_bistatic": 14.20079425226415,
+   "z_oneway": 3.0162786662665675,
+   "nu_oneway": 0.0
+  },
+  {
+   "file": "20261023_0255_BEHUMA",
+   "obj": "STARLINK-30938",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.7521192378652595,
+   "nu_search": 10.0,
+   "z_bistatic": 6.752119279164099,
+   "z_oneway": 3.3608375023427386,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261023_0255_BEHUMA",
+   "obj": "STARLINK-31923",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.891955853204922,
+   "nu_search": 8.0,
+   "z_bistatic": 6.891955875539586,
+   "z_oneway": 4.305631780746611,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261023_0255_BEHUMA",
+   "obj": "STARLINK-37288",
+   "cls": "Starlink V2-mini",
+   "z_search": 12.805789805479964,
+   "nu_search": 4.5,
+   "z_bistatic": 12.805789540431773,
+   "z_oneway": 3.1733889466408214,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261022_0955_BEHUMA",
+   "obj": "STARLINK-38275",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.623479371975153,
+   "nu_search": 1.5,
+   "z_bistatic": 5.6234793608623495,
+   "z_oneway": 3.472156552758682,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261026_1205_BEOUDS",
+   "obj": "STARLINK-32573",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.018354744927196,
+   "nu_search": 1.0,
+   "z_bistatic": 7.018354651160913,
+   "z_oneway": 2.9154460513274385,
+   "nu_oneway": -5.0
+  },
+  {
+   "file": "20261026_1205_BEOUDS",
+   "obj": "STARLINK-38201",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.9202062942712645,
+   "nu_search": 9.5,
+   "z_bistatic": 7.920206321551561,
+   "z_oneway": 3.140443934000831,
+   "nu_oneway": 0.0
+  },
+  {
+   "file": "20261026_0415_BEOUDS",
+   "obj": "STARLINK-34790",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.8699772758418405,
+   "nu_search": 0.0,
+   "z_bistatic": 7.869977277290478,
+   "z_oneway": 3.4183783799465353,
+   "nu_oneway": 9.5
+  },
+  {
+   "file": "20261026_0350_BEOUDS",
+   "obj": "STARLINK-11396",
+   "cls": "Starlink DTC",
+   "z_search": 15.53366659717454,
+   "nu_search": 3.0,
+   "z_bistatic": 15.533666708035753,
+   "z_oneway": 2.924879705695274,
+   "nu_oneway": -5.0
+  },
+  {
+   "file": "20261026_0100_BEHUMA",
+   "obj": "STARLINK-34770",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.389402437053062,
+   "nu_search": 4.5,
+   "z_bistatic": 6.3894024815644785,
+   "z_oneway": 4.3242365195687515,
+   "nu_oneway": 11.5
+  },
+  {
+   "file": "20261026_0100_BEHUMA",
+   "obj": "STARLINK-34773",
+   "cls": "Starlink V2-mini",
+   "z_search": 7.319156342929088,
+   "nu_search": 1.5,
+   "z_bistatic": 7.319156321227057,
+   "z_oneway": 2.832981721462461,
+   "nu_oneway": 4.0
+  },
+  {
+   "file": "20261026_0100_BEHUMA",
+   "obj": "STARLINK-37088",
+   "cls": "Starlink V2-mini",
+   "z_search": 5.3608238183879955,
+   "nu_search": -6.5,
+   "z_bistatic": 5.360823825513359,
+   "z_oneway": 3.0117234592789552,
+   "nu_oneway": -5.5
+  },
+  {
+   "file": "20261025_0320_BEOUDS",
+   "obj": "STARLINK-11335",
+   "cls": "Starlink DTC",
+   "z_search": 18.815203575632523,
+   "nu_search": 1.0,
+   "z_bistatic": 18.81520365901525,
+   "z_oneway": 3.4626967238642687,
+   "nu_oneway": 7.5
+  },
+  {
+   "file": "20261025_0320_BEOUDS",
+   "obj": "STARLINK-30715",
+   "cls": "Starlink V2-mini",
+   "z_search": 13.76082063382593,
+   "nu_search": -3.0,
+   "z_bistatic": 13.76082062019582,
+   "z_oneway": 3.6756849214447898,
+   "nu_oneway": 3.0
+  },
+  {
+   "file": "20261025_0320_BEOUDS",
+   "obj": "STARLINK-33569",
+   "cls": "Starlink V2-mini",
+   "z_search": 9.163069339328626,
+   "nu_search": 3.0,
+   "z_bistatic": 9.163069362111132,
+   "z_oneway": 2.6281123097240466,
+   "nu_oneway": 5.0
+  },
+  {
+   "file": "20261025_0320_BEOUDS",
+   "obj": "STARLINK-35332",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.395940668434783,
+   "nu_search": -2.5,
+   "z_bistatic": 8.395940775514743,
+   "z_oneway": 3.5083753914710054,
+   "nu_oneway": 6.0
+  },
+  {
+   "file": "20261025_0300_BEOUDS",
+   "obj": "STARLINK-11473",
+   "cls": "Starlink DTC",
+   "z_search": 20.934817385244298,
+   "nu_search": -6.0,
+   "z_bistatic": 20.934817538138436,
+   "z_oneway": 3.262215443413728,
+   "nu_oneway": 8.5
+  },
+  {
+   "file": "20261025_0300_BEOUDS",
+   "obj": "STARLINK-31140",
+   "cls": "Starlink V2-mini",
+   "z_search": 17.24989603402831,
+   "nu_search": -1.0,
+   "z_bistatic": 17.24989586120175,
+   "z_oneway": 2.7531588678249075,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261025_0300_BEOUDS",
+   "obj": "STARLINK-32342",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.491700609156324,
+   "nu_search": 8.5,
+   "z_bistatic": 6.491700549589828,
+   "z_oneway": 3.2732698018326047,
+   "nu_oneway": -7.0
+  },
+  {
+   "file": "20261025_0125_BEHUMA",
+   "obj": "STARLINK-37200",
+   "cls": "Starlink V2-mini",
+   "z_search": 8.553482095818808,
+   "nu_search": -2.0,
+   "z_bistatic": 8.553482153990183,
+   "z_oneway": 3.809132487981113,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261025_0120_BEOTTI",
+   "obj": "STARLINK-11321",
+   "cls": "Starlink DTC",
+   "z_search": 8.538540383638349,
+   "nu_search": -2.5,
+   "z_bistatic": 8.53854045526432,
+   "z_oneway": 3.3446083549502448,
+   "nu_oneway": -1.0
+  },
+  {
+   "file": "20261024_0735_BEHUMA",
+   "obj": "STARLINK-11474",
+   "cls": "Starlink DTC",
+   "z_search": 6.087682675831254,
+   "nu_search": 6.5,
+   "z_bistatic": 6.087682691850841,
+   "z_oneway": 4.152731745627376,
+   "nu_oneway": 2.5
+  },
+  {
+   "file": "20261024_0525_BEOUDS",
+   "obj": "STARLINK-11394",
+   "cls": "Starlink DTC",
+   "z_search": 43.3167485136553,
+   "nu_search": 9.5,
+   "z_bistatic": 43.31674952723354,
+   "z_oneway": 3.5739703601832695,
+   "nu_oneway": 1.0
+  },
+  {
+   "file": "20261023_0805_BEOUDS",
+   "obj": "STARLINK-11196",
+   "cls": "Starlink DTC",
+   "z_search": 12.424278839549546,
+   "nu_search": -0.5,
+   "z_bistatic": 12.42427883866594,
+   "z_oneway": 3.717606535512205,
+   "nu_oneway": 5.5
+  },
+  {
+   "file": "20261023_0805_BEOUDS",
+   "obj": "STARLINK-38395",
+   "cls": "Starlink V2-mini",
+   "z_search": 14.004830287019287,
+   "nu_search": 7.0,
+   "z_bistatic": 14.004830091670481,
+   "z_oneway": 3.848174925339564,
+   "nu_oneway": -9.0
+  },
+  {
+   "file": "20261023_0745_BEOUDS",
+   "obj": "STARLINK-11250",
+   "cls": "Starlink DTC",
+   "z_search": 11.81695119335138,
+   "nu_search": -5.5,
+   "z_bistatic": 11.816951317649597,
+   "z_oneway": 4.125736894677219,
+   "nu_oneway": 11.0
+  },
+  {
+   "file": "20261023_0745_BEOUDS",
+   "obj": "STARLINK-30715",
+   "cls": "Starlink V2-mini",
+   "z_search": 6.58123019058815,
+   "nu_search": 6.5,
+   "z_bistatic": 6.581230113155665,
+   "z_oneway": 3.725439766417932,
+   "nu_oneway": 10.0
+  },
+  {
+   "file": "20261023_0715_BEOUDS",
+   "obj": "STARLINK-11426",
+   "cls": "Starlink DTC",
+   "z_search": 9.787479145124202,
+   "nu_search": 6.0,
+   "z_bistatic": 9.787479154807922,
+   "z_oneway": 3.141424097723472,
+   "nu_oneway": 10.5
+  },
+  {
+   "file": "20261023_0430_BEHUMA",
+   "obj": "STARLINK-11191",
+   "cls": "Starlink DTC",
+   "z_search": 7.658972313660344,
+   "nu_search": -4.0,
+   "z_bistatic": 7.658972322139381,
+   "z_oneway": 3.608354966663086,
+   "nu_oneway": 0.5
+  },
+  {
+   "file": "20261022_0820_BEOUDS",
+   "obj": "STARLINK-38442",
+   "cls": "Starlink V2-mini",
+   "z_search": 15.2613792848323,
+   "nu_search": -8.5,
+   "z_bistatic": 15.26137928217468,
+   "z_oneway": 3.7386241348441303,
+   "nu_oneway": -4.0
+  }
+ ]
+}

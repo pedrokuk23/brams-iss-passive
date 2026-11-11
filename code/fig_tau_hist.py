@@ -1,0 +1,16 @@
+# Fig. 3: histograma do deslocamento temporal τ dos pares avião–receptor (análise uniforme, uni_*.json)
+import numpy as np, json, glob
+exec(open('figstyle.py').read())
+rows=[]
+for f in sorted(glob.glob('../results/uni_*.json')): rows+=json.load(open(f))
+tau=np.array([r['tau'] for r in rows]); z=np.array([r['z'] for r in rows])
+bins=np.arange(-10.125,10.2,0.25)
+fig,ax=plt.subplots(figsize=(3.45,2.3))
+ax.hist(tau,bins=bins,color='#a3c6f2',edgecolor='white',linewidth=0.4,label='All pairs')
+ax.hist(tau[z>=6],bins=bins,color='#2a78d6',edgecolor='white',linewidth=0.4,label=r'Pairs with $z\geq6$')
+exp=len(tau)/(len(bins)-1); ax.axhline(exp,color='#8a8a85',ls='--',lw=1)
+ax.annotate('expected without\nassociation',xy=(5,exp+2),xytext=(5,exp+17),ha='center',fontsize=7,color='#555',arrowprops=dict(arrowstyle='->',color='#777',lw=0.7))
+ax.set_xlabel(r'Best time offset $\tau$ relative to ADS-B (s)'); ax.set_ylabel('Aircraft–receiver pairs')
+ax.legend(loc='upper left',fontsize=7)
+for s in ['top','right']: ax.spines[s].set_visible(False)
+plt.tight_layout(); plt.savefig(OUT+'fig_tau_hist.pdf'); plt.savefig(OUT+'fig_tau_hist.png')

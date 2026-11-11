@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the archived version and the paper."
+title: "Data and code for: Opportunistic multistatic sensing of objects in low Earth orbit with an open meteor radar network"
+authors:
+  - family-names: "Kukulka de Albuquerque"
+    given-names: "Pedro"
+    orcid: "https://orcid.org/0009-0007-0275-9183"
+repository-code: "https://github.com/pedrokuk23/brams-iss-passive"
+doi: "10.5281/zenodo.24050975"
+license: MIT  # code; results and figures CC BY 4.0, data under the terms of their sources (DATA_LICENSES.md)
+date-released: 2026-11-10

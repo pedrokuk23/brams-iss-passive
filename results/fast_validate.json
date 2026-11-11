@@ -1,0 +1,962 @@
+[
+ {
+  "file": "RAD_BEDOUR_20261103_0040_BEOTTI_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   17.856517923079068,
+   0.0,
+   -1.0
+  ],
+  "fast": [
+   17.40978497086586,
+   0.0,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0040_BEOUDS_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   43.041106235111414,
+   0.0,
+   -1.5
+  ],
+  "fast": [
+   42.27861037813444,
+   0.0,
+   -1.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0040_FRMAUB_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   5.9653908189645115,
+   0.0,
+   -0.5
+  ],
+  "fast": [
+   5.885835361237708,
+   0.0,
+   -0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0040_BEHUMA_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   4.080974830816262,
+   0.0,
+   -1.0
+  ],
+  "fast": [
+   3.9818397999761754,
+   0.0,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0220_BEOTTI_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   51.31808579864964,
+   0.0,
+   3.0
+  ],
+  "fast": [
+   52.33783018664101,
+   0.0,
+   3.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0220_BEOUDS_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   388.9300475290731,
+   0.0,
+   3.5
+  ],
+  "fast": [
+   397.1497941146236,
+   0.0,
+   3.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0220_FRMAUB_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   14.17647131078212,
+   0.0,
+   3.0
+  ],
+  "fast": [
+   14.179918557195807,
+   0.0,
+   3.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0220_BEHUMA_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   154.2366088904534,
+   0.0,
+   3.0
+  ],
+  "fast": [
+   154.0575039424178,
+   0.0,
+   3.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2355_BEOTTI_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   54.07643247288747,
+   0.0,
+   -4.5
+  ],
+  "fast": [
+   54.97741970699849,
+   0.0,
+   -4.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2355_BEOUDS_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   176.42793844324257,
+   0.0,
+   -4.5
+  ],
+  "fast": [
+   171.11343996901329,
+   0.0,
+   -4.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2355_FRMAUB_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   8.89368296235407,
+   0.0,
+   -4.5
+  ],
+  "fast": [
+   8.632904402574399,
+   0.0,
+   -4.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2355_BEHUMA_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   20.200414865541376,
+   0.0,
+   -4.5
+  ],
+  "fast": [
+   20.12337616228321,
+   0.0,
+   -4.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEOTTI_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   53.0604813827805,
+   0.0,
+   -0.5
+  ],
+  "fast": [
+   52.211206741251274,
+   0.0,
+   -0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEOUDS_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   126.5965985878194,
+   0.0,
+   -1.0
+  ],
+  "fast": [
+   120.04265021508708,
+   0.0,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_FRMAUB_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   8.80311973587543,
+   0.0,
+   -1.5
+  ],
+  "fast": [
+   8.955159960740989,
+   0.0,
+   -1.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEHUMA_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   40.30562201725473,
+   0.0,
+   -1.0
+  ],
+  "fast": [
+   40.5060122038808,
+   0.0,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEUCCE_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   22.551785763133154,
+   0.0,
+   -0.5
+  ],
+  "fast": [
+   21.47596150382199,
+   0.0,
+   -0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2305_BEOTTI_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   60.06329660055298,
+   0.0,
+   -5.5
+  ],
+  "fast": [
+   59.643215821092866,
+   0.0,
+   -5.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2305_BEOUDS_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   230.02411353903054,
+   0.0,
+   -5.5
+  ],
+  "fast": [
+   231.1698511653213,
+   0.0,
+   -5.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2305_FRMAUB_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   12.307421677984403,
+   0.0,
+   -5.0
+  ],
+  "fast": [
+   12.199383501113005,
+   0.0,
+   -5.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2305_BEHUMA_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   112.12688234721712,
+   0.0,
+   -5.0
+  ],
+  "fast": [
+   112.43491598743259,
+   0.0,
+   -5.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2305_BEUCCE_SYS001.wav",
+  "obj": "ISS",
+  "null": false,
+  "exact": [
+   23.43816566990992,
+   0.0,
+   -5.0
+  ],
+  "fast": [
+   24.464139971292802,
+   0.0,
+   -5.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0040_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11196 [DTC]",
+  "null": false,
+  "exact": [
+   67.14859610940887,
+   0.0,
+   0.5
+  ],
+  "fast": [
+   66.08561644519403,
+   0.0,
+   0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0045_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11136 [DTC]",
+  "null": false,
+  "exact": [
+   53.44501899923594,
+   0.5,
+   -8.5
+  ],
+  "fast": [
+   55.052091707742576,
+   0.5,
+   -8.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0045_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11330 [DTC]",
+  "null": false,
+  "exact": [
+   52.679448789759505,
+   -2.0,
+   7.5
+  ],
+  "fast": [
+   52.13861463604681,
+   -2.0,
+   7.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11319 [DTC]",
+  "null": false,
+  "exact": [
+   7.905133839198328,
+   -0.5,
+   -7.0
+  ],
+  "fast": [
+   8.054136815103956,
+   -0.5,
+   -7.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0220_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11247 [DTC]",
+  "null": false,
+  "exact": [
+   9.219307566150858,
+   -1.0,
+   8.0
+  ],
+  "fast": [
+   9.4186512090673,
+   -1.0,
+   8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2350_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-1227",
+  "null": false,
+  "exact": [
+   9.976149407511276,
+   0.0,
+   1.5
+  ],
+  "fast": [
+   9.980800638344828,
+   0.0,
+   1.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2350_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11340 [DTC]",
+  "null": false,
+  "exact": [
+   11.158494089111496,
+   -0.5,
+   -5.0
+  ],
+  "fast": [
+   10.510862225263155,
+   -0.5,
+   -5.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2355_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11081 [DTC]",
+  "null": false,
+  "exact": [
+   7.645021526011109,
+   0.0,
+   -12.0
+  ],
+  "fast": [
+   7.426457260360382,
+   0.0,
+   -12.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0125_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11293 [DTC]",
+  "null": false,
+  "exact": [
+   7.756094885253044,
+   -4.0,
+   5.5
+  ],
+  "fast": [
+   7.83749170904203,
+   -4.0,
+   5.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0125_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11488 [DTC]",
+  "null": false,
+  "exact": [
+   22.8239908420349,
+   -6.0,
+   -7.0
+  ],
+  "fast": [
+   23.922670638126363,
+   -6.0,
+   -7.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11317 [DTC]",
+  "null": false,
+  "exact": [
+   46.09754419365846,
+   -4.5,
+   -5.0
+  ],
+  "fast": [
+   45.08075164574928,
+   -4.5,
+   -5.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11466 [DTC]",
+  "null": false,
+  "exact": [
+   12.983979141602282,
+   -2.5,
+   7.0
+  ],
+  "fast": [
+   12.29933198980318,
+   -2.5,
+   7.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_1025_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11196 [DTC]",
+  "null": true,
+  "exact": [
+   3.6760270079416215,
+   1.5,
+   -2.0
+  ],
+  "fast": [
+   3.301099325320237,
+   1.0,
+   -8.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2350_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11196 [DTC]",
+  "null": true,
+  "exact": [
+   3.8685642502977857,
+   3.0,
+   2.0
+  ],
+  "fast": [
+   3.8567891336603335,
+   3.0,
+   1.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1010_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11196 [DTC]",
+  "null": true,
+  "exact": [
+   2.7388775727273584,
+   5.0,
+   0.0
+  ],
+  "fast": [
+   2.8329007427769004,
+   5.0,
+   -0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1200_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11196 [DTC]",
+  "null": true,
+  "exact": [
+   3.624109218855248,
+   0.5,
+   8.0
+  ],
+  "fast": [
+   3.547175212396824,
+   0.5,
+   8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_0215_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-1191",
+  "null": true,
+  "exact": [
+   4.068235174844012,
+   3.5,
+   -10.5
+  ],
+  "fast": [
+   4.059224301736989,
+   3.5,
+   -10.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1600_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-1191",
+  "null": true,
+  "exact": [
+   4.416990232309735,
+   -2.5,
+   -9.0
+  ],
+  "fast": [
+   4.357240900272426,
+   -2.5,
+   -8.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2350_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11087 [DTC]",
+  "null": true,
+  "exact": [
+   3.5136860680963706,
+   -1.0,
+   12.0
+  ],
+  "fast": [
+   3.468864997261165,
+   0.5,
+   9.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0800_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11087 [DTC]",
+  "null": true,
+  "exact": [
+   3.9435435132749665,
+   -6.0,
+   -1.0
+  ],
+  "fast": [
+   4.1739521067639584,
+   -6.0,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11136 [DTC]",
+  "null": true,
+  "exact": [
+   3.7346155980416706,
+   5.0,
+   -8.0
+  ],
+  "fast": [
+   3.6655072025034947,
+   5.0,
+   -8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_1005_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11136 [DTC]",
+  "null": true,
+  "exact": [
+   3.850661520337474,
+   -1.5,
+   -6.0
+  ],
+  "fast": [
+   3.741437305229354,
+   5.0,
+   11.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_1025_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11330 [DTC]",
+  "null": true,
+  "exact": [
+   4.733148469705436,
+   -5.0,
+   -1.5
+  ],
+  "fast": [
+   4.498331939878617,
+   -5.0,
+   -1.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1730_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11330 [DTC]",
+  "null": true,
+  "exact": [
+   4.356606263119985,
+   1.0,
+   -1.0
+  ],
+  "fast": [
+   4.336094981165377,
+   -3.0,
+   8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11087 [DTC]",
+  "null": true,
+  "exact": [
+   3.1364608414863433,
+   -4.5,
+   -9.5
+  ],
+  "fast": [
+   3.02353409682015,
+   -4.5,
+   -9.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1300_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11087 [DTC]",
+  "null": true,
+  "exact": [
+   3.184521865591547,
+   -5.0,
+   -5.0
+  ],
+  "fast": [
+   3.059456566467663,
+   -5.0,
+   -5.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0700_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11136 [DTC]",
+  "null": true,
+  "exact": [
+   3.7092685856444327,
+   -5.5,
+   -5.0
+  ],
+  "fast": [
+   3.415725197461519,
+   2.5,
+   -1.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_2350_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11136 [DTC]",
+  "null": true,
+  "exact": [
+   3.852930854658254,
+   -1.5,
+   2.5
+  ],
+  "fast": [
+   3.8888736095060183,
+   -1.5,
+   2.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0930_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11330 [DTC]",
+  "null": true,
+  "exact": [
+   2.959177783602581,
+   -5.0,
+   -7.5
+  ],
+  "fast": [
+   2.9911466350663662,
+   2.0,
+   -6.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1430_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11330 [DTC]",
+  "null": true,
+  "exact": [
+   4.320663043230812,
+   5.0,
+   2.0
+  ],
+  "fast": [
+   4.313070988103899,
+   5.0,
+   2.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2100_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11319 [DTC]",
+  "null": true,
+  "exact": [
+   2.93163330808581,
+   -5.5,
+   2.0
+  ],
+  "fast": [
+   3.1702803372264814,
+   1.0,
+   8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0130_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11319 [DTC]",
+  "null": true,
+  "exact": [
+   4.819567060330411,
+   -5.0,
+   -8.0
+  ],
+  "fast": [
+   4.749229770424319,
+   -5.0,
+   -8.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1830_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11319 [DTC]",
+  "null": true,
+  "exact": [
+   4.85027638538319,
+   2.5,
+   12.0
+  ],
+  "fast": [
+   4.087652027451215,
+   2.5,
+   12.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0600_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11319 [DTC]",
+  "null": true,
+  "exact": [
+   3.97212923921053,
+   -4.5,
+   0.5
+  ],
+  "fast": [
+   3.87910353827903,
+   -4.5,
+   0.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1430_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11247 [DTC]",
+  "null": true,
+  "exact": [
+   3.309663130556738,
+   5.0,
+   0.5
+  ],
+  "fast": [
+   3.1467781849435426,
+   6.0,
+   -11.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1000_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11247 [DTC]",
+  "null": true,
+  "exact": [
+   3.293062058067097,
+   3.0,
+   -7.5
+  ],
+  "fast": [
+   3.2972437731577062,
+   1.0,
+   7.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11247 [DTC]",
+  "null": true,
+  "exact": [
+   3.166054861721126,
+   5.0,
+   8.0
+  ],
+  "fast": [
+   2.973715672937093,
+   4.5,
+   8.5
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1930_FRMAUB_SYS001.wav",
+  "obj": "STARLINK-11247 [DTC]",
+  "null": true,
+  "exact": [
+   4.107446109635924,
+   -1.0,
+   -8.5
+  ],
+  "fast": [
+   4.175319223075438,
+   -0.5,
+   12.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_1030_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-1227",
+  "null": true,
+  "exact": [
+   3.61099787102763,
+   -2.0,
+   -10.0
+  ],
+  "fast": [
+   3.546151075221121,
+   -2.0,
+   -10.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-1227",
+  "null": true,
+  "exact": [
+   4.958357421830923,
+   -0.5,
+   -5.5
+  ],
+  "fast": [
+   5.239503961539578,
+   -0.5,
+   -6.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0015_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11340 [DTC]",
+  "null": true,
+  "exact": [
+   3.308662603151773,
+   -5.5,
+   -11.0
+  ],
+  "fast": [
+   3.421485049691083,
+   -5.5,
+   -11.0
+  ]
+ },
+ {
+  "file": "RAD_BEDOUR_20261103_1020_BEOUDS_SYS001.wav",
+  "obj": "STARLINK-11340 [DTC]",
+  "null": true,
+  "exact": [
+   2.933402035911377,
+   5.0,
+   -12.0
+  ],
+  "fast": [
+   3.092788110842668,
+   5.0,
+   -12.0
+  ]
+ }
+]

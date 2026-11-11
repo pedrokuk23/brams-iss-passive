@@ -1,0 +1,353 @@
+[
+ {
+  "file": "RAD_BEDOUR_20261104_0000_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 552.5267358646454,
+  "tmin": 300.0,
+  "z": 3.7278449774490503,
+  "tau": 4.0,
+  "df": 23.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0000_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 567.6215919974362,
+  "tmin": 300.0,
+  "z": 15.896595080407668,
+  "tau": 7.0,
+  "df": -15.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0000_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 545.2076349826809,
+  "tmin": 300.0,
+  "z": 3.4852567133185834,
+  "tau": -1.5,
+  "df": -21.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0005_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 538.2630309592372,
+  "tmin": 17.75,
+  "z": 2.579605083695409,
+  "tau": -14.5,
+  "df": 20.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0005_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 542.1068881842399,
+  "tmin": 24.25,
+  "z": 1.9106690309592145,
+  "tau": 7.5,
+  "df": 16.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0005_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 535.9337151265105,
+  "tmin": 14.25,
+  "z": 4.935606975373603,
+  "tau": -8.5,
+  "df": 18.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0015_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 531.1852062083304,
+  "tmin": 274.25,
+  "z": 4.463135927065835,
+  "tau": -13.0,
+  "df": 19.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0015_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 534.2673140678202,
+  "tmin": 280.75,
+  "z": 3.6025507595841377,
+  "tau": -14.5,
+  "df": -20.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0015_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 530.950457149573,
+  "tmin": 270.75,
+  "z": 3.568739569618733,
+  "tau": -11.0,
+  "df": 6.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0020_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 561.2448470401882,
+  "tmin": 0.0,
+  "z": 3.154754103657058,
+  "tau": -14.0,
+  "df": -5.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0020_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 550.856210082936,
+  "tmin": 0.0,
+  "z": 6.190937291997216,
+  "tau": -11.0,
+  "df": 14.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0020_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 569.3250444495856,
+  "tmin": 0.0,
+  "z": 65.31294076264678,
+  "tau": -15.0,
+  "df": 24.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0035_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 544.904616217066,
+  "tmin": 300.0,
+  "z": 2.7463966222972136,
+  "tau": 12.0,
+  "df": -12.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0035_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 548.2606636782502,
+  "tmin": 300.0,
+  "z": 3.763036759987444,
+  "tau": -10.5,
+  "df": -23.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0035_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 547.951833424357,
+  "tmin": 297.5,
+  "z": 4.376775690094751,
+  "tau": -15.0,
+  "df": -11.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0040_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 544.8756515067689,
+  "tmin": 0.75,
+  "z": 3.0922941284186725,
+  "tau": -9.0,
+  "df": 10.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0040_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 545.7926541277678,
+  "tmin": 7.5,
+  "z": 26.291776134382715,
+  "tau": -10.0,
+  "df": 18.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_0040_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-010",
+  "rrmin": 548.2462671064745,
+  "tmin": 0.0,
+  "z": 2.809318534183626,
+  "tau": -13.5,
+  "df": 15.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2350_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 531.5528729826995,
+  "tmin": 145.25,
+  "z": 3.9489682372428367,
+  "tau": 14.5,
+  "df": -21.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2350_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 534.9991554900647,
+  "tmin": 152.0,
+  "z": 2.0342719587916664,
+  "tau": -14.0,
+  "df": -14.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261104_2350_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 530.5278727596656,
+  "tmin": 142.0,
+  "z": 2.986245004342982,
+  "tau": 6.5,
+  "df": -22.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0005_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 534.380163926619,
+  "tmin": 106.5,
+  "z": 3.9576841522712423,
+  "tau": 14.5,
+  "df": 16.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0005_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 536.6070250927361,
+  "tmin": 113.25,
+  "z": 1.7084342683933755,
+  "tau": 10.0,
+  "df": 12.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0005_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 535.64111015458,
+  "tmin": 103.25,
+  "z": 2.73260282971583,
+  "tau": -9.0,
+  "df": -11.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-001",
+  "rrmin": 621.88679476559,
+  "tmin": 300.0,
+  "z": 3.8417635671313284,
+  "tau": 3.5,
+  "df": 19.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 532.5443169442244,
+  "tmin": 59.75,
+  "z": 21.899926221804503,
+  "tau": -0.5,
+  "df": -11.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-001",
+  "rrmin": 641.024304170324,
+  "tmin": 300.0,
+  "z": 3.5446299588092427,
+  "tau": 14.5,
+  "df": -17.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 535.1409995895077,
+  "tmin": 64.5,
+  "z": 11.256049090591066,
+  "tau": -0.5,
+  "df": -10.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-001",
+  "rrmin": 619.707798673633,
+  "tmin": 300.0,
+  "z": 2.8135002480351585,
+  "tau": 5.5,
+  "df": -4.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_0310_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 534.0680010171762,
+  "tmin": 58.75,
+  "z": 4.40225063858342,
+  "tau": -0.5,
+  "df": -10.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2335_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 531.5906370224362,
+  "tmin": 273.0,
+  "z": 4.96809717198914,
+  "tau": -15.0,
+  "df": 0.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2335_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 534.3293761798038,
+  "tmin": 280.0,
+  "z": 3.077524833844005,
+  "tau": -14.5,
+  "df": -24.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2335_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 532.0005347881964,
+  "tmin": 269.75,
+  "z": 3.958576266135072,
+  "tau": -15.0,
+  "df": 2.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2340_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 564.3346523080276,
+  "tmin": 0.0,
+  "z": 3.046699607660506,
+  "tau": -13.5,
+  "df": 16.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2340_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 552.3412477914721,
+  "tmin": 0.0,
+  "z": 7.303985430807635,
+  "tau": -15.0,
+  "df": 22.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2340_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-008",
+  "rrmin": 572.4328092202153,
+  "tmin": 0.0,
+  "z": 48.00446927037203,
+  "tau": -14.0,
+  "df": 11.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2350_BEOTTI_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 542.006852428162,
+  "tmin": 239.0,
+  "z": 3.4829818222116677,
+  "tau": -7.5,
+  "df": -1.0
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2350_BEOUDS_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 543.1640748633429,
+  "tmin": 246.0,
+  "z": 2.0814359478993745,
+  "tau": 1.0,
+  "df": 14.5
+ },
+ {
+  "file": "RAD_BEDOUR_20261105_2350_FRMAUB_SYS001.wav",
+  "sat": "SPACEMOBILE-009",
+  "rrmin": 544.7786807888456,
+  "tmin": 236.0,
+  "z": 3.176848215880171,
+  "tau": 15.0,
+  "df": -21.5
+ }
+]

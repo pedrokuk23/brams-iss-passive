@@ -1,0 +1,7882 @@
+{
+"20261030_0215_BEUCCE": {
+"start_us": 1793326500277027,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_0825_BEOUDS": {
+"start_us": 1793262300155452,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0305_BEHUMA": {
+"start_us": 1793243100324152,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0525_BEOUDS": {
+"start_us": 1793165100156880,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0215_FRMAUB": {
+"start_us": 1793153700227885,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_2040_BEHUMA": {
+"start_us": 1793306400153702,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0150_BEOUDS": {
+"start_us": 1793584200329033,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_2050_BEOUDS": {
+"start_us": 1793220600335513,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0530_FRMAUB": {
+"start_us": 1793338200226315,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_2305_BEOTTI": {
+"start_us": 1793660700586575,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667096666666666,
+"ant_long": 4.579525,
+"ant_alt": 95.7,
+"samplerate": 5512.48634265
+},
+"20261031_0440_BEOTTI": {
+"start_us": 1793421599868299,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66717,
+"ant_long": 4.579536666666667,
+"ant_alt": 88.1,
+"samplerate": 5512.4854452
+},
+"20261028_0215_BEOUDS": {
+"start_us": 1793153700165405,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_1950_BEOUDS": {
+"start_us": 1793649000327513,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_1245_BEHUMA": {
+"start_us": 1793450700310415,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0310_BEHUMA": {
+"start_us": 1793416200312069,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0530_BEOUDS": {
+"start_us": 1793338200342703,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_2350_BEOTTI": {
+"start_us": 1793404199905306,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667045,
+"ant_long": 4.579418333333333,
+"ant_alt": 147.0,
+"samplerate": 5512.486593775
+},
+"20261030_0105_BEOUDS": {
+"start_us": 1793322300333748,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0525_FRMAUB": {
+"start_us": 1793165100229177,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_0705_BEHUMA": {
+"start_us": 1793084700166463,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0215_BEHUMA": {
+"start_us": 1793499300320210,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0345_BEOUDS": {
+"start_us": 1793072700338161,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_1255_BEHUMA": {
+"start_us": 1793278500154516,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_1130_BEOUDS": {
+"start_us": 1793532600329896,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0300_BEHUMA": {
+"start_us": 1793242800323433,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_1910_BEHUMA": {
+"start_us": 1793473800309747,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0440_BEOUDS": {
+"start_us": 1793248800155456,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_2350_BEUCCE": {
+"start_us": 1793404200286935,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0405_BEHUMA": {
+"start_us": 1793073900313405,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0740_BEHUMA": {
+"start_us": 1793346000312407,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_2350_FRMAUB": {
+"start_us": 1793231400227462,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261030_0630_BEOUDS": {
+"start_us": 1793341800342453,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_2350_BEOUDS": {
+"start_us": 1793231400344887,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2305_BEUCCE": {
+"start_us": 1793660700284173,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_1240_BEHUMA": {
+"start_us": 1793450400311721,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_1250_BEOUDS": {
+"start_us": 1793364600332989,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0315_BEHUMA": {
+"start_us": 1793416500312332,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0440_BEUCCE": {
+"start_us": 1793421600276813,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0420_BEOUDS": {
+"start_us": 1793161200345926,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_1955_BEOUDS": {
+"start_us": 1793649300327827,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0700_BEHUMA": {
+"start_us": 1793084400156956,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0720_BEHUMA": {
+"start_us": 1793431200311228,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0215_BEOTTI": {
+"start_us": 1793326499614511,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667115,
+"ant_long": 4.579575,
+"ant_alt": 97.9,
+"samplerate": 5512.4829138
+},
+"20261101_2350_BEHUMA": {
+"start_us": 1793577000318888,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0440_FRMAUB": {
+"start_us": 1793248800235642,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261028_2210_BEHUMA": {
+"start_us": 1793225400321515,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_1320_BEOUDS": {
+"start_us": 1793107200157354,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0410_BEOUDS": {
+"start_us": 1793160600336493,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0245_BEHUMA": {
+"start_us": 1793328300153677,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0445_BEUCCE": {
+"start_us": 1793594700294401,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0705_BEOTTI": {
+"start_us": 1793171104244987,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667105,
+"ant_long": 4.5795683333333335,
+"ant_alt": 120.1,
+"samplerate": 5512.4876066
+},
+"20261031_2300_BEUCCE": {
+"start_us": 1793487600275949,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261030_1940_BEHUMA": {
+"start_us": 1793389200321584,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0350_BEHUMA": {
+"start_us": 1793159400325724,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_2015_BEHUMA": {
+"start_us": 1793218500324070,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0040_BEHUMA": {
+"start_us": 1793320800313941,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2125_BEOUDS": {
+"start_us": 1793654700337155,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2130_BEUCCE": {
+"start_us": 1793655000283807,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0730_BEHUMA": {
+"start_us": 1793086200316001,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2300_FRMAUB": {
+"start_us": 1793314800226318,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_2125_FRMAUB": {
+"start_us": 1793654700229813,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261101_0040_BEUCCE": {
+"start_us": 1793493600276302,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0435_BEHUMA": {
+"start_us": 1793075700316407,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2300_BEOUDS": {
+"start_us": 1793314800154097,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0035_BEOTTI": {
+"start_us": 1793147704232651,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66707666666667,
+"ant_long": 4.579525,
+"ant_alt": 82.3,
+"samplerate": 5512.48726485
+},
+"20261102_0210_BEHUMA": {
+"start_us": 1793585400318520,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0020_BEHUMA": {
+"start_us": 1793406000311496,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0700_BEUCCE": {
+"start_us": 1793170800334434,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_0440_BEOTTI": {
+"start_us": 1793594400399545,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710833333333,
+"ant_long": 4.579423333333334,
+"ant_alt": 73.0,
+"samplerate": 5512.48549085
+},
+"20261031_2305_BEOTTI": {
+"start_us": 1793487900055054,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66701166666667,
+"ant_long": 4.5796616666666665,
+"ant_alt": 93.3,
+"samplerate": 5512.4862758
+},
+"20261030_1755_BEOUDS": {
+"start_us": 1793382900152450,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0250_BEOUDS": {
+"start_us": 1793501400339877,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0705_BEHUMA": {
+"start_us": 1793257500314180,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0715_BEOUDS": {
+"start_us": 1793171700155292,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_1955_BEOUDS": {
+"start_us": 1793476500150652,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0610_BEHUMA": {
+"start_us": 1793513400149975,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0300_BEHUMA": {
+"start_us": 1793070000166995,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_1210_BEOUDS": {
+"start_us": 1793275800151766,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0415_BEOUDS": {
+"start_us": 1793160900156982,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_0440_BEUCCE": {
+"start_us": 1793594400292474,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0700_BEOTTI": {
+"start_us": 1793170804428207,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667078333333336,
+"ant_long": 4.579541666666667,
+"ant_alt": 119.6,
+"samplerate": 5512.4880262
+},
+"20261027_0440_BEOUDS": {
+"start_us": 1793076000338221,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_2215_BEHUMA": {
+"start_us": 1793225700314099,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_2250_BEOUDS": {
+"start_us": 1793055000158131,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0405_BEHUMA": {
+"start_us": 1793246700164542,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_2305_BEUCCE": {
+"start_us": 1793487900276418,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261101_2215_BEOUDS": {
+"start_us": 1793571300328747,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0035_BEUCCE": {
+"start_us": 1793147700344396,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_0125_BEHUMA": {
+"start_us": 1793409900152089,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2305_FRMAUB": {
+"start_us": 1793315100235527,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0600_BEHUMA": {
+"start_us": 1793253600323674,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0040_BEOTTI": {
+"start_us": 1793493600103127,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667201666666664,
+"ant_long": 4.5795433333333335,
+"ant_alt": 109.7,
+"samplerate": 5512.48711215
+},
+"20261101_0355_BEOUDS": {
+"start_us": 1793505300339725,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2130_BEOTTI": {
+"start_us": 1793655000538139,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712,
+"ant_long": 4.579525,
+"ant_alt": 127.0,
+"samplerate": 5512.48685825
+},
+"20261029_2305_BEOUDS": {
+"start_us": 1793315100163392,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_1915_BEOUDS": {
+"start_us": 1793042100348118,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2215_FRMAUB": {
+"start_us": 1793571300232034,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261031_1925_BEHUMA": {
+"start_us": 1793474700160343,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0355_FRMAUB": {
+"start_us": 1793505300232803,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_2230_BEOUDS": {
+"start_us": 1793140200336661,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0710_BEOUDS": {
+"start_us": 1793171400336416,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0705_BEUCCE": {
+"start_us": 1793171100334494,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_0445_BEOTTI": {
+"start_us": 1793594700402085,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66704166666667,
+"ant_long": 4.579361666666666,
+"ant_alt": 65.2,
+"samplerate": 5512.4869925
+},
+"20261027_0440_FRMAUB": {
+"start_us": 1793076000230613,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261031_2300_BEOTTI": {
+"start_us": 1793487600052515,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66711166666666,
+"ant_long": 4.57959,
+"ant_alt": 86.3,
+"samplerate": 5512.48692825
+},
+"20261102_2030_BEHUMA": {
+"start_us": 1793651400307043,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0700_BEHUMA": {
+"start_us": 1793170800315932,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0300_BEOTTI": {
+"start_us": 1793070004139227,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667098333333335,
+"ant_long": 4.57949,
+"ant_alt": 113.4,
+"samplerate": 5512.4861811
+},
+"20261102_0305_FRMAUB": {
+"start_us": 1793588700230037,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261031_2005_BEHUMA": {
+"start_us": 1793477100160839,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0435_BEUCCE": {
+"start_us": 1793075700220125,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261101_0040_BEHUMA": {
+"start_us": 1793493600150410,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_1205_BEOUDS": {
+"start_us": 1793361900333146,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0350_BEOUDS": {
+"start_us": 1793332200343098,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_1935_BEOUDS": {
+"start_us": 1793475300340363,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0125_BEOTTI": {
+"start_us": 1793409899953197,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667095,
+"ant_long": 4.57947,
+"ant_alt": 105.4,
+"samplerate": 5512.4865775
+},
+"20261101_0700_BEOUDS": {
+"start_us": 1793516400329662,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0220_BEHUMA": {
+"start_us": 1793326800312847,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0350_FRMAUB": {
+"start_us": 1793332200228396,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0640_BEHUMA": {
+"start_us": 1793601600308666,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0040_BEUCCE": {
+"start_us": 1793320800278381,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_2040_BEOUDS": {
+"start_us": 1793652000327682,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2130_BEHUMA": {
+"start_us": 1793655000317005,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0730_BEOUDS": {
+"start_us": 1793604600328846,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_2300_BEHUMA": {
+"start_us": 1793487600150421,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0445_BEHUMA": {
+"start_us": 1793594700318012,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_1955_BEOUDS": {
+"start_us": 1793390100332350,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0810_BEHUMA": {
+"start_us": 1793434200152354,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0405_BEHUMA": {
+"start_us": 1793160300156087,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0305_BEOUDS": {
+"start_us": 1793588700338222,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0350_BEUCCE": {
+"start_us": 1793159400336114,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0350_BEOTTI": {
+"start_us": 1793159404333150,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66730166666667,
+"ant_long": 4.579598333333333,
+"ant_alt": 61.6,
+"samplerate": 5512.488053475
+},
+"20261029_0715_BEOUDS": {
+"start_us": 1793258100344196,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0125_BEOUDS": {
+"start_us": 1793237100154998,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0705_BEHUMA": {
+"start_us": 1793171100324613,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0615_FRMAUB": {
+"start_us": 1793254500227763,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261030_1200_BEOUDS": {
+"start_us": 1793361600333026,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0040_BEOTTI": {
+"start_us": 1793320799751836,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667125,
+"ant_long": 4.579535,
+"ant_alt": 116.9,
+"samplerate": 5512.485876975
+},
+"20261031_0125_BEUCCE": {
+"start_us": 1793409900277046,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0035_BEHUMA": {
+"start_us": 1793147700324881,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0615_BEOUDS": {
+"start_us": 1793254500334656,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0720_BEOUDS": {
+"start_us": 1793085600338048,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0435_BEOTTI": {
+"start_us": 1793075704186937,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66719666666667,
+"ant_long": 4.579361666666666,
+"ant_alt": 100.6,
+"samplerate": 5512.4869095
+},
+"20261102_2045_BEOUDS": {
+"start_us": 1793652300337412,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0300_BEUCCE": {
+"start_us": 1793070000220764,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_2305_BEHUMA": {
+"start_us": 1793487900150601,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0125_FRMAUB": {
+"start_us": 1793237100228151,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0440_BEHUMA": {
+"start_us": 1793594400308548,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0215_BEUCCE": {
+"start_us": 1793499300276031,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_2040_BEOUDS": {
+"start_us": 1793479200150944,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0300_BEOTTI": {
+"start_us": 1793242804480271,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667141666666666,
+"ant_long": 4.579416666666667,
+"ant_alt": 114.8,
+"samplerate": 5512.485004675
+},
+"20261031_1250_BEOUDS": {
+"start_us": 1793451000330924,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0305_BEOUDS": {
+"start_us": 1793415900331524,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0530_FRMAUB": {
+"start_us": 1793511000223347,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_1945_BEHUMA": {
+"start_us": 1793648700308670,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0305_FRMAUB": {
+"start_us": 1793415900224469,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261101_0300_BEOUDS": {
+"start_us": 1793502000160636,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0000_BEOUDS": {
+"start_us": 1793404800162142,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0630_BEOUDS": {
+"start_us": 1793428200152053,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0530_BEOUDS": {
+"start_us": 1793511000330450,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2200_BEHUMA": {
+"start_us": 1793656800307321,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0855_BEOUDS": {
+"start_us": 1793436900161530,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0545_BEHUMA": {
+"start_us": 1793425500320636,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2045_BEOUDS": {
+"start_us": 1793565900329325,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2350_BEOTTI": {
+"start_us": 1793577000250792,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667145,
+"ant_long": 4.57949,
+"ant_alt": 103.3,
+"samplerate": 5512.487604725
+},
+"20261102_1935_BEOUDS": {
+"start_us": 1793648100327225,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0305_BEUCCE": {
+"start_us": 1793243100253209,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0415_BEOUDS": {
+"start_us": 1793074500167729,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0215_BEHUMA": {
+"start_us": 1793326500153084,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0305_BEOTTI": {
+"start_us": 1793243104482992,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667093333333334,
+"ant_long": 4.579551666666666,
+"ant_alt": 97.4,
+"samplerate": 5512.486168725
+},
+"20261028_0630_BEHUMA": {
+"start_us": 1793169000315334,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0130_BEOUDS": {
+"start_us": 1793583000328907,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2100_BEHUMA": {
+"start_us": 1793653200316998,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0715_BEOUDS": {
+"start_us": 1793085300337144,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2350_BEUCCE": {
+"start_us": 1793577000275341,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0125_BEOUDS": {
+"start_us": 1793064300338358,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0440_BEHUMA": {
+"start_us": 1793421600310702,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0615_FRMAUB": {
+"start_us": 1793081700240067,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_1940_BEHUMA": {
+"start_us": 1793648400308029,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2305_BEHUMA": {
+"start_us": 1793660700317922,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_1255_BEOUDS": {
+"start_us": 1793451300331508,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_1910_BEOUDS": {
+"start_us": 1793301000154384,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_1245_BEHUMA": {
+"start_us": 1793364300312051,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0140_BEHUMA": {
+"start_us": 1793583600309171,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0615_BEOUDS": {
+"start_us": 1793081700155696,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0300_BEUCCE": {
+"start_us": 1793242800244114,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_1930_BEOUDS": {
+"start_us": 1793647800327988,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0215_BEOTTI": {
+"start_us": 1793499300151199,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667136666666664,
+"ant_long": 4.579463333333333,
+"ant_alt": 127.8,
+"samplerate": 5512.48419005
+},
+"20261102_0130_FRMAUB": {
+"start_us": 1793583000231530,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_0410_BEOUDS": {
+"start_us": 1793074200347436,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0125_FRMAUB": {
+"start_us": 1793064300230915,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261030_2350_BEHUMA": {
+"start_us": 1793404200311504,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2040_BEOUDS": {
+"start_us": 1793565600329355,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0740_BEOUDS": {
+"start_us": 1793346000333132,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0615_BEUCCE": {
+"start_us": 1793081700219215,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0655_BEOUDS": {
+"start_us": 1793170500335651,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0645_BEHUMA": {
+"start_us": 1793256300323407,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0305_BEOTTI": {
+"start_us": 1793415900006256,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66733166666667,
+"ant_long": 4.579746666666667,
+"ant_alt": 92.7,
+"samplerate": 5512.4858323
+},
+"20261030_0630_BEHUMA": {
+"start_us": 1793341800153499,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0300_BEOUDS": {
+"start_us": 1793242800335893,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_1130_BEHUMA": {
+"start_us": 1793532600309564,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2350_FRMAUB": {
+"start_us": 1793577000221717,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0440_BEHUMA": {
+"start_us": 1793248800314091,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0115_BEOUDS": {
+"start_us": 1793495700330460,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_0130_BEUCCE": {
+"start_us": 1793583000285940,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_0300_FRMAUB": {
+"start_us": 1793242800227390,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_0700_BEOUDS": {
+"start_us": 1793084400158334,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0635_BEOUDS": {
+"start_us": 1793255700334674,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2350_BEOUDS": {
+"start_us": 1793577000329406,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0125_BEUCCE": {
+"start_us": 1793064300219023,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_0315_BEOUDS": {
+"start_us": 1793416500332058,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_1250_BEHUMA": {
+"start_us": 1793364600313230,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0530_BEOTTI": {
+"start_us": 1793511000065395,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667116666666665,
+"ant_long": 4.579546666666666,
+"ant_alt": 106.7,
+"samplerate": 5512.487485925
+},
+"20261028_2350_BEHUMA": {
+"start_us": 1793231400313925,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_1240_BEOUDS": {
+"start_us": 1793450400160121,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0420_BEHUMA": {
+"start_us": 1793161200315444,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0530_BEUCCE": {
+"start_us": 1793511000276020,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0125_BEOTTI": {
+"start_us": 1793064304089341,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667161666666665,
+"ant_long": 4.57948,
+"ant_alt": 105.3,
+"samplerate": 5512.488526775
+},
+"20261028_0525_BEHUMA": {
+"start_us": 1793165100315458,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0130_BEOTTI": {
+"start_us": 1793583000301223,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715833333333,
+"ant_long": 4.579643333333333,
+"ant_alt": 96.3,
+"samplerate": 5512.4872486
+},
+"20261029_0305_BEOUDS": {
+"start_us": 1793243100344799,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0825_BEHUMA": {
+"start_us": 1793262300154551,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0215_FRMAUB": {
+"start_us": 1793499300223614,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0710_BEOUDS": {
+"start_us": 1793603400337963,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_1910_BEOUDS": {
+"start_us": 1793560200329524,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0215_BEOUDS": {
+"start_us": 1793499300330554,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0105_BEHUMA": {
+"start_us": 1793322300153315,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0305_FRMAUB": {
+"start_us": 1793243100225952,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261028_0215_BEHUMA": {
+"start_us": 1793153700156009,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_1950_BEHUMA": {
+"start_us": 1793649000308586,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0750_BEHUMA": {
+"start_us": 1793519400159583,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0305_BEUCCE": {
+"start_us": 1793415900276831,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_1300_BEHUMA": {
+"start_us": 1793624400308340,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0530_BEHUMA": {
+"start_us": 1793338200153380,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0310_BEOUDS": {
+"start_us": 1793416200152094,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_1245_BEOUDS": {
+"start_us": 1793450700331077,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0615_BEOTTI": {
+"start_us": 1793081704236461,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667075,
+"ant_long": 4.579593333333333,
+"ant_alt": 124.6,
+"samplerate": 5512.4869876
+},
+"20261031_0125_BEOUDS": {
+"start_us": 1793409900331839,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2050_BEOUDS": {
+"start_us": 1793652600328032,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0615_BEUCCE": {
+"start_us": 1793254500243959,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261027_0735_BEOUDS": {
+"start_us": 1793086500337870,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2215_BEHUMA": {
+"start_us": 1793571300308581,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0355_BEHUMA": {
+"start_us": 1793505300159678,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0350_BEOTTI": {
+"start_us": 1793332199664761,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66707,
+"ant_long": 4.5794516666666665,
+"ant_alt": 93.0,
+"samplerate": 5512.48655495
+},
+"20261027_0300_BEOUDS": {
+"start_us": 1793070000347560,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_1210_BEHUMA": {
+"start_us": 1793275800313725,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0610_BEOUDS": {
+"start_us": 1793513400329708,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_2250_BEHUMA": {
+"start_us": 1793055000325364,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_2215_BEOUDS": {
+"start_us": 1793225700335351,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0440_BEHUMA": {
+"start_us": 1793076000317106,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0415_BEHUMA": {
+"start_us": 1793160900312973,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0305_BEOTTI": {
+"start_us": 1793588700351654,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667118333333335,
+"ant_long": 4.579593333333333,
+"ant_alt": 102.6,
+"samplerate": 5512.48614175
+},
+"20261028_0710_BEHUMA": {
+"start_us": 1793171400315276,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0300_FRMAUB": {
+"start_us": 1793070000230853,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0125_BEUCCE": {
+"start_us": 1793237100243373,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_1925_BEOUDS": {
+"start_us": 1793474700150585,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_2305_BEHUMA": {
+"start_us": 1793315100153980,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0125_FRMAUB": {
+"start_us": 1793409900232915,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_2230_BEHUMA": {
+"start_us": 1793140200315318,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2125_BEHUMA": {
+"start_us": 1793654700307849,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0435_FRMAUB": {
+"start_us": 1793075700230927,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261030_0040_BEOUDS": {
+"start_us": 1793320800333509,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2055_BEOUDS": {
+"start_us": 1793652900327362,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0730_BEOUDS": {
+"start_us": 1793086200337808,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0410_BEHUMA": {
+"start_us": 1793160600155817,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0245_BEOUDS": {
+"start_us": 1793328300333398,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_2210_BEOUDS": {
+"start_us": 1793225400155522,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0125_BEOTTI": {
+"start_us": 1793237104430021,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712,
+"ant_long": 4.579446666666667,
+"ant_alt": 95.0,
+"samplerate": 5512.48778945
+},
+"20261027_1320_BEHUMA": {
+"start_us": 1793107200156196,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0305_BEUCCE": {
+"start_us": 1793588700284412,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0350_BEOUDS": {
+"start_us": 1793159400154157,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_2010_BEHUMA": {
+"start_us": 1793477400319654,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_1755_BEHUMA": {
+"start_us": 1793382900312046,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0020_BEOUDS": {
+"start_us": 1793406000341694,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0715_BEHUMA": {
+"start_us": 1793171700155981,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0350_FRMAUB": {
+"start_us": 1793159400238715,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0705_BEOUDS": {
+"start_us": 1793257500155998,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0250_BEHUMA": {
+"start_us": 1793501400309490,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0435_BEOUDS": {
+"start_us": 1793075700338098,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0040_FRMAUB": {
+"start_us": 1793320800225903,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0550_BEHUMA": {
+"start_us": 1793598600318798,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0350_BEUCCE": {
+"start_us": 1793332200278160,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_1945_BEHUMA": {
+"start_us": 1793303100313555,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0615_BEOTTI": {
+"start_us": 1793254504579137,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66705833333333,
+"ant_long": 4.579528333333333,
+"ant_alt": 118.4,
+"samplerate": 5512.488007225
+},
+"20261026_1910_BEHUMA": {
+"start_us": 1793041800157309,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2300_BEHUMA": {
+"start_us": 1793314800314076,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2305_BEUCCE": {
+"start_us": 1793315100278426,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261028_0035_FRMAUB": {
+"start_us": 1793147700229106,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_2125_BEOTTI": {
+"start_us": 1793654700721360,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715833333333,
+"ant_long": 4.579581666666667,
+"ant_alt": 124.2,
+"samplerate": 5512.486809175
+},
+"20261028_0705_BEOUDS": {
+"start_us": 1793171100335922,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0125_BEHUMA": {
+"start_us": 1793237100313886,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_2305_FRMAUB": {
+"start_us": 1793487900232887,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0715_BEHUMA": {
+"start_us": 1793258100154439,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_0440_FRMAUB": {
+"start_us": 1793594400231080,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0440_BEOUDS": {
+"start_us": 1793594400328520,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0515_BEOUDS": {
+"start_us": 1793337300342742,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_1205_BEOUDS": {
+"start_us": 1793275500155200,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0440_BEUCCE": {
+"start_us": 1793076000220565,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_1940_BEOUDS": {
+"start_us": 1793475600331025,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0705_FRMAUB": {
+"start_us": 1793171100230743,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261031_2305_BEOUDS": {
+"start_us": 1793487900339828,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261029_0615_BEHUMA": {
+"start_us": 1793254500323555,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2215_BEUCCE": {
+"start_us": 1793571300285244,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_2300_BEOTTI": {
+"start_us": 1793314799701224,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710333333333,
+"ant_long": 4.579546666666666,
+"ant_alt": 98.0,
+"samplerate": 5512.4868109
+},
+"20261028_0035_BEOUDS": {
+"start_us": 1793147700346215,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_0735_BEHUMA": {
+"start_us": 1793604900308216,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2045_BEHUMA": {
+"start_us": 1793652300307178,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0355_BEUCCE": {
+"start_us": 1793505300274830,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261030_0350_BEHUMA": {
+"start_us": 1793332200313549,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0355_BEOTTI": {
+"start_us": 1793505300203626,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66725,
+"ant_long": 4.579628333333333,
+"ant_alt": 80.3,
+"samplerate": 5512.487290075
+},
+"20261101_0040_BEOUDS": {
+"start_us": 1793493600330420,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_0700_BEHUMA": {
+"start_us": 1793516400318966,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_2300_BEUCCE": {
+"start_us": 1793314800278525,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261030_0220_BEOUDS": {
+"start_us": 1793326800153371,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261101_2215_BEOTTI": {
+"start_us": 1793571300202538,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66708,
+"ant_long": 4.579536666666667,
+"ant_alt": 110.0,
+"samplerate": 5512.48671035
+},
+"20261102_2130_FRMAUB": {
+"start_us": 1793655000220501,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_0440_BEOTTI": {
+"start_us": 1793076004189476,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667181666666664,
+"ant_long": 4.579411666666666,
+"ant_alt": 99.8,
+"samplerate": 5512.48534645
+},
+"20261031_2300_FRMAUB": {
+"start_us": 1793487600232834,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261028_2100_BEHUMA": {
+"start_us": 1793221200155053,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0700_BEOUDS": {
+"start_us": 1793170800345659,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_0445_FRMAUB": {
+"start_us": 1793594700231842,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0445_BEOUDS": {
+"start_us": 1793594700328588,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_2300_BEOUDS": {
+"start_us": 1793487600340162,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0700_FRMAUB": {
+"start_us": 1793170800229500,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261101_2000_BEOUDS": {
+"start_us": 1793563200338810,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_0305_BEHUMA": {
+"start_us": 1793588700309529,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0405_BEOUDS": {
+"start_us": 1793160300163358,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2040_BEHUMA": {
+"start_us": 1793652000317084,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_0040_FRMAUB": {
+"start_us": 1793493600232865,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261102_0640_BEOUDS": {
+"start_us": 1793601600328297,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0715_BEOUDS": {
+"start_us": 1793344500150793,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_2125_BEUCCE": {
+"start_us": 1793654700283751,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_2305_BEOTTI": {
+"start_us": 1793315099703763,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66708666666667,
+"ant_long": 4.5797566666666665,
+"ant_alt": 90.8,
+"samplerate": 5512.48682175
+},
+"20261102_0730_BEHUMA": {
+"start_us": 1793604600308656,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2130_BEOUDS": {
+"start_us": 1793655000327405,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0655_BEOUDS": {
+"start_us": 1793084100337882,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_2350_BEUCCE": {
+"start_us": 1793231400252836,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261102_2305_BEOUDS": {
+"start_us": 1793660700329489,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261102_1940_BEOUDS": {
+"start_us": 1793648400337630,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0440_BEOUDS": {
+"start_us": 1793421600342853,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_1245_BEOUDS": {
+"start_us": 1793364300332673,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_1255_BEHUMA": {
+"start_us": 1793451300310868,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0830_BEHUMA": {
+"start_us": 1793349000314233,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0525_BEOTTI": {
+"start_us": 1793165104380860,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667155,
+"ant_long": 4.579563333333334,
+"ant_alt": 73.9,
+"samplerate": 5512.48806625
+},
+"20261102_0130_BEHUMA": {
+"start_us": 1793583000309395,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0630_BEOUDS": {
+"start_us": 1793169000336328,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_2350_FRMAUB": {
+"start_us": 1793404200224616,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261027_0125_BEHUMA": {
+"start_us": 1793064300316954,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0715_BEHUMA": {
+"start_us": 1793085300316375,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261027_0410_BEHUMA": {
+"start_us": 1793074200314161,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2040_BEHUMA": {
+"start_us": 1793565600308951,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261029_0440_BEUCCE": {
+"start_us": 1793248800253161,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261030_2350_BEOUDS": {
+"start_us": 1793404200341478,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0305_BEOUDS": {
+"start_us": 1793156700336567,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0615_BEHUMA": {
+"start_us": 1793081700166190,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261031_0440_FRMAUB": {
+"start_us": 1793421600234295,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261030_0530_BEOTTI": {
+"start_us": 1793338199715011,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667105,
+"ant_long": 4.579561666666667,
+"ant_alt": 87.9,
+"samplerate": 5512.4876693
+},
+"20261102_2305_FRMAUB": {
+"start_us": 1793660700221171,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261029_0650_BEOUDS": {
+"start_us": 1793256600334638,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0745_BEOUDS": {
+"start_us": 1793432700331338,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261028_0215_BEOTTI": {
+"start_us": 1793153704283082,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712,
+"ant_long": 4.579478333333333,
+"ant_alt": 0.0,
+"samplerate": 5512.483885425
+},
+"20261031_0305_BEHUMA": {
+"start_us": 1793415900152246,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0215_BEUCCE": {
+"start_us": 1793153700334925,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261031_1250_BEHUMA": {
+"start_us": 1793451000310491,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_1945_BEOUDS": {
+"start_us": 1793648700328049,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0530_BEUCCE": {
+"start_us": 1793338200277465,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261029_0440_BEOTTI": {
+"start_us": 1793248804531972,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710833333333,
+"ant_long": 4.579478333333333,
+"ant_alt": 90.7,
+"samplerate": 5512.485789225
+},
+"20261026_2100_BEHUMA": {
+"start_us": 1793048400326115,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_1110_BEOUDS": {
+"start_us": 1793617800328622,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0650_BEHUMA": {
+"start_us": 1793343000312902,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261030_0215_FRMAUB": {
+"start_us": 1793326500225183,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261031_0640_BEOUDS": {
+"start_us": 1793428800149014,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_2040_BEHUMA": {
+"start_us": 1793479200310323,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_2045_BEHUMA": {
+"start_us": 1793565900308907,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261101_1120_BEOUDS": {
+"start_us": 1793532000149336,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261031_0855_BEHUMA": {
+"start_us": 1793436900320243,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261102_2200_BEOUDS": {
+"start_us": 1793656800337351,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261030_0215_BEOUDS": {
+"start_us": 1793326500342794,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261027_0415_BEHUMA": {
+"start_us": 1793074500156770,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_0525_BEUCCE": {
+"start_us": 1793165100334543,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261101_0530_BEHUMA": {
+"start_us": 1793511000319126,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261028_2350_BEOTTI": {
+"start_us": 1793231404382311,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710166666667,
+"ant_long": 4.57952,
+"ant_alt": 106.0,
+"samplerate": 5512.486834725
+},
+"20261101_0820_BEOUDS": {
+"start_us": 1793521200330735,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0205_BEOTTI": {
+"start_us": 1792634702668296,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667165,
+"ant_long": 4.579515,
+"ant_alt": 96.6,
+"samplerate": 5512.4864484
+},
+"20261026_1205_BEHUMA": {
+"start_us": 1793016300316945,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0735_BEHUMA": {
+"start_us": 1792827300169452,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0350_BEHUMA": {
+"start_us": 1792986600317932,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0835_BEUCCE": {
+"start_us": 1792830900315167,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0835_BEHUMA": {
+"start_us": 1792658100162954,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0750_BEOTTI": {
+"start_us": 1792741802863945,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66711166666666,
+"ant_long": 4.579533333333333,
+"ant_alt": 83.2,
+"samplerate": 5512.48661305
+},
+"20261021_1440_BEOUDS": {
+"start_us": 1792593600167986,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0750_BEHUMA": {
+"start_us": 1792655400163417,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0300_BEOTTI": {
+"start_us": 1792897203751110,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667096666666666,
+"ant_long": 4.579501666666666,
+"ant_alt": 101.5,
+"samplerate": 5512.4849636
+},
+"20261022_0620_BEOUDS": {
+"start_us": 1792650000165263,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0035_BEOTTI": {
+"start_us": 1792974903863945,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66719333333333,
+"ant_long": 4.579526666666666,
+"ant_alt": 117.1,
+"samplerate": 5512.4873811
+},
+"20261023_0630_BEHUMA": {
+"start_us": 1792737000161500,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0700_BEUCCE": {
+"start_us": 1792998000231145,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_1355_BEHUMA": {
+"start_us": 1792850100159469,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0550_BEHUMA": {
+"start_us": 1792907400315724,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0850_BEHUMA": {
+"start_us": 1792831800169680,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0435_BEHUMA": {
+"start_us": 1792730100171040,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0435_BEUCCE": {
+"start_us": 1792902900213389,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0210_FRMAUB": {
+"start_us": 1792635000241709,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261025_0435_BEOTTI": {
+"start_us": 1792902903627391,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710666666667,
+"ant_long": 4.5794966666666665,
+"ant_alt": 94.1,
+"samplerate": 5512.485848225
+},
+"20261021_1925_BEOUDS": {
+"start_us": 1792610700169533,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0415_BEOUDS": {
+"start_us": 1792988100349409,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0700_BEOTTI": {
+"start_us": 1792998003909841,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66708166666667,
+"ant_long": 4.579488333333333,
+"ant_alt": 123.1,
+"samplerate": 5512.48736705
+},
+"20261023_1050_BEHUMA": {
+"start_us": 1792752600161146,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0035_BEUCCE": {
+"start_us": 1792974900222139,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_2245_BEHUMA": {
+"start_us": 1792881900158795,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0745_FRMAUB": {
+"start_us": 1792741500238689,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261024_0445_BEOUDS": {
+"start_us": 1792817100162219,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0520_BEOUDS": {
+"start_us": 1792646400165393,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0300_BEUCCE": {
+"start_us": 1792897200213681,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261023_0750_BEUCCE": {
+"start_us": 1792741800307097,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0750_BEHUMA": {
+"start_us": 1792914600327238,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0520_FRMAUB": {
+"start_us": 1792646400241533,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261024_0835_BEOTTI": {
+"start_us": 1792830903364897,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.666885,
+"ant_long": 4.579728333333334,
+"ant_alt": 64.7,
+"samplerate": 5512.4873842
+},
+"20261023_0745_BEOUDS": {
+"start_us": 1792741500163911,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0630_BEHUMA": {
+"start_us": 1792823400160117,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0210_BEOUDS": {
+"start_us": 1792635000175570,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0545_BEOUDS": {
+"start_us": 1792820700162796,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0430_BEHUMA": {
+"start_us": 1792729800171463,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0205_BEUCCE": {
+"start_us": 1792634700308166,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0425_BEOUDS": {
+"start_us": 1792902300160824,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_1340_BEOUDS": {
+"start_us": 1792935600170275,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0610_BEOUDS": {
+"start_us": 1792908600160723,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0525_BEOUDS": {
+"start_us": 1792992300339428,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0345_BEOUDS": {
+"start_us": 1792813500172597,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0910_BEOUDS": {
+"start_us": 1792746600161473,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0120_FRMAUB": {
+"start_us": 1792891200228243,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0720_BEOUDS": {
+"start_us": 1792999200339061,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0700_BEUCCE": {
+"start_us": 1792652400308332,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0120_BEOUDS": {
+"start_us": 1792891200170992,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0700_BEHUMA": {
+"start_us": 1792825200160200,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0345_FRMAUB": {
+"start_us": 1792813500229555,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261023_0255_BEUCCE": {
+"start_us": 1792724100306913,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0610_FRMAUB": {
+"start_us": 1792908600237751,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0750_BEHUMA": {
+"start_us": 1793001000167508,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0525_FRMAUB": {
+"start_us": 1792992300226883,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_1305_BEHUMA": {
+"start_us": 1792674300162453,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0610_BEOUDS": {
+"start_us": 1792649400165315,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0615_BEOUDS": {
+"start_us": 1792908900170738,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0255_BEOTTI": {
+"start_us": 1792724102678911,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66703,
+"ant_long": 4.579246666666667,
+"ant_alt": 138.9,
+"samplerate": 5512.483383225
+},
+"20261022_0700_BEOTTI": {
+"start_us": 1792652402445804,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66695,
+"ant_long": 4.579463333333333,
+"ant_alt": 120.3,
+"samplerate": 5512.4869042
+},
+"20261022_0905_BEHUMA": {
+"start_us": 1792659900162326,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0225_BEOUDS": {
+"start_us": 1792635900165609,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0125_FRMAUB": {
+"start_us": 1792891500236099,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0210_FRMAUB": {
+"start_us": 1792980600236382,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261025_0125_BEOUDS": {
+"start_us": 1792891500160970,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0935_BEHUMA": {
+"start_us": 1792575300173783,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_1345_BEOUDS": {
+"start_us": 1793022300338961,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0210_BEOUDS": {
+"start_us": 1792980600159017,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0320_BEOUDS": {
+"start_us": 1792898400341078,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0615_FRMAUB": {
+"start_us": 1792908900226376,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0745_BEOUDS": {
+"start_us": 1793000700339026,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0610_FRMAUB": {
+"start_us": 1792735800230575,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261023_0255_BEHUMA": {
+"start_us": 1792724100160275,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0715_BEOUDS": {
+"start_us": 1792826100159468,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0925_BEOUDS": {
+"start_us": 1792574700170673,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0705_BEHUMA": {
+"start_us": 1792911900318206,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0710_BEOUDS": {
+"start_us": 1792739400163655,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0345_FRMAUB": {
+"start_us": 1792640700232202,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261024_0700_BEUCCE": {
+"start_us": 1792825200306885,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0700_BEHUMA": {
+"start_us": 1792652400162934,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0925_FRMAUB": {
+"start_us": 1792574700232276,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0735_BEHUMA": {
+"start_us": 1793000100317725,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0915_BEOUDS": {
+"start_us": 1792660500164913,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0345_BEOUDS": {
+"start_us": 1792640700168539,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0600_BEHUMA": {
+"start_us": 1792648800163188,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0610_BEOUDS": {
+"start_us": 1792735800173509,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0510_BEOUDS": {
+"start_us": 1792732200166723,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_2305_BEOUDS": {
+"start_us": 1792969500340027,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0715_BEOUDS": {
+"start_us": 1792739700173608,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0705_BEHUMA": {
+"start_us": 1792652700172572,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0710_BEOUDS": {
+"start_us": 1792825800162019,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0920_BEOUDS": {
+"start_us": 1792574400166398,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_1925_BEOUDS": {
+"start_us": 1792783500163702,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0700_BEOTTI": {
+"start_us": 1792825203294692,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66705,
+"ant_long": 4.579548333333333,
+"ant_alt": 103.7,
+"samplerate": 5512.48778525
+},
+"20261026_0100_BEHUMA": {
+"start_us": 1792976400168487,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0355_BEHUMA": {
+"start_us": 1792814100158486,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0920_FRMAUB": {
+"start_us": 1792574400233693,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0730_BEHUMA": {
+"start_us": 1792999800317701,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0605_BEHUMA": {
+"start_us": 1792649100172527,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0615_BEOUDS": {
+"start_us": 1792736100164332,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0700_BEHUMA": {
+"start_us": 1792998000318659,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0435_BEHUMA": {
+"start_us": 1792902900158862,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0435_BEUCCE": {
+"start_us": 1792730100307264,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0740_BEOUDS": {
+"start_us": 1792914000161222,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0525_FRMAUB": {
+"start_us": 1792819500238702,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261025_0630_BEHUMA": {
+"start_us": 1792909800159009,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0525_BEOUDS": {
+"start_us": 1792819500161891,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0440_BEOUDS": {
+"start_us": 1792644000165091,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0835_BEUCCE": {
+"start_us": 1792658100307717,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_0835_BEHUMA": {
+"start_us": 1792830900169393,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0820_BEOUDS": {
+"start_us": 1792657200165388,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0455_BEHUMA": {
+"start_us": 1792817700169498,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_1245_BEOUDS": {
+"start_us": 1792759500163131,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0750_BEOTTI": {
+"start_us": 1792914603724988,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715833333333,
+"ant_long": 4.579548333333333,
+"ant_alt": 92.0,
+"samplerate": 5512.486797475
+},
+"20261022_2045_BEHUMA": {
+"start_us": 1792701900162090,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0350_BEUCCE": {
+"start_us": 1792986600231205,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_0210_BEOUDS": {
+"start_us": 1792807800163558,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0350_BEOTTI": {
+"start_us": 1792986603963900,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667318333333334,
+"ant_long": 4.579605,
+"ant_alt": 0.0,
+"samplerate": 5512.487935
+},
+"20261022_0435_BEHUMA": {
+"start_us": 1792643700163379,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0205_BEHUMA": {
+"start_us": 1792634700163028,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0635_BEHUMA": {
+"start_us": 1792910100317656,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0750_BEUCCE": {
+"start_us": 1792914600221404,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_1940_BEOUDS": {
+"start_us": 1792611600172950,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0750_BEHUMA": {
+"start_us": 1792741800161136,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0630_BEHUMA": {
+"start_us": 1792650600172480,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_1030_BEHUMA": {
+"start_us": 1792837800326115,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0835_BEOTTI": {
+"start_us": 1792658102679274,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667185,
+"ant_long": 4.579608333333334,
+"ant_alt": 71.2,
+"samplerate": 5512.486842175
+},
+"20261022_0825_BEOUDS": {
+"start_us": 1792657500165728,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0035_BEHUMA": {
+"start_us": 1792974900317379,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0955_BEHUMA": {
+"start_us": 1792662900162991,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0300_BEHUMA": {
+"start_us": 1792897200318227,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0820_BEOUDS": {
+"start_us": 1792916400161091,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_1755_BEHUMA": {
+"start_us": 1792605300163989,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0435_BEOTTI": {
+"start_us": 1792730102730974,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712833333333,
+"ant_long": 4.579533333333333,
+"ant_alt": 93.4,
+"samplerate": 5512.4865365
+},
+"20261024_0210_FRMAUB": {
+"start_us": 1792807800227689,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0640_BEOUDS": {
+"start_us": 1792651200164987,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0750_FRMAUB": {
+"start_us": 1792914600228006,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0520_BEHUMA": {
+"start_us": 1792646400172922,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0445_BEHUMA": {
+"start_us": 1792817100160340,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0735_BEOUDS": {
+"start_us": 1792740900164269,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_1925_BEHUMA": {
+"start_us": 1792610700173626,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0415_BEHUMA": {
+"start_us": 1792988100167654,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0210_BEUCCE": {
+"start_us": 1792807800305718,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261023_0430_BEOUDS": {
+"start_us": 1792729800164232,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0545_BEHUMA": {
+"start_us": 1792820700159786,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0210_BEHUMA": {
+"start_us": 1792635000172768,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0425_BEHUMA": {
+"start_us": 1792902300317774,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_1340_BEHUMA": {
+"start_us": 1792935600318670,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0750_BEOUDS": {
+"start_us": 1792914600164523,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0525_BEOTTI": {
+"start_us": 1792819503228842,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66713333333333,
+"ant_long": 4.579461666666667,
+"ant_alt": 84.1,
+"samplerate": 5512.489005025
+},
+"20261023_0745_BEHUMA": {
+"start_us": 1792741500170741,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0755_BEOUDS": {
+"start_us": 1792655700175068,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0525_BEUCCE": {
+"start_us": 1792819500305588,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0835_BEOUDS": {
+"start_us": 1792658100175064,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0530_BEOUDS": {
+"start_us": 1792819800172034,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0350_BEOUDS": {
+"start_us": 1792986600339463,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0210_BEOTTI": {
+"start_us": 1792807803099317,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715666666666,
+"ant_long": 4.579535,
+"ant_alt": 99.9,
+"samplerate": 5512.4848617
+},
+"20261024_0735_BEOUDS": {
+"start_us": 1792827300163022,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0435_FRMAUB": {
+"start_us": 1792730100230533,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_1205_BEOUDS": {
+"start_us": 1793016300338795,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_1355_BEOUDS": {
+"start_us": 1792850100162025,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0435_BEOUDS": {
+"start_us": 1792730100173179,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0850_BEOUDS": {
+"start_us": 1792831800162164,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0350_FRMAUB": {
+"start_us": 1792986600227400,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0835_FRMAUB": {
+"start_us": 1792658100231999,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261021_1440_BEHUMA": {
+"start_us": 1792593600163775,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0630_BEOUDS": {
+"start_us": 1792737000163431,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0620_BEHUMA": {
+"start_us": 1792650000162986,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0225_BEHUMA": {
+"start_us": 1792635900163426,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0350_BEOUDS": {
+"start_us": 1792900200169964,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_1420_BEHUMA": {
+"start_us": 1792765200170842,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0925_BEOTTI": {
+"start_us": 1792574702353105,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66692333333334,
+"ant_long": 4.579398333333334,
+"ant_alt": 118.7,
+"samplerate": 5512.4875011
+},
+"20261022_0610_BEHUMA": {
+"start_us": 1792649400162569,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0615_BEHUMA": {
+"start_us": 1792908900318136,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0320_BEHUMA": {
+"start_us": 1792898400327620,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0610_BEOTTI": {
+"start_us": 1792735802790294,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66717833333333,
+"ant_long": 4.579493333333334,
+"ant_alt": 82.5,
+"samplerate": 5512.487429225
+},
+"20261021_0935_BEOUDS": {
+"start_us": 1792575300164610,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0125_BEHUMA": {
+"start_us": 1792891500327762,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0345_BEOTTI": {
+"start_us": 1792640702720453,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712666666667,
+"ant_long": 4.579486666666667,
+"ant_alt": 114.2,
+"samplerate": 5512.488019775
+},
+"20261026_0210_BEHUMA": {
+"start_us": 1792980600158535,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_1345_BEHUMA": {
+"start_us": 1793022300158011,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0920_BEUCCE": {
+"start_us": 1792574400202299,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0920_BEOTTI": {
+"start_us": 1792574402350565,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.666925,
+"ant_long": 4.579368333333333,
+"ant_alt": 118.3,
+"samplerate": 5512.4867239
+},
+"20261024_0700_FRMAUB": {
+"start_us": 1792825200238257,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261024_0345_BEHUMA": {
+"start_us": 1792813500160221,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0345_BEUCCE": {
+"start_us": 1792640700308339,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0610_BEHUMA": {
+"start_us": 1792908600158726,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0610_BEUCCE": {
+"start_us": 1792735800307302,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261026_0525_BEHUMA": {
+"start_us": 1792992300317818,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_1305_BEOUDS": {
+"start_us": 1792674300174649,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0805_BEOUDS": {
+"start_us": 1792915500170532,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0750_BEOUDS": {
+"start_us": 1793001000339604,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0715_BEHUMA": {
+"start_us": 1792653300172256,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0925_BEUCCE": {
+"start_us": 1792574700202372,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_0700_BEOUDS": {
+"start_us": 1792825200171231,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0120_BEHUMA": {
+"start_us": 1792891200318201,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0345_BEOTTI": {
+"start_us": 1792813503162629,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667033333333336,
+"ant_long": 4.579486666666667,
+"ant_alt": 95.6,
+"samplerate": 5512.4886336
+},
+"20261025_0125_BEUCCE": {
+"start_us": 1792891500212326,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0920_BEHUMA": {
+"start_us": 1792574400164369,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0710_BEHUMA": {
+"start_us": 1792825800159796,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0210_BEUCCE": {
+"start_us": 1792980600231264,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261026_0525_BEOTTI": {
+"start_us": 1792992303862675,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667046666666664,
+"ant_long": 4.579466666666667,
+"ant_alt": 86.8,
+"samplerate": 5512.487641
+},
+"20261023_0510_BEHUMA": {
+"start_us": 1792732200161647,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0610_BEOTTI": {
+"start_us": 1792908603675101,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712666666667,
+"ant_long": 4.579535,
+"ant_alt": 98.7,
+"samplerate": 5512.488201175
+},
+"20261024_0805_BEOUDS": {
+"start_us": 1792829100171247,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0615_BEUCCE": {
+"start_us": 1792908900212902,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_1805_BEOUDS": {
+"start_us": 1792605900175934,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0615_BEHUMA": {
+"start_us": 1792736100161750,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0605_BEOUDS": {
+"start_us": 1792649100166026,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0120_BEOTTI": {
+"start_us": 1792891203497142,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667175,
+"ant_long": 4.57954,
+"ant_alt": 110.3,
+"samplerate": 5512.487408375
+},
+"20261026_0730_BEOUDS": {
+"start_us": 1792999800339234,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0355_BEOUDS": {
+"start_us": 1792814100162185,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0925_BEHUMA": {
+"start_us": 1792574700164661,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0715_BEHUMA": {
+"start_us": 1792826100169450,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0700_BEOUDS": {
+"start_us": 1792652400165778,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0120_BEUCCE": {
+"start_us": 1792891200214280,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261023_0710_BEHUMA": {
+"start_us": 1792739400161554,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0255_BEOUDS": {
+"start_us": 1792724100163797,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0800_BEOUDS": {
+"start_us": 1792828800162370,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0500_BEOUDS": {
+"start_us": 1792904400170786,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261025_0615_BEOTTI": {
+"start_us": 1792908903677460,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66714666666667,
+"ant_long": 4.57958,
+"ant_alt": 103.6,
+"samplerate": 5512.4874246
+},
+"20261026_0745_BEHUMA": {
+"start_us": 1793000700317400,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0805_BEOUDS": {
+"start_us": 1792742700164113,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0610_BEHUMA": {
+"start_us": 1792735800162293,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0610_BEUCCE": {
+"start_us": 1792908600222944,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0145_BEHUMA": {
+"start_us": 1792892700158933,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0255_FRMAUB": {
+"start_us": 1792724100240221,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0600_BEOUDS": {
+"start_us": 1792648800162828,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0525_BEUCCE": {
+"start_us": 1792992300221828,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0915_BEHUMA": {
+"start_us": 1792660500172235,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261026_0210_BEOTTI": {
+"start_us": 1792980603912925,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710666666667,
+"ant_long": 4.57929,
+"ant_alt": 105.1,
+"samplerate": 5512.484456425
+},
+"20261025_0125_BEOTTI": {
+"start_us": 1792891503685986,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66717333333333,
+"ant_long": 4.579535,
+"ant_alt": 108.0,
+"samplerate": 5512.4871816
+},
+"20261022_0345_BEHUMA": {
+"start_us": 1792640700163900,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0345_BEUCCE": {
+"start_us": 1792813500305925,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0700_FRMAUB": {
+"start_us": 1792652400232281,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261023_0750_BEOUDS": {
+"start_us": 1792741800170800,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_1940_BEHUMA": {
+"start_us": 1792611600173641,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0635_BEOUDS": {
+"start_us": 1792910100161312,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0035_FRMAUB": {
+"start_us": 1792974900226474,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261025_0300_FRMAUB": {
+"start_us": 1792897200235967,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261023_0745_BEUCCE": {
+"start_us": 1792741500316389,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261022_0210_BEUCCE": {
+"start_us": 1792635000308456,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261024_0210_BEHUMA": {
+"start_us": 1792807800160400,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0205_BEOUDS": {
+"start_us": 1792634700165642,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0730_BEOUDS": {
+"start_us": 1792654200165903,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0205_FRMAUB": {
+"start_us": 1792634700240416,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261026_0035_BEOUDS": {
+"start_us": 1792974900169396,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261023_0750_FRMAUB": {
+"start_us": 1792741800230779,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0825_BEHUMA": {
+"start_us": 1792657500172224,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0820_BEHUMA": {
+"start_us": 1792916400167795,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0520_BEUCCE": {
+"start_us": 1792646400308264,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261025_0300_BEOUDS": {
+"start_us": 1792897200160581,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261024_0835_FRMAUB": {
+"start_us": 1792830900229154,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0520_BEOTTI": {
+"start_us": 1792646402766981,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66712,
+"ant_long": 4.5794966666666665,
+"ant_alt": 98.2,
+"samplerate": 5512.487674575
+},
+"20261025_0740_BEHUMA": {
+"start_us": 1792914000317675,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0630_BEOUDS": {
+"start_us": 1792909800340710,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0700_BEOUDS": {
+"start_us": 1792998000339536,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0540_BEHUMA": {
+"start_us": 1792647600161995,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261025_0435_BEOUDS": {
+"start_us": 1792902900161519,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261026_0700_FRMAUB": {
+"start_us": 1792998000229499,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261025_0435_FRMAUB": {
+"start_us": 1792902900227903,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261022_0210_BEOTTI": {
+"start_us": 1792635002485169,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66718,
+"ant_long": 4.579548333333333,
+"ant_alt": 98.3,
+"samplerate": 5512.485114125
+},
+"20261024_0835_BEOUDS": {
+"start_us": 1792830900171164,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261022_0440_BEHUMA": {
+"start_us": 1792644000172654,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261024_0525_BEHUMA": {
+"start_us": 1792819500160516,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261023_0745_BEOTTI": {
+"start_us": 1792741502675646,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667123333333336,
+"ant_long": 4.579525,
+"ant_alt": 81.9,
+"samplerate": 5512.4871952
+},
+"20261023_1245_BEHUMA": {
+"start_us": 1792759500161452,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261022_0820_BEHUMA": {
+"start_us": 1792657200172270,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0625_BEOUDS": {
+"start_us": 1792477500168816,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0745_BEUCCE": {
+"start_us": 1792568700201957,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261020_1340_BEHUMA": {
+"start_us": 1792503600165289,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0610_BEOTTI": {
+"start_us": 1792563002254420,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66717333333333,
+"ant_long": 4.579503333333333,
+"ant_alt": 90.8,
+"samplerate": 5512.486899625
+},
+"20261020_0620_BEHUMA": {
+"start_us": 1792477200165870,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0520_FRMAUB": {
+"start_us": 1792473600234976,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0710_BEHUMA": {
+"start_us": 1792480200166666,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_1810_BEHUMA": {
+"start_us": 1792519800165800,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0700_BEOUDS": {
+"start_us": 1792566000166913,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0520_BEHUMA": {
+"start_us": 1792473600166055,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0655_BEHUMA": {
+"start_us": 1792565700173968,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0920_BEUCCE": {
+"start_us": 1792401600166759,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261020_0345_BEOUDS": {
+"start_us": 1792467900170153,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0800_BEHUMA": {
+"start_us": 1792396800177332,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0750_BEOUDS": {
+"start_us": 1792569000176529,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0745_BEOTTI": {
+"start_us": 1792395901960453,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66702333333333,
+"ant_long": 4.579575,
+"ant_alt": 91.9,
+"samplerate": 5512.4877925
+},
+"20261019_0830_BEHUMA": {
+"start_us": 1792398600176840,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0635_BEHUMA": {
+"start_us": 1792478100166026,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0610_BEUCCE": {
+"start_us": 1792563000202705,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0255_BEOUDS": {
+"start_us": 1792551300177064,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0605_BEOUDS": {
+"start_us": 1792562700164584,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0610_BEOUDS": {
+"start_us": 1792563000167346,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0510_BEHUMA": {
+"start_us": 1792386600176645,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_1350_BEHUMA": {
+"start_us": 1792417800166833,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_1005_BEHUMA": {
+"start_us": 1792404300167513,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_1335_BEOUDS": {
+"start_us": 1792416900169269,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_1010_BEHUMA": {
+"start_us": 1792491000165858,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0345_BEUCCE": {
+"start_us": 1792467900337586,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261020_1335_BEOUDS": {
+"start_us": 1792503300167757,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0730_BEOUDS": {
+"start_us": 1792395000169744,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0740_BEOUDS": {
+"start_us": 1792482000171021,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0610_FRMAUB": {
+"start_us": 1792563000243520,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0605_FRMAUB": {
+"start_us": 1792389900236039,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0520_BEUCCE": {
+"start_us": 1792473600337143,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261019_0645_BEHUMA": {
+"start_us": 1792392300167617,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0430_BEUCCE": {
+"start_us": 1792557000212164,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0705_BEHUMA": {
+"start_us": 1792566300164719,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0720_BEOUDS": {
+"start_us": 1792567200166870,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0745_FRMAUB": {
+"start_us": 1792395900235095,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0430_BEUCCE": {
+"start_us": 1792384200339899,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261020_0945_BEHUMA": {
+"start_us": 1792489500166475,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0705_BEHUMA": {
+"start_us": 1792479900175384,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_1010_BEUCCE": {
+"start_us": 1792491000164151,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0840_BEHUMA": {
+"start_us": 1792572000164827,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0720_BEHUMA": {
+"start_us": 1792567200173825,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0605_BEUCCE": {
+"start_us": 1792389900167060,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0900_BEOUDS": {
+"start_us": 1792573200164197,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0825_BEOUDS": {
+"start_us": 1792398300169968,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0655_BEOUDS": {
+"start_us": 1792479300167983,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0520_BEOUDS": {
+"start_us": 1792473600168482,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0620_BEOUDS": {
+"start_us": 1792390800170218,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_1010_FRMAUB": {
+"start_us": 1792491000244131,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0430_BEOUDS": {
+"start_us": 1792384200177255,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0855_BEOUDS": {
+"start_us": 1792400100179567,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0620_BEOUDS": {
+"start_us": 1792477200168393,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0835_BEHUMA": {
+"start_us": 1792571700164633,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0705_BEOUDS": {
+"start_us": 1792479900177579,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0430_FRMAUB": {
+"start_us": 1792557000233819,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0825_BEHUMA": {
+"start_us": 1792398300167555,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_1330_BEHUMA": {
+"start_us": 1792416600176926,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0935_BEOUDS": {
+"start_us": 1792488900167875,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0745_BEUCCE": {
+"start_us": 1792395900338395,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261019_0920_BEOTTI": {
+"start_us": 1792401602008433,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66685666666667,
+"ant_long": 4.579393333333333,
+"ant_alt": 143.1,
+"samplerate": 5512.487733725
+},
+"20261019_0735_BEHUMA": {
+"start_us": 1792395300167354,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0700_BEHUMA": {
+"start_us": 1792566000164794,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0430_BEOTTI": {
+"start_us": 1792384201836553,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667213333333336,
+"ant_long": 4.5795433333333335,
+"ant_alt": 104.1,
+"samplerate": 5512.487573925
+},
+"20261021_0430_BEHUMA": {
+"start_us": 1792557000164666,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0810_BEOUDS": {
+"start_us": 1792483800168024,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0655_BEHUMA": {
+"start_us": 1792392900167460,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0745_BEOUDS": {
+"start_us": 1792568700167170,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0720_BEHUMA": {
+"start_us": 1792480800166104,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0625_BEHUMA": {
+"start_us": 1792477500165890,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0345_BEOTTI": {
+"start_us": 1792467902010066,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715333333333,
+"ant_long": 4.579605,
+"ant_alt": 100.9,
+"samplerate": 5512.487517925
+},
+"20261020_0835_BEOUDS": {
+"start_us": 1792485300178149,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_1340_BEOUDS": {
+"start_us": 1792503600167715,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0605_BEHUMA": {
+"start_us": 1792389900167448,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0650_BEHUMA": {
+"start_us": 1792479000166246,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0900_BEHUMA": {
+"start_us": 1792573200164534,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0655_BEUCCE": {
+"start_us": 1792479300162154,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261020_0935_BEHUMA": {
+"start_us": 1792488900175226,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0655_BEOUDS": {
+"start_us": 1792392900169899,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0700_BEOUDS": {
+"start_us": 1792479600172081,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0605_BEOTTI": {
+"start_us": 1792389901910022,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66716,
+"ant_long": 4.5795216666666665,
+"ant_alt": 85.2,
+"samplerate": 5512.487005425
+},
+"20261019_0745_BEOUDS": {
+"start_us": 1792395900170652,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_1010_BEOUDS": {
+"start_us": 1792491000175102,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0800_BEOUDS": {
+"start_us": 1792396800173364,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0655_FRMAUB": {
+"start_us": 1792479300244860,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0605_BEOUDS": {
+"start_us": 1792389900169912,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0255_BEOTTI": {
+"start_us": 1792551302343127,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667093333333334,
+"ant_long": 4.579463333333333,
+"ant_alt": 118.5,
+"samplerate": 5512.4835533
+},
+"20261020_0755_BEHUMA": {
+"start_us": 1792482900166232,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0745_BEHUMA": {
+"start_us": 1792395900166952,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0920_BEHUMA": {
+"start_us": 1792401600176641,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0340_FRMAUB": {
+"start_us": 1792467600235621,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0655_BEOTTI": {
+"start_us": 1792479302291608,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66708,
+"ant_long": 4.579401666666667,
+"ant_alt": 109.5,
+"samplerate": 5512.4860091
+},
+"20261021_0255_BEHUMA": {
+"start_us": 1792551300164423,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0015_BEHUMA": {
+"start_us": 1792541700174392,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0630_BEOUDS": {
+"start_us": 1792564200167475,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0835_BEOUDS": {
+"start_us": 1792571700166357,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0755_BEOUDS": {
+"start_us": 1792482900179500,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0015_BEOUDS": {
+"start_us": 1792541700177147,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_1330_BEOUDS": {
+"start_us": 1792416600169978,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0520_BEOTTI": {
+"start_us": 1792473602057776,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715,
+"ant_long": 4.5794966666666665,
+"ant_alt": 96.5,
+"samplerate": 5512.487531375
+},
+"20261020_1010_BEOTTI": {
+"start_us": 1792491002204715,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.667225,
+"ant_long": 4.579596666666666,
+"ant_alt": 68.5,
+"samplerate": 5512.48702465
+},
+"20261021_0745_BEHUMA": {
+"start_us": 1792568700164911,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0255_BEUCCE": {
+"start_us": 1792551300202219,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0745_BEOTTI": {
+"start_us": 1792568702302674,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66710333333333,
+"ant_long": 4.579561666666667,
+"ant_alt": 79.8,
+"samplerate": 5512.4864527
+},
+"20261020_0835_BEHUMA": {
+"start_us": 1792485300166410,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0340_BEOUDS": {
+"start_us": 1792467600168757,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0735_BEHUMA": {
+"start_us": 1792568100164777,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0835_BEOTTI": {
+"start_us": 1792485302156461,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66715333333333,
+"ant_long": 4.579508333333333,
+"ant_alt": 91.9,
+"samplerate": 5512.48664545
+},
+"20261019_1335_BEHUMA": {
+"start_us": 1792416900176395,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0340_BEUCCE": {
+"start_us": 1792467600156499,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261021_0430_BEOTTI": {
+"start_us": 1792557002389749,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66696833333334,
+"ant_long": 4.579445,
+"ant_alt": 89.4,
+"samplerate": 5512.4873275
+},
+"20261020_0340_BEHUMA": {
+"start_us": 1792467600166212,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0340_BEOTTI": {
+"start_us": 1792467602007526,
+"beacon_lat": 50.0972,
+"beacon_long": 4.5847,
+"beacon_alt": 231.0,
+"ant_lat": 50.66717166666667,
+"ant_long": 4.579595,
+"ant_alt": 99.7,
+"samplerate": 5512.487515525
+},
+"20261020_0740_BEHUMA": {
+"start_us": 1792482000165856,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0920_FRMAUB": {
+"start_us": 1792401600236585,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0655_BEHUMA": {
+"start_us": 1792479300165882,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261020_0345_FRMAUB": {
+"start_us": 1792467900235087,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0635_BEOUDS": {
+"start_us": 1792478100178252,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0430_FRMAUB": {
+"start_us": 1792384200236114,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261019_0730_BEHUMA": {
+"start_us": 1792395000167739,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_1010_BEHUMA": {
+"start_us": 1792404600167627,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0255_FRMAUB": {
+"start_us": 1792551300233526,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261020_0835_FRMAUB": {
+"start_us": 1792485300235497,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261021_0430_BEOUDS": {
+"start_us": 1792557000176336,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_0920_BEOUDS": {
+"start_us": 1792401600169579,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261019_1350_BEOUDS": {
+"start_us": 1792417800180392,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0345_BEHUMA": {
+"start_us": 1792467900166582,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261021_0745_FRMAUB": {
+"start_us": 1792568700233749,
+"beacon_lat": 50.0975,
+"beacon_long": 4.58833,
+"beacon_alt": 236.0,
+"ant_lat": 50.277938,
+"ant_long": 3.986977,
+"ant_alt": 145.0,
+"samplerate": 6048.0
+},
+"20261021_0345_BEOUDS": {
+"start_us": 1792554300174121,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261020_0835_BEUCCE": {
+"start_us": 1792485300174655,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.79754,
+"ant_long": 4.35683,
+"ant_alt": 101.0,
+"samplerate": 6048.0
+},
+"20261019_0830_BEOUDS": {
+"start_us": 1792398600179677,
+"beacon_lat": 50.097526,
+"beacon_long": 4.588525,
+"beacon_alt": 273.3,
+"ant_lat": 51.033242,
+"ant_long": 5.602586,
+"ant_alt": 64.0,
+"samplerate": 6048.0
+},
+"20261021_0610_BEHUMA": {
+"start_us": 1792563000164603,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+},
+"20261019_0430_BEHUMA": {
+"start_us": 1792384200167704,
+"beacon_lat": 50.097556,
+"beacon_long": 4.588522,
+"beacon_alt": 236.0,
+"ant_lat": 50.192439,
+"ant_long": 5.254853,
+"ant_alt": 295.0,
+"samplerate": 6048.0
+}
+}

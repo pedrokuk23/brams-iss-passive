@@ -1,0 +1,640 @@
+{
+ "gain_correction_dB": {
+  "BEHUMA": -1.0,
+  "BEOTTI": 0.0,
+  "FRMAUB": -2.0,
+  "BEUCCE": 1.0
+ },
+ "by_class": {
+  "ISS complex": {
+   "n": 419,
+   "observed": 171,
+   "predicted": 242.8,
+   "pred_95": [
+    213,
+    274
+   ]
+  },
+  "AST SpaceMobile": {
+   "n": 318,
+   "observed": 39,
+   "predicted": 22.9,
+   "pred_95": [
+    14,
+    33
+   ]
+  },
+  "Starlink DTC": {
+   "n": 3035,
+   "observed": 402,
+   "predicted": 370.8,
+   "pred_95": [
+    334,
+    409
+   ]
+  },
+  "Starlink V2-mini": {
+   "n": 12031,
+   "observed": 933,
+   "predicted": 1021.8,
+   "pred_95": [
+    960,
+    1085
+   ]
+  },
+  "Starlink V1.x": {
+   "n": 5700,
+   "observed": 47,
+   "predicted": 13.1,
+   "pred_95": [
+    7,
+    21
+   ]
+  }
+ },
+ "by_rx": {
+  "BEOUDS": {
+   "n": 10397,
+   "observed": 950,
+   "predicted": 865.0,
+   "pred_95": [
+    808,
+    923
+   ]
+  },
+  "BEHUMA": {
+   "n": 10036,
+   "observed": 522,
+   "predicted": 669.2,
+   "pred_95": [
+    619,
+    720
+   ]
+  },
+  "BEOTTI": {
+   "n": 442,
+   "observed": 60,
+   "predicted": 55.8,
+   "pred_95": [
+    42,
+    71
+   ]
+  },
+  "FRMAUB": {
+   "n": 184,
+   "observed": 37,
+   "predicted": 23.6,
+   "pred_95": [
+    15,
+    34
+   ]
+  },
+  "BEUCCE": {
+   "n": 444,
+   "observed": 23,
+   "predicted": 57.7,
+   "pred_95": [
+    43,
+    73
+   ]
+  }
+ },
+ "by_bin": {
+  "structure": [
+   {
+    "lo": 0,
+    "hi": 1,
+    "n": 160,
+    "observed": 5,
+    "predicted": 0.2,
+    "pred_95": [
+     0,
+     1
+    ]
+   },
+   {
+    "lo": 1,
+    "hi": 3,
+    "n": 78,
+    "observed": 29,
+    "predicted": 64.3,
+    "pred_95": [
+     49,
+     80
+    ]
+   },
+   {
+    "lo": 3,
+    "hi": 10,
+    "n": 111,
+    "observed": 67,
+    "predicted": 108.5,
+    "pred_95": [
+     89,
+     129
+    ]
+   },
+   {
+    "lo": 10,
+    "hi": 30,
+    "n": 70,
+    "observed": 70,
+    "predicted": 69.8,
+    "pred_95": [
+     54,
+     87
+    ]
+   },
+   {
+    "lo": 30,
+    "hi": 100,
+    "n": 0,
+    "observed": 0,
+    "predicted": 0,
+    "pred_95": [
+     0,
+     0
+    ]
+   },
+   {
+    "lo": 100,
+    "hi": 1000000000.0,
+    "n": 0,
+    "observed": 0,
+    "predicted": 0,
+    "pred_95": [
+     0,
+     0
+    ]
+   }
+  ],
+  "plate_shadow": [
+   {
+    "lo": 0,
+    "hi": 1,
+    "n": 1086,
+    "observed": 9,
+    "predicted": 1.1,
+    "pred_95": [
+     0,
+     3
+    ]
+   },
+   {
+    "lo": 1,
+    "hi": 3,
+    "n": 859,
+    "observed": 13,
+    "predicted": 1.6,
+    "pred_95": [
+     0,
+     4
+    ]
+   },
+   {
+    "lo": 3,
+    "hi": 10,
+    "n": 4312,
+    "observed": 727,
+    "predicted": 524.7,
+    "pred_95": [
+     480,
+     570
+    ]
+   },
+   {
+    "lo": 10,
+    "hi": 30,
+    "n": 1031,
+    "observed": 287,
+    "predicted": 539.7,
+    "pred_95": [
+     495,
+     586
+    ]
+   },
+   {
+    "lo": 30,
+    "hi": 100,
+    "n": 110,
+    "observed": 43,
+    "predicted": 103.7,
+    "pred_95": [
+     84,
+     124
+    ]
+   },
+   {
+    "lo": 100,
+    "hi": 1000000000.0,
+    "n": 0,
+    "observed": 0,
+    "predicted": 0,
+    "pred_95": [
+     0,
+     0
+    ]
+   }
+  ],
+  "plate_sunlit": [
+   {
+    "lo": 0,
+    "hi": 1,
+    "n": 2278,
+    "observed": 0,
+    "predicted": 2.3,
+    "pred_95": [
+     0,
+     6
+    ]
+   },
+   {
+    "lo": 1,
+    "hi": 3,
+    "n": 1689,
+    "observed": 34,
+    "predicted": 1.7,
+    "pred_95": [
+     0,
+     5
+    ]
+   },
+   {
+    "lo": 3,
+    "hi": 10,
+    "n": 7893,
+    "observed": 46,
+    "predicted": 47.3,
+    "pred_95": [
+     34,
+     61
+    ]
+   },
+   {
+    "lo": 10,
+    "hi": 30,
+    "n": 1628,
+    "observed": 245,
+    "predicted": 104.0,
+    "pred_95": [
+     84,
+     124
+    ]
+   },
+   {
+    "lo": 30,
+    "hi": 100,
+    "n": 197,
+    "observed": 17,
+    "predicted": 101.6,
+    "pred_95": [
+     82,
+     122
+    ]
+   },
+   {
+    "lo": 100,
+    "hi": 1000000000.0,
+    "n": 1,
+    "observed": 0,
+    "predicted": 0.9,
+    "pred_95": [
+     0,
+     3
+    ]
+   }
+  ]
+ },
+ "all": {
+  "n": 21503,
+  "observed": 1592,
+  "predicted": 1671.3,
+  "pred_95": [
+   1592,
+   1752
+  ]
+ },
+ "impossible": {
+  "phase1": {
+   "n": 9978,
+   "k": 13,
+   "ci": [
+    0.0006938980521876414,
+    0.002226910562397963
+   ]
+  },
+  "phase2": {
+   "n": 3524,
+   "k": 14,
+   "ci": [
+    0.002173593908777178,
+    0.006656638253978048
+   ]
+  }
+ },
+ "by_class_plates_only": {
+  "n": 21084,
+  "observed": 1421,
+  "predicted": 1428.5,
+  "pred_95": [
+   1355,
+   1503
+  ]
+ },
+ "table": [
+  {
+   "cls": "ISS complex",
+   "rx": "BEOUDS",
+   "n": 85,
+   "observed": 42,
+   "predicted": 59.9,
+   "pred_95": [
+    45,
+    75
+   ]
+  },
+  {
+   "cls": "ISS complex",
+   "rx": "BEHUMA",
+   "n": 85,
+   "observed": 45,
+   "predicted": 59.6,
+   "pred_95": [
+    45,
+    75
+   ]
+  },
+  {
+   "cls": "ISS complex",
+   "rx": "BEOTTI",
+   "n": 85,
+   "observed": 40,
+   "predicted": 49.7,
+   "pred_95": [
+    36,
+    64
+   ]
+  },
+  {
+   "cls": "ISS complex",
+   "rx": "FRMAUB",
+   "n": 78,
+   "observed": 27,
+   "predicted": 23.5,
+   "pred_95": [
+    14,
+    33
+   ]
+  },
+  {
+   "cls": "ISS complex",
+   "rx": "BEUCCE",
+   "n": 86,
+   "observed": 17,
+   "predicted": 50.1,
+   "pred_95": [
+    37,
+    64
+   ]
+  },
+  {
+   "cls": "AST SpaceMobile",
+   "rx": "BEOUDS",
+   "n": 139,
+   "observed": 21,
+   "predicted": 13.6,
+   "pred_95": [
+    7,
+    21
+   ]
+  },
+  {
+   "cls": "AST SpaceMobile",
+   "rx": "BEHUMA",
+   "n": 143,
+   "observed": 16,
+   "predicted": 8.5,
+   "pred_95": [
+    3,
+    15
+   ]
+  },
+  {
+   "cls": "AST SpaceMobile",
+   "rx": "BEOTTI",
+   "n": 16,
+   "observed": 1,
+   "predicted": 0.3,
+   "pred_95": [
+    0,
+    2
+   ]
+  },
+  {
+   "cls": "AST SpaceMobile",
+   "rx": "FRMAUB",
+   "n": 3,
+   "observed": 0,
+   "predicted": 0.0,
+   "pred_95": [
+    0,
+    0
+   ]
+  },
+  {
+   "cls": "AST SpaceMobile",
+   "rx": "BEUCCE",
+   "n": 17,
+   "observed": 1,
+   "predicted": 0.4,
+   "pred_95": [
+    0,
+    2
+   ]
+  },
+  {
+   "cls": "Starlink DTC",
+   "rx": "BEOUDS",
+   "n": 1146,
+   "observed": 225,
+   "predicted": 207.5,
+   "pred_95": [
+    180,
+    236
+   ]
+  },
+  {
+   "cls": "Starlink DTC",
+   "rx": "BEHUMA",
+   "n": 1186,
+   "observed": 143,
+   "predicted": 150.6,
+   "pred_95": [
+    127,
+    175
+   ]
+  },
+  {
+   "cls": "Starlink DTC",
+   "rx": "BEOTTI",
+   "n": 299,
+   "observed": 19,
+   "predicted": 5.6,
+   "pred_95": [
+    1,
+    11
+   ]
+  },
+  {
+   "cls": "Starlink DTC",
+   "rx": "FRMAUB",
+   "n": 101,
+   "observed": 10,
+   "predicted": 0.1,
+   "pred_95": [
+    0,
+    1
+   ]
+  },
+  {
+   "cls": "Starlink DTC",
+   "rx": "BEUCCE",
+   "n": 303,
+   "observed": 5,
+   "predicted": 7.0,
+   "pred_95": [
+    2,
+    13
+   ]
+  },
+  {
+   "cls": "Starlink V2-mini",
+   "rx": "BEOUDS",
+   "n": 6119,
+   "observed": 632,
+   "predicted": 577.5,
+   "pred_95": [
+    531,
+    625
+   ]
+  },
+  {
+   "cls": "Starlink V2-mini",
+   "rx": "BEHUMA",
+   "n": 5904,
+   "observed": 301,
+   "predicted": 444.3,
+   "pred_95": [
+    403,
+    486
+   ]
+  },
+  {
+   "cls": "Starlink V2-mini",
+   "rx": "BEOTTI",
+   "n": 6,
+   "observed": 0,
+   "predicted": 0.1,
+   "pred_95": [
+    0,
+    1
+   ]
+  },
+  {
+   "cls": "Starlink V2-mini",
+   "rx": "BEUCCE",
+   "n": 2,
+   "observed": 0,
+   "predicted": 0.0,
+   "pred_95": [
+    0,
+    0
+   ]
+  },
+  {
+   "cls": "Starlink V1.x",
+   "rx": "BEOUDS",
+   "n": 2908,
+   "observed": 30,
+   "predicted": 6.5,
+   "pred_95": [
+    2,
+    12
+   ]
+  },
+  {
+   "cls": "Starlink V1.x",
+   "rx": "BEHUMA",
+   "n": 2718,
+   "observed": 17,
+   "predicted": 6.2,
+   "pred_95": [
+    2,
+    12
+   ]
+  },
+  {
+   "cls": "Starlink V1.x",
+   "rx": "BEOTTI",
+   "n": 36,
+   "observed": 0,
+   "predicted": 0.2,
+   "pred_95": [
+    0,
+    1
+   ]
+  },
+  {
+   "cls": "Starlink V1.x",
+   "rx": "FRMAUB",
+   "n": 2,
+   "observed": 0,
+   "predicted": 0.0,
+   "pred_95": [
+    0,
+    0
+   ]
+  },
+  {
+   "cls": "Starlink V1.x",
+   "rx": "BEUCCE",
+   "n": 36,
+   "observed": 0,
+   "predicted": 0.2,
+   "pred_95": [
+    0,
+    1
+   ]
+  }
+ ],
+ "no_sunlight_split": {
+  "observed": 1592,
+  "predicted": 1924.9
+ },
+ "no_gain_correction": {
+  "observed": 1592,
+  "predicted": 1620.7,
+  "by_rx": {
+   "BEOUDS": {
+    "observed": 950,
+    "predicted": 704.9
+   },
+   "BEHUMA": {
+    "observed": 522,
+    "predicted": 782.3
+   },
+   "BEOTTI": {
+    "observed": 60,
+    "predicted": 53.3
+   },
+   "FRMAUB": {
+    "observed": 37,
+    "predicted": 32.1
+   },
+   "BEUCCE": {
+    "observed": 23,
+    "predicted": 48.1
+   }
+  }
+ }
+}

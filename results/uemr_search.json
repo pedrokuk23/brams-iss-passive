@@ -1,0 +1,62 @@
+{
+ "n_files": 148,
+ "thresholds": {
+  "BEHUMA": 5.0045249430845,
+  "BEOTTI": 4.211867022872002,
+  "BEOUDS": 5.2837826047050145,
+  "BEUCCE": 4.734786744200895,
+  "FRMAUB": 4.203394337211161
+ },
+ "all": {
+  "n_pass": 2874,
+  "exceed": 10,
+  "exceed_also_bistatic": 1,
+  "n_null": 2874,
+  "null_exceed": 2,
+  "bistatic_detections_in_these_passes": 135
+ },
+ "Starlink V2-mini|plate_shadow": {
+  "n": 278,
+  "exceed": 1,
+  "exceed_not_bistatic": 1,
+  "bistatic_detections": 32,
+  "rate_not_bistatic": 0.0035971223021582736,
+  "ci": [
+   9.106710488149054e-05,
+   0.019877864795082672
+  ]
+ },
+ "Starlink V2-mini|plate_sunlit": {
+  "n": 2023,
+  "exceed": 4,
+  "exceed_not_bistatic": 4,
+  "bistatic_detections": 37,
+  "rate_not_bistatic": 0.001977261492832427,
+  "ci": [
+   0.0005389917566042694,
+   0.0050547694947225795
+  ]
+ },
+ "Starlink DTC|plate_shadow": {
+  "n": 102,
+  "exceed": 0,
+  "exceed_not_bistatic": 0,
+  "bistatic_detections": 15,
+  "rate_not_bistatic": 0.0,
+  "ci": [
+   0.0,
+   0.03551932665788406
+  ]
+ },
+ "Starlink DTC|plate_sunlit": {
+  "n": 471,
+  "exceed": 5,
+  "exceed_not_bistatic": 4,
+  "bistatic_detections": 51,
+  "rate_not_bistatic": 0.008492569002123142,
+  "ci": [
+   0.002318647789598489,
+   0.02160063615430241
+  ]
+ }
+}
