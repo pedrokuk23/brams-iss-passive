@@ -15,6 +15,14 @@ shard,nsh=(int(ARGS[0]),int(ARGS[1])) if len(ARGS)>1 else (0,1)
 WD=os.environ.get('P2DIR','../data/raw_wav_phase2/')
 path={os.path.basename(p)[11:31]:p for d in WD.split(':') if d for p in glob.glob(os.path.join(d,'*.wav'))}
 if not path: sys.exit(f'{__file__}: no WAV files found in '+WD)
+
+# The published run used the Phase 2 recordings of 19-26 October that were at hand (every third one; frozen list below); SUBSET=none uses
+# every file found.
+_SUB=os.environ.get('SUBSET','../data/raw_wav_phase2/SUBSET_UEMR_SEARCH.txt')
+if _SUB!='none':
+    _keep={l.strip()[11:31] for l in open(_SUB) if l.strip()}
+    path={k:v for k,v in path.items() if k in _keep}
+    if len(path)<len(_keep): print(f'warning: {len(_keep)-len(path)} files of {_SUB} are missing; results will differ')
 BY=json.load(open('../results/phase2_byfile.json'))
 sets={}
 for f in sorted(glob.glob('../data/tle/phase2/*.txt')):
@@ -29,8 +37,8 @@ def oneway(sat,t0,RX,tg):
     jd=(t0+tg)/86400.0+2440587.5; ji=np.floor(jd-0.5)+0.5; fr=jd-ji; e,r,v=sat.sgp4_array(ji,fr); g=np.array([gstime(a+b) for a,b in zip(ji,fr)])
     X=np.stack([r[:,0]*np.cos(g)+r[:,1]*np.sin(g),-r[:,0]*np.sin(g)+r[:,1]*np.cos(g),r[:,2]],1)
     return -np.gradient(np.linalg.norm(X-RX,axis=1),tg)*1e3/F.LAM
-files=sorted(k for k in path if k in BY)[::int(os.environ.get('EVERY','1'))][shard::nsh]   # EVERY=3: every third recording
-of=f'../results/uemr_search_{shard}.json'; out=json.load(open(of)) if os.path.exists(of) else []
+files=sorted(k for k in path if k in BY)[::int(os.environ.get('EVERY','1'))][shard::nsh]   # with SUBSET=none, EVERY=3 takes every third recording
+of=f"../results/uemr_search{os.environ.get('OUTTAG','')}_{shard}.json"; out=json.load(open(of)) if os.path.exists(of) else []
 done={r['file'] for r in out if r.get('case')=='filedone'}
 for k in files:
     if k in done: continue

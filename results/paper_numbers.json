@@ -1,0 +1,495 @@
+{
+ "n": 58,
+ "entries": [
+  {
+   "key": "p1_pairs_rms",
+   "value": 20.16171952137214,
+   "text": "an rms of 20~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_pairs_mean",
+   "value": -0.006577693573739829,
+   "text": "a mean of 0~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_rms",
+   "value": 18.11053910768291,
+   "text": "with an rms of 18~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_0",
+   "value": 5.76028211625238,
+   "text": "$+6$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_1",
+   "value": -1.8381175901757416,
+   "text": "$-2$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_2",
+   "value": -21.15559431728005,
+   "text": "$-21$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_3",
+   "value": -16.085550018328213,
+   "text": "$-16$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_perpass_4",
+   "value": 29.95153614108898,
+   "text": "$+30$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_slope",
+   "value": 0.908366801638178,
+   "text": "$0.91\\pm0.11$",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_latency",
+   "value": 8.807138173062903,
+   "text": "$8.7\\pm1.1$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_oem_range_lo",
+   "value": -167.81822617465897,
+   "text": "$-168$ to $+87$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_n_slots",
+   "value": 45.0,
+   "text": "the 45 five-minute slots",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_n_passes",
+   "value": 42.0,
+   "text": "42 passes, because three passes",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_n_fits",
+   "value": 140.0,
+   "text": "140 receiver fits",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_lag_H",
+   "value": 10.90362770910065,
+   "text": "$10.9\\pm0.8$, $7.9\\pm1.0$ and $9.8\\pm0.6$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_lat_HU",
+   "value": 8.421676402319918,
+   "text": "$8.4\\pm1.0$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_lat_HUM",
+   "value": 10.134757967429458,
+   "text": "$10.1\\pm0.8$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p2_rx_agree",
+   "value": 4.7506473243807585,
+   "text": "agree to 4.8~ms (standard deviation, 97 degrees of freedom)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "both_fresh_rms",
+   "value": 36.302073025404866,
+   "text": "36~ms rms",
+   "where": [
+    "main",
+    "abstract"
+   ]
+  },
+  {
+   "key": "both_fresh_n",
+   "value": 17.0,
+   "text": "17 passes",
+   "where": [
+    "main",
+    "abstract"
+   ]
+  },
+  {
+   "key": "both_fresh_mean",
+   "value": 26.996120245444732,
+   "text": "a mean of $+27$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "both_fresh_n1",
+   "value": 3.0,
+   "text": "(3 of Phase~1 and 14 of Phase~2)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "both_fresh_m",
+   "value": 268.635340387996,
+   "text": "about 270~m",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "both_slope",
+   "value": 0.9665409821520785,
+   "text": "slope of $0.97\\pm0.08$ ($r=0.96$)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "within_night",
+   "value": 9.969902089412374,
+   "text": "scatter by 10~ms (standard deviation, 9 degrees of freedom), against 26~ms between the means of the eight nights",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "night_mean",
+   "value": 25.34448376578171,
+   "text": "($+25\\pm9$~ms over the eight nights)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "age_1_2d",
+   "value": 132.5717350672287,
+   "text": "133~ms rms for 1--2 days (16 passes, of which the two of Phase~1 agree to 22~ms)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "age_2d",
+   "value": 359.27789750820614,
+   "text": "359~ms beyond two days (6 passes)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "creation_rms",
+   "value": 242.03785326546856,
+   "text": "becomes 242~ms (21 passes)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "creation_rms_abs",
+   "value": 242.03785326546856,
+   "text": "242~ms counting age from file creation",
+   "where": [
+    "abstract"
+   ]
+  },
+  {
+   "key": "lat_p1_s10",
+   "value": 8.70828128529105,
+   "text": "8.7~ms in Phase~1, Humain and Uccle",
+   "where": [
+    "supp"
+   ]
+  },
+  {
+   "key": "order_dt",
+   "value": -101.91667716212245,
+   "text": "$-102$, $-31$ and $+98$~ms on average",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "order_n",
+   "value": 16.0,
+   "text": "(16, 15 and 11 passes)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "post_rms",
+   "value": 85.5472229650285,
+   "text": "(86~ms rms over 41 passes)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "sgp4_rms",
+   "value": 55.61898038733533,
+   "text": "56--61~ms rms",
+   "where": [
+    "main",
+    "supp"
+   ]
+  },
+  {
+   "key": "sgp4_r",
+   "value": 0.9094854701786341,
+   "text": "$r=0.91$",
+   "where": [
+    "main",
+    "supp"
+   ]
+  },
+  {
+   "key": "sgp4_order",
+   "value": -105.77413252064397,
+   "text": "($-106$, $-54$ and $+57$~ms",
+   "where": [
+    "main",
+    "supp"
+   ]
+  },
+  {
+   "key": "sgp4_npass",
+   "value": 40.0,
+   "text": "at the 40 Phase~2 passes",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "sgp4_scatter",
+   "value": 94.11650368361593,
+   "text": "from 94 to 42~ms",
+   "where": [
+    "supp"
+   ]
+  },
+  {
+   "key": "far_p1",
+   "value": 0.12105277042534668,
+   "text": "0.12\\% in Phase~1",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "far_p2",
+   "value": 0.15951577022708033,
+   "text": "0.16\\% in Phase~2",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "far_pooled_abstract",
+   "value": null,
+   "text": "0.12--0.16\\%",
+   "where": [
+    "abstract",
+    "main"
+   ]
+  },
+  {
+   "key": "coinc",
+   "value": 330.0,
+   "text": "Of the 6,830 passes",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "coinc2",
+   "value": 330.0,
+   "text": "837 were detected at one receiver or more and 330 at two or more, against 57 expected",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "coinc_tau",
+   "value": 0.9855421686746988,
+   "text": "within 1~s in 409 of the 415 pairs",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "coinc_null",
+   "value": 11.0,
+   "text": "at one receiver in 11 cases and never at two",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "uemr_exp",
+   "value": 6.905232639247231,
+   "text": "about 7 exceedances are expected",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "uemr_p",
+   "value": 0.16002574951405377,
+   "text": "0.16 for a Poisson count, 0.22 for the exact",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "uemr_ul",
+   "value": 0.3499299442057993,
+   "text": "0.35\\% of passes for a Poisson count",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "uemr_ul0",
+   "value": 0.5901955196841302,
+   "text": "or 0.6\\% without",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "uemr_shadow_ul",
+   "value": 1.2422525176435566,
+   "text": "one-sided 95\\% upper bound 1.2\\%",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "alt_or",
+   "value": 49.970999334829344,
+   "text": "odds ratios are 50 (36--69) and 1.6 (1.2--2.3)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "alt_zen",
+   "value": 23.085553997194953,
+   "text": "23.1\\% against 0.6\\% at 450--500~km and 28.5\\% against 12.5\\% below 450~km",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "inj_clean",
+   "value": null,
+   "text": "steady echo is detected in 15, 40, 60 and 100\\% and the glint in 10, 40, 50 and 95\\%",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "feas_obs",
+   "value": 1592.0,
+   "text": "1,592",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "feas_pred",
+   "value": 1671.3,
+   "text": "1,671",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "shadow_zen",
+   "value": 23.435034192530246,
+   "text": "23\\%",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "sunlit_zen",
+   "value": 1.2635125649305068,
+   "text": "1.3\\%",
+   "where": [
+    "main"
+   ]
+  }
+ ],
+ "stale": [
+  "20--60~ms",
+  "18--39~ms",
+  "61~ms rms in",
+  "21~ms rms",
+  "sub-kilometer level",
+  "in 19 passes",
+  "set by the predictions",
+  "45 Phase~2 recordings",
+  "A likely cause",
+  "comparable to the drift",
+  "day-old",
+  "20-ms agreement",
+  "20--125~km",
+  "four of five receivers",
+  "below 0.2\\%",
+  "\\amarelo{20~ms rms",
+  "Poisson probability of 10 or more",
+  "about 0.35\\% of passes)"
+ ]
+}

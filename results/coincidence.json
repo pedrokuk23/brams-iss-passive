@@ -1,0 +1,164 @@
+{
+ "pass": {
+  "Starlink V2-mini": {
+   "n_groups": 3921,
+   "detected_at_least_1": 566,
+   "detected_at_least_2": 217,
+   "expected_at_least_2_if_independent": 37.047181841368975,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.07702116806937005,
+    "BEOUDS": 0.12267278755419536,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0
+   },
+   "dtau_s_median": 0.0,
+   "dtau_s_frac_le1": 0.9769585253456221,
+   "n_pairs": 217
+  },
+  "Starlink DTC": {
+   "n_groups": 872,
+   "detected_at_least_1": 209,
+   "detected_at_least_2": 97,
+   "expected_at_least_2_if_independent": 38.13364821588634,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.13646788990825687,
+    "BEOUDS": 0.19770114942528735,
+    "BEOTTI": 0.08361204013377926,
+    "BEUCCE": 0.046357615894039736,
+    "FRMAUB": 0.09900990099009901
+   },
+   "dtau_s_median": 0.0,
+   "dtau_s_frac_le1": 0.9942857142857143,
+   "n_pairs": 175
+  },
+  "Starlink V1.x": {
+   "n_groups": 1850,
+   "detected_at_least_1": 37,
+   "detected_at_least_2": 5,
+   "expected_at_least_2_if_independent": 0.2698779015502758,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.008108108108108109,
+    "BEOUDS": 0.013513513513513514,
+    "BEOTTI": 0.027777777777777776,
+    "BEUCCE": 0.027777777777777776,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": 0.0,
+   "dtau_s_frac_le1": 1.0,
+   "n_pairs": 5
+  },
+  "AST SpaceMobile": {
+   "n_groups": 131,
+   "detected_at_least_1": 21,
+   "detected_at_least_2": 11,
+   "expected_at_least_2_if_independent": 2.8560523446019594,
+   "per_receiver_fraction": {
+    "BEOUDS": 0.11450381679389313,
+    "BEHUMA": 0.11450381679389313,
+    "BEOTTI": 0.07407407407407407,
+    "BEUCCE": 0.10714285714285714,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": 0.0,
+   "dtau_s_frac_le1": 1.0,
+   "n_pairs": 18
+  },
+  "all non-ISS": {
+   "n_groups": 6830,
+   "detected_at_least_1": 837,
+   "detected_at_least_2": 330,
+   "expected_at_least_2_if_independent": 56.533362825804346,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.06649091974223785,
+    "BEOUDS": 0.10152358628772341,
+    "BEOTTI": 0.0731070496083551,
+    "BEUCCE": 0.04960835509138381,
+    "FRMAUB": 0.08333333333333333
+   },
+   "dtau_s_median": 0.0,
+   "dtau_s_frac_le1": 0.9855421686746988,
+   "n_pairs": 415
+  }
+ },
+ "null": {
+  "Starlink V2-mini": {
+   "n_groups": 3921,
+   "detected_at_least_1": 2,
+   "detected_at_least_2": 0,
+   "expected_at_least_2_if_independent": 1.1053007467620724e-13,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.0,
+    "BEOUDS": 0.000510073960724305,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0
+   },
+   "dtau_s_median": null,
+   "dtau_s_frac_le1": null,
+   "n_pairs": 0
+  },
+  "Starlink DTC": {
+   "n_groups": 872,
+   "detected_at_least_1": 5,
+   "detected_at_least_2": 0,
+   "expected_at_least_2_if_independent": 0.006880733944997016,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.0022935779816513763,
+    "BEOUDS": 0.0034482758620689655,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": null,
+   "dtau_s_frac_le1": null,
+   "n_pairs": 0
+  },
+  "Starlink V1.x": {
+   "n_groups": 1850,
+   "detected_at_least_1": 2,
+   "detected_at_least_2": 0,
+   "expected_at_least_2_if_independent": -2.045889499480147e-14,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.001081081081081081,
+    "BEOUDS": 0.0,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": null,
+   "dtau_s_frac_le1": null,
+   "n_pairs": 0
+  },
+  "AST SpaceMobile": {
+   "n_groups": 131,
+   "detected_at_least_1": 2,
+   "detected_at_least_2": 0,
+   "expected_at_least_2_if_independent": 3.408731630294426e-15,
+   "per_receiver_fraction": {
+    "BEOUDS": 0.0,
+    "BEHUMA": 0.015267175572519083,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": null,
+   "dtau_s_frac_le1": null,
+   "n_pairs": 0
+  },
+  "all non-ISS": {
+   "n_groups": 6830,
+   "detected_at_least_1": 11,
+   "detected_at_least_2": 0,
+   "expected_at_least_2_if_independent": 0.004393673111295619,
+   "per_receiver_fraction": {
+    "BEHUMA": 0.0008787346221441124,
+    "BEOUDS": 0.000732493407559332,
+    "BEOTTI": 0.0,
+    "BEUCCE": 0.0,
+    "FRMAUB": 0.0
+   },
+   "dtau_s_median": null,
+   "dtau_s_frac_le1": null,
+   "n_pairs": 0
+  }
+ }
+}

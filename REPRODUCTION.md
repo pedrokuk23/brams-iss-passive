@@ -4,7 +4,10 @@
 and feasibility model, the statistics of the shadow effect and several checks were revised; those revised results were recomputed from the same search outputs (`p2_*` shards,
 `blind_summary.json`), which this reproduction showed to be reproducible, but the revised scripts were not rerun on
 the second machine. The feasibility row below therefore refers to the earlier model (1,306 predicted); the revised
-model predicts 1,671 (`results/cluster_stats.json`).
+model predicts 1,671 (`results/cluster_stats.json`). The ISS timing rows refer to the first interpolation of the NASA
+ephemeris (cubic Hermite); the published numbers use a 10-point Lagrange interpolation of the full archived files and
+the Phase 2 ISS timing (`phase2_iss_timing.py`, `iss_oem_combined.py`, `sgp4_oem_fit.py`), which were rerun from the
+raw recordings and reproduced byte for byte on the main machine.
 
 Two kinds of interval appear in the paper for the blind search: a bootstrap over recordings (`ci_cluster`) and one
 over satellites (`ci_object`); the table of the paper gives the wider of the two.

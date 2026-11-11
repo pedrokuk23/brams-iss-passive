@@ -15,6 +15,14 @@ from linefilt import maybe_clean
 WD=os.environ.get('P2DIR','../data/raw_wav_phase2/')
 path={os.path.basename(p)[11:31]:p for d in WD.split(':') if d for p in glob.glob(os.path.join(d,'*.wav'))}
 if not path: sys.exit(f'{__file__}: no WAV files found in '+WD)
+
+# The published run used the Phase 2 recordings of 19-26 October that were at hand (frozen list below); SUBSET=none uses
+# every file found.
+_SUB=os.environ.get('SUBSET','../data/raw_wav_phase2/SUBSET_CHECKS.txt')
+if _SUB!='none':
+    _keep={l.strip()[11:31] for l in open(_SUB) if l.strip()}
+    path={k:v for k,v in path.items() if k in _keep}
+    if len(path)<len(_keep): print(f'warning: {len(_keep)-len(path)} files of {_SUB} are missing; results will differ')
 sets={}
 for f in sorted(glob.glob('../data/tle/phase2/*.txt')):
     L=[l.rstrip('\n') for l in open(f)]
@@ -31,7 +39,7 @@ def oneway(sat,t0,RX,tg):
     return -np.gradient(np.linalg.norm(X-RX,axis=1),tg)*1e3/F.LAM
 S=json.load(open('../results/phase2_summary.json'))
 D=[d for d in S['detections'] if d['class'] in ('Starlink V2-mini','Starlink DTC') and d['file'] in path]
-rng=np.random.default_rng(3); D=[D[i] for i in sorted(rng.choice(len(D),min(len(D),int(os.environ.get('NMAX','300'))),replace=False))]
+rng=np.random.default_rng(3); D=[D[i] for i in sorted(rng.choice(len(D),min(len(D),int(os.environ.get('NMAX','200'))),replace=False))]
 out=[]; cache={}
 for d in D:
     k=d['file']

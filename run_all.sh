@@ -26,7 +26,7 @@ python3 close_scan.py && python3 close_check.py        # close passes (Starlink)
 python3 fig_starlink.py                                # Supplementary Fig. S3
 EVDIR=../data/raw_wav_envisat/ python3 envisat.py && EVDIR=../data/raw_wav_envisat/ python3 glint.py   # Envisat (Supplementary S2-S3)
 python3 glint_close.py                                 # glint search on the close passes (supplementary)
-python3 detectability.py && python3 detect_theory.py && python3 close_echo.py && python3 fig_detectability.py   # Sec. 9, Table 5, Fig. 11
+python3 detectability.py && python3 detect_theory.py && python3 close_echo.py && python3 fig_detectability.py   # Sec. 9, Table 5, Fig. 9
 python3 null_run.py && STS='BEHUMA BEUCCE BEOUDS FRMAUB' OUT=../results/null_v2.json python3 null_v2.py && python3 null_holdout.py   # false alarms
 ST=BEOTTI python3 synth_run.py && ST=BEOUDS python3 synth_run.py && python3 synth_eval.py && ST=BEHUMA python3 synth_v2.py         # synthetic echoes
 python3 block_length_test.py
@@ -37,7 +37,7 @@ python3 antmap_blocks.py ../results/antmap && python3 antmap_tobit.py ../results
 # BlueBird and catalog scan
 python3 bb2_run.py && python3 bb2_null.py && python3 bb_clean.py && python3 bb_null_clean.py && python3 bb_tle_update.py
 # figures
-python3 air_mf.py && python3 paper_figs2.py && python3 paper_figs3.py && python3 paper_figs4_v2.py && python3 fig_antenna_map.py && python3 fig_interference.py && python3 fig_gnss_tec.py && python3 bb_fig.py && python3 fig_graphical_abstract.py
+python3 air_mf.py && python3 paper_figs2.py && python3 paper_figs3.py && python3 paper_figs4_v2.py && python3 fig_antenna_map.py && python3 fig_interference.py && python3 fig_gnss_tec.py && python3 bb_fig.py
 cd .. && python3 -m pytest -q tests
 
 # Phase 1 blind search (PROTOCOL.md items 1-5); about 4 CPU-hours
@@ -62,5 +62,9 @@ python3 feasibility_validate.py && python3 fig_feasibility.py && python3 stats_c
 python3 sun_geometry.py && python3 uemr_test.py && python3 inject_test.py && python3 inject_clean.py
 python3 confound_checks.py
 python3 phase2_iss_timing.py && python3 phase2_iss_summary.py   # ISS timing in Phase 2 against the archived NASA OEM files (Sec. 6)
-export EVERY=3; shards python3 uemr_search.py; unset EVERY; python3 uemr_search_analyze.py   # one-way search, a third of the recordings
+python3 iss_oem_combined.py && python3 sgp4_oem_fit.py         # both campaigns with one rule; SGP4 fitted to the OEM (Sec. 6, Supplementary S10)
+python3 coincidence.py                                 # cross-receiver coincidence of the Phase 2 detections (Sec. 10.2)
+OUTTAG=_rerun shards python3 uemr_search.py; UEMRGLOB='../results/uemr_search_rerun_*.json' python3 uemr_search_analyze.py   # one-way search, frozen list of recordings
+python3 fig_graphical_abstract.py                      # graphical abstract (needs the Phase 2 results above)
+python3 paper_numbers.py && python3 check_numbers.py   # every number quoted in the paper, checked against the manuscript
 cd ..

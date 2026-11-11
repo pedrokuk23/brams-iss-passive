@@ -29,6 +29,7 @@ for f in sorted(glob.glob('../data/tle/phase2/*.txt')):
     for k in range(len(L)-2):
         if L[k].startswith('0 ISS (ZARYA)') and L[k+1].startswith('1 '): s=Satrec.twoline2rv(L[k+1],L[k+2]); ISS.append((s.jdsatepoch+s.jdsatepochF,L[k+1],L[k+2]))
 ISS=sorted(set(ISS))
+if not ISS: sys.exit('phase2_iss_timing: no ISS element sets in data/tle/phase2 (unzip auxiliary_data_phase2.zip)')
 def sat_before(t0):
     jd=t0/86400+2440587.5; c_=[e for e in ISS if e[0]<=jd]; e=c_[-1]; return Satrec.twoline2rv(e[1],e[2]),(jd-e[0])*24
 def tle_ecef(sat,ts):

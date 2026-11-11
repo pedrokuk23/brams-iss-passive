@@ -14,6 +14,14 @@ from linefilt import maybe_clean
 WD=os.environ.get('P2DIR','../data/raw_wav_phase2/')
 path={os.path.basename(p)[11:31]:p for d in WD.split(':') if d for p in glob.glob(os.path.join(d,'*.wav'))}
 if not path: sys.exit(f'{__file__}: no WAV files found in '+WD)
+
+# The published run used the Phase 2 recordings of 19-26 October that were at hand (frozen list below); SUBSET=none uses
+# every file found.
+_SUB=os.environ.get('SUBSET','../data/raw_wav_phase2/SUBSET_CHECKS.txt')
+if _SUB!='none':
+    _keep={l.strip()[11:31] for l in open(_SUB) if l.strip()}
+    path={k:v for k,v in path.items() if k in _keep}
+    if len(path)<len(_keep): print(f'warning: {len(_keep)-len(path)} files of {_SUB} are missing; results will differ')
 BY=json.load(open('../results/phase2_byfile.json')); S=json.load(open('../results/phase2_summary.json'))
 ZTH={k:v['z_th'] for k,v in S['thresholds'].items()}; DET={(d['file'],d['obj']) for d in S['detections']}
 sets={}

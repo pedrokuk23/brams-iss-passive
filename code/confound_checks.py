@@ -33,14 +33,18 @@ def mh(rs):
         return (r['st'],int(np.digitize(m,[1,10,30])),int(np.digitize(e,[30,60])))
     G={}
     for r in rs: G.setdefault(key(r),[]).append(r)
-    num=den=0.0; ns=0; npass=0
+    num=den=0.0; ns=0; npass=0; T=[]
     for g in G.values():
         a=sum(r['det'] for r in g if r['grp']=='plate_shadow'); b=sum(not r['det'] for r in g if r['grp']=='plate_shadow')
         c=sum(r['det'] for r in g if r['grp']=='plate_sunlit'); d=sum(not r['det'] for r in g if r['grp']=='plate_sunlit')
         n=a+b+c+d
         if (a+b)==0 or (c+d)==0: continue
-        num+=a*d/n; den+=b*c/n; ns+=1; npass+=n
-    return dict(or_mh=num/den if den>0 else None,n_strata=ns,n_pass=npass)
+        num+=a*d/n; den+=b*c/n; ns+=1; npass+=n; T.append(np.array([[a,b],[c,d]],float))
+    ci=None
+    if den>0:
+        from statsmodels.stats.contingency_tables import StratifiedTable   # Robins-Breslow-Greenland interval
+        ci=[float(x) for x in StratifiedTable(T).oddsratio_pooled_confint()]
+    return dict(or_mh=num/den if den>0 else None,ci95=ci,n_strata=ns,n_pass=npass)
 res3=[]
 for lo,hi in zip(out['alt_bins_km'][:-1],out['alt_bins_km'][1:]):
     s_=[r for r in rows if lo<=r['alt']<hi]

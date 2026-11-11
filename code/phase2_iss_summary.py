@@ -52,7 +52,7 @@ OEMSTART={}
 per=[]
 for p,rx in sorted(passes.items()):
     dt=np.mean([corr(r,v) for r,v in rx.items()])
-    labs=set().union(*[v['oem'].keys() for v in rx.values()])
+    labs=sorted(set().union(*[v['oem'].keys() for v in rx.values()]))   # sorted: byte-stable output
     oem={}
     for lab in labs:
         vv=[v['oem'][lab] for v in rx.values() if lab in v['oem']]
