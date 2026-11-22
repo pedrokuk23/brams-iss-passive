@@ -1,4 +1,5 @@
 # Análise uniforme de aviões: mesmos parâmetros para todas as estações e dias
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os; WAVDIR_=os.environ.get('WAVDIR','../data/raw_wav/')   # folder of the Phase 1 recordings
 import json,numpy as np,datetime as dt,bwav,glob,sys,os
 from scipy import signal

@@ -1,6 +1,7 @@
 # Glint-matched search (glint.py) applied to the close passes (< 400 km) at Oudsbergen, with the timing grid of the scan
 # (tau in [-6, 6] s), for the DTC satellites (reference: echoes known) and for the other objects (older Starlink satellites
 # and CubeSats, not detected by the window statistic). Null: each geometry applied to four other recordings of Oudsbergen.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, glob, numpy as np
 exec(open('glint.py').read().split("if __name__")[0])
 D=os.environ.get('WAVDIR','../data/raw_wav/'); TAUS=np.arange(-6,6.01,0.5)

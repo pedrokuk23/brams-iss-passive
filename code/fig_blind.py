@@ -1,6 +1,7 @@
-# Figure of the blind search: (a) ISS complex, detection probability per recording against the sigma_min of the station
-# (Phase 2), with Phase 1; (b) detection probability per class with the satellite in the Earth's shadow or in sunlight,
-# Phase 1 and Phase 2, with 95% intervals, the wider of the bootstraps over recordings and over satellites.
+# Figure of the blind search: (a) ISS complex, detection probability per recording against the planning sigma_min of the
+# station pass (planning model of the original campaigns), Phase 2 bins with Clopper-Pearson intervals per bin and the Phase 1
+# point; (b) detection probability per class with the satellite in the Earth's shadow or in sunlight, Phase 1 and Phase 2,
+# with 95% intervals from the two-way bootstrap over satellites and time clusters (stats_cluster.py).
 import json, numpy as np, matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from scipy.stats import beta
 exec(open('figstyle.py').read()); plt.rcParams.update({'axes.spines.top':False,'axes.spines.right':False})
@@ -11,9 +12,11 @@ fig,(a,b)=plt.subplots(1,2,figsize=(7.2,2.7),gridspec_kw=dict(width_ratios=[1,1.
 x=[np.sqrt(r['lo']*min(r['hi'],3e4)) for r in C]; p=[r['k']/r['n'] for r in C]; lo=[r['ci'][0] for r in C]; hi=[r['ci'][1] for r in C]
 a.errorbar(x,p,yerr=[np.array(p)-lo,np.array(hi)-p],fmt='s',color='#c0392b',ms=4,capsize=2,lw=0.8,label='Phase 2 (419 recordings)')
 for xi,r in zip(x,C): a.text(xi*1.15,r['k']/r['n']+0.02,f"{r['k']}/{r['n']}",ha='left',fontsize=7,color='#444')
-v=S['classes']['phase1']['ISS complex']; a.errorbar([501],[v['pd']],yerr=[[v['pd']-v['ci_binomial'][0]],[v['ci_binomial'][1]-v['pd']]],fmt='o',color='#2a78d6',ms=4,capsize=2,lw=0.8,label='Phase 1 (22 recordings, median $\\sigma_\\mathrm{min}$ 500 m$^2$)')
+# Phase 1 point at the median planning sigma_min of its ISS records (planning model, data/planning/planning_model.json: the scale of Fig. 9a)
+g1={}; exec(open('blind_analyze.py').read().split("# echo track of an owner")[0],g1); X1=float(np.median([r['sigma_min'] for r in g1['P'] if r['class']=='ISS complex']))
+v=S['classes']['phase1']['ISS complex']; a.errorbar([X1],[v['pd']],yerr=[[v['pd']-v['ci_binomial'][0]],[v['ci_binomial'][1]-v['pd']]],fmt='o',color='#2a78d6',ms=4,capsize=2,lw=0.8,label=f'Phase 1 (22 recordings, median $\\sigma_\\mathrm{{min}}$ {X1:.0f} m$^2$)')
 for e in (100,300,1e3,3e3,1e4): a.axvline(e,color='#ddd',lw=0.5,zorder=0)
-a.set_xscale('log'); a.set_xlim(80,3e4); a.set_ylim(-0.03,1.35); a.set_xlabel('$\\sigma_\\mathrm{min}$ of the ISS pass (m$^2$)'); a.set_ylabel('Detection probability')
+a.set_xscale('log'); a.set_xlim(80,3e4); a.set_ylim(-0.03,1.35); a.set_xlabel('Planning $\\sigma_\\mathrm{min}$ of the ISS pass (m$^2$)'); a.set_ylabel('Detection probability')
 a.set_yticks([0,0.2,0.4,0.6,0.8,1.0]); a.legend(fontsize=7,loc='upper right'); a.set_title('(a) ISS complex',fontsize=8,loc='left')
 cl=['Starlink V2-mini','Starlink DTC','AST SpaceMobile','Starlink V1.x']; lab=['V2-mini','DTC','AST\nBlueBird','V1.x\n(control)']
 for j,(ph,mk,dx) in enumerate((('phase1','o',-0.2),('phase2','s',0.2))):

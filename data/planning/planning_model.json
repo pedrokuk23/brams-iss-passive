@@ -1,0 +1,7 @@
+{
+ "description": "Planning sensitivity model of the original campaigns (gains calibrated on SPACEMOBILE-008 with the nearest-bin energy, beacon power 120 W). It defines sigma_min for the Phase 2 selection (phase2_plan.py), for the binned detection probabilities of the blind searches (blind_analyze.py, phase2_compare.py, eclipse.py) and for Fig. 9a. It reproduces the archived selection (results/phase2_byfile.json) exactly. The recalibrated model of Section 9 is results/detect_theory.json.",
+ "Geff_dB": {"BEOUDS": 11.15746827313163, "FRMAUB": 1.8523487471837188, "BEOTTI": 5.699439829422385},
+ "Pt_W": 120.0,
+ "Tsky_K": 5693.331793605956,
+ "lam_m": 5.999448829297578
+}

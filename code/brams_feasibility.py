@@ -5,9 +5,9 @@
     C/N0(1)   = Pt Gt Gr lambda^2 / ((4 pi)^3 R^4 k T_sky),  R = sqrt(R1 R2)  [Hz per m^2]
     T_eff     = echo energy / peak power: the usable arc (at most 50 s) for a steady echo; for a glint of full width T_g
                 (first null to first null) the integral of its sinc^2 lobe over the arc, which tends to T_g/2
-    M         = sigma_max / sigma_min                                         margin; M < 1: impossible in any attitude
+    M         = sigma_max / sigma_min                                         nominal margin; M < 1: below the nominal sensitivity of the adopted model
 
-Pocket form (Oudsbergen gain, z_th = 7):  sigma_min ~ 100 m^2 (R / 400 km)^4 (50 s / T_eff) (T / 50 s)^(1/2) F_rx.
+Pocket form (Oudsbergen gain, z_th = 7):  sigma_min ~ 77 m^2 (R / 400 km)^4 (50 s / T_eff) (T / 50 s)^(1/2) F_rx.
 
 Shapes (lambda = 6.0 m): flat plate of area A seen face-on 4 pi A^2/lambda^2, glint T_g = 2 theta_0 / Omega with
 theta_0 = lambda / 2L and Omega = v R_E / [R (R_E + R)] (bisector rate of a nadir-pointing facet near the zenith, L the

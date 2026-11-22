@@ -1,5 +1,6 @@
 # BlueBird SPACEMOBILE-008: deslocamento ao longo da órbita, no instante do eco (5/11 03:11 UTC), entre o elemento de
 # 3/11 usado na busca e os elementos emitidos depois (gp_history), expresso como δt (δt>0: satélite atrás do previsto).
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 from sgp4.api import Satrec, jday
 import numpy as np, json
 L=[l.rstrip() for l in open('../data/tle/bluebird_gp_history.txt') if l.strip()]

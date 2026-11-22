@@ -1,6 +1,7 @@
 # Mapa de antena com aviões: SNR do eco bloco a bloco (1 s) ao longo de cada trajetória ADS-B,
 # junto com a geometria (az/el vistos do receptor e do transmissor, distâncias, rumo do avião).
 # Uso: python3 antmap_run.py <ESTAÇÃO> <ADSB.jsonl> <dir_wav> <saida.json>
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import json,numpy as np,glob,sys,os,bwav
 from scipy import signal
 ST,ADSB,WD,OUT=sys.argv[1:5]

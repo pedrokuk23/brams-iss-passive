@@ -1,3 +1,4 @@
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os; WAVDIR_=os.environ.get('WAVDIR','../data/raw_wav/')   # folder of the Phase 1 recordings
 exec(open('bb2.py').read())
 # geometria: passagem do SPACEMOBILE-008 de 05/11 03:10 e do -009 de 04/11 00:15 e do -010 de 04/11 00:40 em cada estação

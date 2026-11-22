@@ -1,4 +1,5 @@
 # Sensibilidade da estatística de detecção da ISS à duração do bloco coerente T_b
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 from linefilt import maybe_clean
 out=[]

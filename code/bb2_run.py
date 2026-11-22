@@ -1,3 +1,4 @@
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os; WAVDIR_=os.environ.get('WAVDIR','../data/raw_wav/')   # folder of the Phase 1 recordings
 exec(open('bb2.py').read())
 names=[n for n in TLE if n.startswith('SPACEMOBILE') or n.startswith('BLUEWALKER')]

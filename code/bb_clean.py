@@ -1,4 +1,5 @@
 # BlueBird: repete a busca de grade ampliada nos receptores SDR depois da remoção das linhas CW
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('bb2.py').read())
 import os
 from linefilt import clean

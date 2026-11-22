@@ -1,3 +1,4 @@
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 out=[]
 for k in ['20261103_0040','20261103_0220','20261103_2355','20261104_0130','20261104_2305']:

@@ -6,7 +6,7 @@ from scipy.stats import beta
 exec(open('figstyle.py').read()); plt.rcParams.update({'font.size':8,'axes.spines.top':False,'axes.spines.right':False})
 def cp(k,n,a=0.05): return (0.0 if k==0 else beta.ppf(a/2,k,n-k+1), 1.0 if k==n else beta.ppf(1-a/2,k+1,n-k))
 # ---- (1) decision flow
-fig,ax=plt.subplots(figsize=(6.3,3.1)); ax.axis('off'); ax.set_xlim(-1,101); ax.set_ylim(-4,44)
+fig,ax=plt.subplots(figsize=(6.3,3.1)); ax.axis('off'); ax.set_xlim(-1,101); ax.set_ylim(-6,44)
 W=18.4; X=[0,20.4,40.8,61.2,81.6]
 B=['1. Geometry\n$30<|f_D|<900$\nHz for 20 s?',
    '2. Sensitivity\n$\\sigma_\\min$, Eq. (10)\n(range, gains,\n$z_\\mathrm{th}$, $T_\\mathrm{eff}$)',
@@ -22,14 +22,14 @@ _C=json.load(open('../results/feasibility_curve.json'))['groups']; _I=json.load(
 def _P(g,M): a,b=_C[g]['a'],_C[g]['b']; return 1/(1+np.exp(-(a+b*np.log10(M))))
 def _pc(v): return f"{100*v:.2g}%" if v<0.1 else f"{100*v:.0f}%"
 _i1,_i2=(100*_I[p]['k']/_I[p]['n'] for p in ('phase1','phase2'))
-D=[(0.5,f'$M<1$: nominally not visible in\nany attitude (detected in {_i1:.2f}%\nand {_i2:.2f}% of passes)','#f4cccc'),
-   (34.5,f'$1\\leq M<10$: marginal\nPhase 1 fit: arrays {_pc(min(_P("plate_sunlit",1),_P("plate_shadow",1)))}–{_pc(_P("plate_shadow",10))},\nISS {_pc(_P("structure",1))}–{_pc(_P("structure",10))}','#fff2cc'),
-   (68.5,f'$M\\geq10$, Phase 1 fit:\nshadow {_pc(_P("plate_shadow",10))}–{_pc(_P("plate_shadow",100))}, sunlit {_pc(_P("plate_sunlit",10))}–{_pc(_P("plate_sunlit",100))},\nISS >{_pc(_P("structure",10))[:-1]}% (Phase 2 lower)','#d9ead3')]
+D=[(0.5,f'$M<1$: below the\nnominal sensitivity\ndetected in {_i1:.2f}%\nand {_i2:.2f}% of passes','#f4cccc'),
+   (34.5,f'$1\\leq M<10$: marginal\nPhase 1 fit:\narrays {_pc(min(_P("plate_sunlit",1),_P("plate_shadow",1)))}–{_pc(_P("plate_shadow",10))}\nISS {_pc(_P("structure",1))}–{_pc(_P("structure",10))}','#fff2cc'),
+   (68.5,f'$M\\geq10$, Phase 1 fit:\nshadow {_pc(_P("plate_shadow",10))}–{_pc(_P("plate_shadow",100))}\nsunlit {_pc(_P("plate_sunlit",10))}–{_pc(_P("plate_sunlit",100))}\nISS >{_pc(_P("structure",10))[:-1]}% (Phase 2 lower)','#d9ead3')]
 for x,t,c in D:
-    ax.add_patch(FancyBboxPatch((x,6),31,11,boxstyle='round,pad=0.3',fc=c,ec='k',lw=0.6)); ax.text(x+15.5,11.5,t,ha='center',va='center',fontsize=7)
+    ax.add_patch(FancyBboxPatch((x,2.5),31,15,boxstyle='round,pad=0.3',fc=c,ec='k',lw=0.6)); ax.text(x+15.5,10,t,ha='center',va='center',fontsize=7,linespacing=1.25)
 ax.plot([81.6+W/2]*2,[26.6,21],color='k',lw=0.6); ax.plot([16,81.6+W/2],[21,21],color='k',lw=0.6)
-for x in (16,50,84): ax.annotate('',xy=(x,17.6),xytext=(x,21),arrowprops=dict(arrowstyle='->',lw=0.7))
-ax.text(50,1.5,'6. Expected detections = sum of $P_d(M)$ over the passes of a campaign; worth it if at least a few',ha='center',fontsize=7,style='italic')
+for x in (16,50,84): ax.annotate('',xy=(x,18.1),xytext=(x,21),arrowprops=dict(arrowstyle='->',lw=0.7))
+ax.text(50,-3.2,'6. Expected detections = sum of $P_d(M)$ over the passes of a campaign; worth it if at least a few',ha='center',fontsize=7,style='italic')
 fig.savefig(FIGDIR+'fig_feasibility_flow.pdf',bbox_inches='tight'); fig.savefig('../results/fig_feasibility_flow.png',dpi=200,bbox_inches='tight')
 # ---- (2) validation
 C=json.load(open('../results/feasibility_curve.json')); V=json.load(open('../results/feasibility_validation.json'))

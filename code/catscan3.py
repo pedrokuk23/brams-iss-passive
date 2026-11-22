@@ -1,4 +1,5 @@
 # Varredura do catálogo com busca em frequência (Δf via FFT por bloco), τ=0 e controle τ=+30 s
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import numpy as np, sys, datetime as dt, bwav, json
 from scipy import signal
 from sgp4.api import Satrec, SatrecArray, jday

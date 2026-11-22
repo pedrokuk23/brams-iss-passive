@@ -6,6 +6,7 @@
 # statistic (fastsearch.py, blanking and limiter as in the search, same tau and nu grid) is computed along the bistatic
 # history and along the one-way history shifted in frequency so that the two coincide at the detected peak (time t_pk,
 # offset tau): if the line were an emission, the one-way history would follow it over the arc and give the higher z.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import sys
 import os, json, glob, numpy as np
 import bwav, fastsearch as F

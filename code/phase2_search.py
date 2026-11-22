@@ -1,5 +1,6 @@
 # Phase 2 search: the frozen statistic (fastsearch.py with burst blanking and limiter, PROTOCOL items 2-2c) and the
 # sign-reversed null for every selected pass (phase2_plan.py, phase2_select.py) in every retrieved recording.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, sys, json, glob, time, numpy as np
 shard,nsh=int(sys.argv[1]),int(sys.argv[2])
 import bwav, fastsearch as F
@@ -10,10 +11,10 @@ LIM={'ISS complex':1e9,'AST SpaceMobile':3000,'Starlink DTC':1000,'Starlink V2-m
 WD=os.environ.get('P2DIR','../data/raw_wav_phase2/'); OUT=os.environ.get('OUTTAG','p2_shard')
 path={os.path.basename(p)[11:31]:p for d in WD.split(':') if d for p in glob.glob(os.path.join(d,'*.wav'))}
 if not path: sys.exit('phase2_search: no WAV files found in '+WD)
-sel=json.load(open('../results/phase2_files.json'))
+sel=json.load(open('../data/planning/phase2_files.json'))
 byfile={}
-if os.path.exists('../results/phase2_byfile.json'):      # same selection, precomputed (phase2_plan_passes.json is 484 MB)
-    byfile={k:v for k,v in json.load(open('../results/phase2_byfile.json')).items() if k in path}
+if os.path.exists('../data/planning/phase2_byfile.json'):      # same selection, precomputed (phase2_plan_passes.json is 484 MB)
+    byfile={k:v for k,v in json.load(open('../data/planning/phase2_byfile.json')).items() if k in path}
 else:
     for p in json.load(open('../results/phase2_plan_passes.json')):
         if p['file'] in path and p['sigma_min']<=min(LIM[p['cls']],p['sigma_max']): byfile.setdefault(p['file'],[]).append(p)

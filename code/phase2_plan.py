@@ -7,12 +7,13 @@
 # the false-alarm rate). Recordings retrieved: every slot with a physically detectable target pass at Oudsbergen or Humain,
 # and at all five receivers every slot with an ISS-complex pass. In each retrieved recording every target pass within
 # 1500 km is searched, so that the impossible passes serve as controls.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import json, re, glob, numpy as np, datetime as dtm
 from sgp4.api import Satrec, SatrecArray
 from sgp4.propagation import gstime
 LAM=299792458./49.97e6
 G=json.load(open('../data/stations_geom.json'))
-T=json.load(open('../results/detect_theory.json')); GE={k:10**(v/10) for k,v in T['Geff_dB'].items()}
+T=json.load(open('../data/planning/planning_model.json')); GE={k:10**(v/10) for k,v in T['Geff_dB'].items()}
 GE['BEHUMA']=GE['BEOUDS']; GE['BEUCCE']=GE['BEOTTI']      # not calibrated on SPACEMOBILE-008: assumed for planning only
 def ecef(lat,lon,h):
     a=6378.137;f=1/298.257223563;e2=f*(2-f);la,lo=np.radians(lat),np.radians(lon);N=a/np.sqrt(1-e2*np.sin(la)**2)
@@ -82,7 +83,7 @@ sel=set()
 for p in plan:
     st=p['file'][-6:]
     if p['cls']=='ISS complex' or st in ('BEOUDS','BEHUMA'): sel.add(p['file'])
-sel=sorted(sel); json.dump(sel,open('../results/phase2_files.json','w'))
+sel=sorted(sel); json.dump(sel,open('../results/phase2_candidate_files.json','w'))   # candidates; the frozen selection of retrieved recordings is data/planning/phase2_files.json
 import collections
 print('files',len(sel),collections.Counter(f[-6:] for f in sel),'~GB %.1f'%(len(sel)*3.66e-3))
 pp=[p for p in plan if p['file'] in set(sel)]

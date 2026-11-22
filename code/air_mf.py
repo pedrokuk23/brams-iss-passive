@@ -1,5 +1,6 @@
 # Matched filter of every ADS-B aircraft near the link in the Ottignies files of 3 Nov 2026, 10:00-10:25 UTC (Fig. 2):
 # best delay tau and gain over the mirrored-Doppler control; writes ../results/air_mf_rows.npy, read by paper_figs3.py.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import json,numpy as np,datetime as dt,bwav,glob,os
 os.environ.setdefault('ADSB','../data/adsb/adsb_be_nov03.jsonl')
 from scipy import signal

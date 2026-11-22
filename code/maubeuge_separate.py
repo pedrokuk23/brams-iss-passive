@@ -1,12 +1,12 @@
 # Phase 2 of the blind search with Maubeuge reported separately (Sec. 10.2). The nulls of Maubeuge are not
 # exchangeable between its recordings (its out-of-sample false-alarm rate is 1.6%), so its detections are kept out of
 # the class statistics and the pooled false-alarm rate is computed over the other four receivers with the same
-# split-half procedure (far_checks.py, same seed). Reads results/phase2_summary.json, phase2_byfile.json and
+# split-half procedure (far_checks.py, same seed). Reads results/phase2_summary.json, data/planning/phase2_byfile.json and
 # cluster_stats.json (class rates on the normalized pass list of Table 7); writes
 # results/maubeuge_separate.json.
 import json, collections as C
 from far_checks import far_checks, cp
-S=json.load(open('../results/phase2_summary.json')); B=json.load(open('../results/phase2_byfile.json'))
+S=json.load(open('../results/phase2_summary.json')); B=json.load(open('../data/planning/phase2_byfile.json'))
 M='FRMAUB'; STS=[s for s in ['BEOTTI','BEOUDS','FRMAUB','BEHUMA','BEUCCE'] if s!=M]
 N=[dict(file=f,z=z,_in=i,_ex=e) for st,f,z,i,e in S['nulls']]
 expl={id(r):r['_ex'] for r in N}; th={k:v['z_th'] for k,v in S['thresholds'].items()}

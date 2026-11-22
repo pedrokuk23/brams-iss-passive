@@ -1,4 +1,5 @@
 # Ecos sintéticos em gravações reais sem ISS, com remoção de linhas CW (receptores SDR). Uso: ST=BEHUMA python3 synth_v2.py
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 from linefilt import maybe_clean
 ST=os.environ['ST']; tr2=json.load(open('../results/iono_tracks_v2.json')); np.random.seed(3)

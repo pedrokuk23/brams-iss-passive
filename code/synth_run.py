@@ -1,4 +1,5 @@
 # Uso: python3 synth_run.py <ESTACAO>  -> ecos sintéticos injetados em gravações reais sem ISS
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 import sys
 ST=sys.argv[1] if len(sys.argv)>1 and sys.argv[1].startswith(('BE','FR')) else None

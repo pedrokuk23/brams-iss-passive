@@ -1,6 +1,7 @@
 # Blind search, step 1: every pass of every catalogued object in every recording. For each (object, recording) pair we keep
 # the geometry summary needed to decide whether a search is meaningful: seconds of the file during which the predicted
 # Doppler lies in the usable band (30 Hz < |f_D| < 900 Hz), and the smallest geometric mean range during those seconds.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, glob, json, numpy as np, datetime as dtm
 from sgp4.api import Satrec, SatrecArray, jday
 from sgp4.propagation import gstime

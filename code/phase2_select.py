@@ -1,6 +1,7 @@
 # Phase 2 file selection by expected yield: each pass contributes its Phase-1 detection probability for its class and
 # sigma_min bin; recordings are ranked by the sum per receiver and taken in decreasing order. ISS-complex slots are
 # always taken at all receivers. Selection uses only predicted geometry, never the recordings.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import json, collections, numpy as np
 P=json.load(open('../results/phase2_plan_passes.json')); B=json.load(open('../results/blind_summary.json'))['pd_vs_sigma_min']
 def pd(c,s):

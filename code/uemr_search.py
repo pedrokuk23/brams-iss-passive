@@ -4,6 +4,7 @@
 # emission near the beacon frequency would follow, and along its sign-reversed version as a null. Thresholds are set
 # on these one-way nulls per receiver with the rule of the blind search (quantile 1e-3). Unlike uemr_test.py, this
 # search does not start from the bistatic detections, so it can find emission lines that the bistatic search misses.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, sys, json, glob, numpy as np
 ARGS=sys.argv[1:]
 import bwav, fastsearch as F
@@ -23,7 +24,7 @@ if _SUB!='none':
     _keep={l.strip()[11:31] for l in open(_SUB) if l.strip()}
     path={k:v for k,v in path.items() if k in _keep}
     if len(path)<len(_keep): print(f'warning: {len(_keep)-len(path)} files of {_SUB} are missing; results will differ')
-BY=json.load(open('../results/phase2_byfile.json'))
+BY=json.load(open('../data/planning/phase2_byfile.json'))
 sets={}
 for f in sorted(glob.glob('../data/tle/phase2/*.txt')):
     L=[l.rstrip('\n') for l in open(f)]

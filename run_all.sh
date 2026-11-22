@@ -54,8 +54,9 @@ cd ..
 # The shards of this run are written as results/p2_rerun*.json; phase2_search.py skips only recordings already in
 # files of this tag, and phase2_analyze.py reads only them (P2GLOB), so the published shards can stay in place.
 cd code
-python3 phase2_plan.py && python3 phase2_select.py
+python3 phase2_plan.py && python3 phase2_select.py   # reference rerun of the planning; the search reads the frozen selection in data/planning/
 export OUTTAG=p2_rerun; shards python3 phase2_search.py; unset OUTTAG
+python3 phase2_meta.py                                 # header fields of the 788 recordings (read by phase2_analyze.py and catalog_association.py)
 export P2GLOB='../results/p2_rerun*.json'           # kept for every later script that reads the Phase 2 shards
 python3 phase2_analyze.py && python3 phase2_compare.py && python3 eclipse.py
 python3 feasibility_validate.py && python3 fig_feasibility.py && python3 stats_cluster.py && python3 shadow_strata.py && python3 fig_blind.py

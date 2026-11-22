@@ -1,4 +1,5 @@
 # Blind search over all candidate passes (PROTOCOL.md items 1-2) and the null searches (item 4), sharded by recording.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, sys, json, glob, numpy as np
 shard,nsh=int(sys.argv[1]),int(sys.argv[2])          # read before the exec() calls below, which reset sys.argv
 import bwav, fastsearch as F

@@ -1,5 +1,6 @@
 # Distribuição nula com remoção de linhas CW nos receptores SDR: busca (τ, Δf) com a geometria das passagens
 # da ISS aplicada a gravações sem ISS. Uso: STS="BEOUDS FRMAUB" OUT=... python3 null_v2.py
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 from linefilt import maybe_clean
 passkeys=['20261103_0040','20261103_0220','20261103_2355','20261104_0130','20261104_2305']

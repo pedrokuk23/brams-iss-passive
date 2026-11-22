@@ -1,6 +1,7 @@
 # Phase 2 analysis (PROTOCOL.md item 6), identical to blind_analyze.py (items 3-5): thresholds from the sign-reversed nulls, association of candidates to
 # echoes (also applied to the nulls), iteration to a fixed point; detection probability per object class and receiver with
 # Clopper-Pearson intervals; expected false alarms; detection probability versus the cross section needed by the model.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, glob, re, numpy as np
 from scipy.stats import beta
 # Phase 2 (PROTOCOL item 6): the same rule, applied unchanged to the test campaign, 19 Oct - 2 Nov 2026.

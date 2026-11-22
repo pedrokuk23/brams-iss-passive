@@ -3,6 +3,7 @@
 # giving s = SNR_bin; window sums over W blocks give z_W = (sum_W s - W)/sqrt(W) under Gaussian noise; the statistic is the
 # maximum over start block, frequency cell (|nu| <= 12 Hz), timing offset tau and W in {4, 8, 16, 32, 64} (2-32 s).
 # The threshold comes from the same statistic computed with the same geometry on recordings without the object.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, glob, numpy as np
 exec(open('bb2.py').read())
 from linefilt import maybe_clean

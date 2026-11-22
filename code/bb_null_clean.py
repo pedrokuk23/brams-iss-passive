@@ -1,4 +1,5 @@
 # Distribuição nula da busca BlueBird (grade ampliada) nos receptores SDR, com remoção das linhas CW
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('bb2.py').read())
 from linefilt import clean
 G=[('20261105_0310','SPACEMOBILE-008'),('20261104_0015','SPACEMOBILE-009'),('20261104_0040','SPACEMOBILE-010')]

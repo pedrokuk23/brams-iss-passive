@@ -1,6 +1,7 @@
 # Blind search, analysis (PROTOCOL.md items 3-5): thresholds from the sign-reversed nulls, association of candidates to
 # echoes (also applied to the nulls), iteration to a fixed point; detection probability per object class and receiver with
 # Clopper-Pearson intervals; expected false alarms; detection probability versus the cross section needed by the model.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, glob, re, numpy as np
 from scipy.stats import beta
 # results of all runs (cloud shards, runs on the author's computer, Envisat recordings); one record per (case, file, object)
@@ -21,7 +22,7 @@ def cls(n):
     m=re.match(r'STARLINK-(\d+)',n)
     if m: return 'Starlink V2-mini' if int(m.group(1))>=30000 else 'Starlink V1.x'
     return 'Other'
-T=json.load(open('../results/detect_theory.json')); G={k:10**(v/10) for k,v in T['Geff_dB'].items()}
+T=json.load(open('../data/planning/planning_model.json')); G={k:10**(v/10) for k,v in T['Geff_dB'].items()}
 def sigma_min(r):
     g=G.get(r['file'][-6:],G['BEOTTI'])
     cn0=T['Pt_W']*g*T['lam_m']**2/((4*np.pi)**3*(r['rrmin']*1e3)**4*1.380649e-23*T['Tsky_K'])

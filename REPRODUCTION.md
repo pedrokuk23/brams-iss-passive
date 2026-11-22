@@ -1,16 +1,8 @@
 # Independent reproduction (9-10 Nov 2026)
 
-**Scope.** This reproduction was made on an earlier version of the analysis. Afterwards (10-11 Nov 2026) the detectability
-and feasibility model, the statistics of the shadow effect and several checks were revised; those revised results were recomputed from the same search outputs (`p2_*` shards,
-`blind_summary.json`), which this reproduction showed to be reproducible, but the revised scripts were not rerun on
-the second machine. The feasibility row below therefore refers to the earlier model (1,306 predicted); the revised
-model predicts 1,671 (`results/cluster_stats.json`). The ISS timing rows refer to the first interpolation of the NASA
-ephemeris (cubic Hermite); the published numbers use a 10-point Lagrange interpolation of the full archived files and
-the Phase 2 ISS timing (`phase2_iss_timing.py`, `iss_oem_combined.py`, `sgp4_oem_fit.py`), which were rerun from the
-raw recordings and reproduced byte for byte on the main machine. The revisions of 22 Nov 2026 (echo energy of the detectability model at the exact search frequency, beacon power of 340 W, one transmitter position for every receiver with receiver offsets relative to Oudsbergen, two-way bootstrap intervals, joint admissible-offset test of the catalog association) were computed on the main machine only.
+**Scope.** This file records a historical reproduction, made on 9-10 Nov 2026 on the version of the analysis of that date. The table below refers to that version. It is followed by the state of the current version.
 
-Two kinds of interval appear in the paper for the blind search: a bootstrap over recordings (`ci_cluster`) and one
-over satellites (`ci_object`); the table of the paper gives the wider of the two.
+The reproduction showed that the search outputs (`p2_*` and `blind_*` shards, `blind_summary.json`) and the ISS detections are reproducible from the raw recordings. At that date the feasibility model predicted 1,306 detections; the ISS timing rows refer to the first interpolation of the NASA ephemeris (cubic Hermite); the blind-search table gave the wider of a bootstrap over recordings (`ci_cluster`) and one over satellites (`ci_object`).
 
 The whole pipeline was rerun from an empty `results/` folder on a separate Linux machine (8 CPU cores, Python 3.13,
 numpy 2.5, scipy 1.18, sgp4 2.27, astropy 8.0, matplotlib 3.11). The inputs were the code and auxiliary files of
@@ -81,3 +73,17 @@ doubled every count; `code/key_numbers.py` now reads the class total only.) The 
 
 The published results were produced before these fixes. They are unchanged, and the table above shows that the fixed
 code reproduces them.
+
+## Current version (22 Nov 2026)
+
+The analysis was revised after the historical reproduction: echo energy of the detectability model at the exact search frequency, beacon power of 340 W, one transmitter position for the timing and echo-energy analyses with receiver offsets relative to Oudsbergen, a 10-point Lagrange interpolation of the full archived NASA files, intervals from a two-way bootstrap over satellites and time clusters (over physical passes for the ISS complex), and a joint admissible-offset test of the catalog association. The revised feasibility model predicts about 1,552 detections (`results/feasibility_validation.json`). The searches and their selection keep the configuration of the original runs (README, Configurations): the transmitter position written in each file and the planning sensitivity model (`data/planning/planning_model.json`).
+
+Checks of the current version, made from the published deposit (raw recordings checked against `SHA256SUMS`):
+
+| Check | Result |
+|---|---|
+| `repro_critical.sh` from the 293 recordings (time base, ISS detections, tracks, NASA comparison, joint fit, offsets, hold-out nulls) | `pps_audit.json`, `iss_detection_table_v2.json`, `iono_tracks_v2.json`, `oem_cmp_v2.json`, `iono_fit_v2.json`, `iss_checks2.json`, `null_holdout.json` identical to the published files |
+| Reanalysis of the archived search outputs (`blind_analyze`, `phase2_analyze`, `phase2_compare`, `eclipse`, `feasibility_validate`, `stats_cluster`, `catalog_association`, `coincidence`, `maubeuge_separate`, `shadow_glm`) | identical to the published files |
+| Phase 2 search (`phase2_search.py`, historical configuration) on four recordings (306 real and null searches) | identical to the published shards (z, tau, nu) |
+| Phase 2 metadata (`phase2_meta.py`) | identical to `results/phase2_meta.json` |
+| Phase 2 planning values with the frozen planning model | the 24,284 values of `sigma_min` of the frozen selection (`data/planning/phase2_byfile.json`) are reproduced exactly from their ranges and arcs |

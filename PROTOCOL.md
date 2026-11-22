@@ -87,7 +87,11 @@ One procedure for every object and every recording.
   thresholds and rates were obtained with 3 Hz and 1.5 s.
 - Later analyses (22 Nov 2026), none of which changes the search, the thresholds or the association: the echo energy of
   the detectability model is evaluated at the exact frequency of the search instead of the nearest 2-Hz bin of a 0.5-s
-  block; the gains are calibrated with a beacon power of 340 W; one transmitter position is used for every receiver
-  (`code/bwav.py`); intervals of the detection rates use a two-way bootstrap over satellites and time clusters, and over
+  block; the gains are calibrated with a beacon power of 340 W; one transmitter position is used for every receiver in
+  the timing and echo-energy analyses (`code/bwav.py`); intervals of the detection rates use a two-way bootstrap over satellites and time clusters, and over
   physical passes for the ISS complex; the multi-receiver test of `catalog_association.py` uses the full sets of
   admissible timing offsets.
+- Configuration of the searches (22 Nov 2026): the scripts of items 1-6 and their selection keep the configuration of the
+  original runs, which is now fixed explicitly: the transmitter position written in each file (`BRAMS_TX_HEADER=1` in each
+  of these scripts), the planning sensitivity model (`data/planning/planning_model.json`, which reproduces the archived
+  selection exactly) and the header fields of the Phase 2 recordings (`phase2_meta.py`). See README, Configurations.

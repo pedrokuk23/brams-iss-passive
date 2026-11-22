@@ -1,6 +1,7 @@
 # Validação independente do critério de detecção (congelado antes desta execução):
 # z >= 7, |tau| <= 0.5 s e pico fora da borda da grade de frequência (|Δf| < 12 Hz).
 # Arquivos: amostra de 30 em 30 min de 04/11 (05:00-21:00 UTC) que NÃO entrou em null_iss.json nem em null_v2.json.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 exec(open('synth.py').read().split("if __name__")[0])
 from linefilt import maybe_clean
 passkeys=['20261103_0040','20261103_0220','20261103_2355','20261104_0130','20261104_2305']

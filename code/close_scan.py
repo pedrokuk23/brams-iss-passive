@@ -1,5 +1,6 @@
 # Repeats the catalog scan for the closest passes (geometric mean range below 400 km, mostly Starlink) at the two SDR
 # receivers of the scan, now with line removal and the full ISS search grid; null: same geometry on two other recordings.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, glob, numpy as np
 exec(open('bb2.py').read())
 from linefilt import maybe_clean

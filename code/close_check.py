@@ -1,6 +1,7 @@
 # For each candidate of the close-pass scan: time of the echo in the map dechirped along the candidate's Doppler, and the
 # frequency difference at that time between the candidate's predicted echo and the predicted ISS echo in the same file.
 # A difference of a few hertz means the candidate's search window contains the ISS echo (ambiguity); a large one excludes it.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, json, numpy as np
 exec(open('bb2.py').read())
 from linefilt import maybe_clean

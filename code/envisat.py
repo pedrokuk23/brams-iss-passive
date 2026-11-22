@@ -1,6 +1,7 @@
 # Envisat (NORAD 27386, inactive, tumbling): search of the five best passes of 3-5 Nov 2026 with the ISS statistic and grid,
 # with line removal at the SDR receivers. Element set: the one with epoch closest to each pass (data/tle/envisat_gp_history.txt).
 # Null: the same pass geometry applied to recordings of the same receiver at other times (no Envisat), 8 per receiver and pass.
+import os as _os; _os.environ['BRAMS_TX_HEADER']='1'   # historical configuration: transmitter position written in each file, as in the original run (README, Configurations)
 import os, glob, json, numpy as np
 exec(open('bb2.py').read())
 from linefilt import maybe_clean
