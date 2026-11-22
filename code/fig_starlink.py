@@ -22,4 +22,4 @@ for a,(obj,f,kind),L in zip(ax.flat,sel,'abcdefgh'):
     a.set_xlim(-25,25)
 for a in ax[1]: a.set_xlabel('Time from echo peak (s)')
 for a in ax[:,0]: a.set_ylabel('Residual frequency (Hz)')
-fig.tight_layout(); fig.savefig(FIGDIR+'fig_starlink.png',dpi=220)
+fig.tight_layout(); fig.savefig(FIGDIR+'fig_starlink.png',dpi=330)

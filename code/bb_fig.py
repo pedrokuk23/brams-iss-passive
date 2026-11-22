@@ -20,5 +20,5 @@ for a,st in zip(ax,['BEOTTI','BEOUDS','FRMAUB']):
     a.set_xlim(15,105); a.set_title(f'({"abc"[["BEOTTI","BEOUDS","FRMAUB"].index(st)]}) {NAME[st]}',fontsize=8); a.set_xlabel('Time since 03:10:00 UTC (s)')
     i=np.argmin(g.rr); info[st]=dict(t_spec=float(g.t[i]),rr=float(g.rr[i]))
 ax[0].set_ylabel('Residual frequency (Hz)')
-plt.tight_layout(); plt.savefig(OUT+'fig_bluebird.png',dpi=200); plt.savefig(OUT+'fig_bluebird.pdf')
+plt.tight_layout(); plt.savefig(OUT+'fig_bluebird.png',dpi=330); plt.savefig(OUT+'fig_bluebird.pdf')
 print(info)

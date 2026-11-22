@@ -123,7 +123,7 @@ if __name__=='__main__':
     a.add_argument('--sigma-max',type=float); a.add_argument('--rx',default='BEOUDS,BEHUMA,BEOTTI,FRMAUB,BEUCCE')
     a.add_argument('--group',default=None,help='structure | plate (default: plate if --plate-area else structure)')
     a.add_argument('--spin-period',type=float,help='tumbling object: glint full width lambda P / (2 pi L)')
-    a.add_argument('--elev-gain',action='store_true',help='elevation-dependent gains from the aircraft maps (not better in the validation)')
+    a.add_argument('--elev-gain',action='store_true',help='elevation-dependent gains from the aircraft maps (not better in the Phase 2 check)')
     q=a.parse_args()
     L=[l.rstrip() for l in open(q.tle) if l.strip()]; tle=None
     for k in range(len(L)-2):

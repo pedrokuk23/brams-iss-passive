@@ -38,7 +38,7 @@ b.text(445,1.6e5,'ISS',fontsize=7); b.text(548,5.5e4,'BlueBird\narray',fontsize=
 for k,lab in [('resonant_wire','resonant $\\lambda/2$ wire'),('plate_5m','5-m flat plate'),('plate_15m','15-m flat plate'),('rayleigh_sphere_1m','sphere, 1-m diameter')]:
     v=T['ref_sigma_m2'][k]; b.axhline(v,color='#bbb',lw=0.7,ls=(0,(2,2)))
     if k=='plate_15m': b.text(205,v*1.15,lab,fontsize=7,color='#666',ha='left')      # left end: below the curves only there
-    elif k=='resonant_wire': b.text(205,v*1.15,lab,fontsize=7,color='#666',ha='left')   # clear of the curves and of the legend
+    elif k=='resonant_wire': b.text(330,v*0.55,lab,fontsize=7,color='#666',ha='left')   # clear of the curves and of the legend
     else: b.text(995,v*1.15,lab,fontsize=7,color='#666',ha='right')                  # right end: above the curves only there
 b.set_xlim(200,1000); b.set_ylim(0.3,5e5); b.set_xlabel('Geometric mean range $\\sqrt{R_1R_2}$ (km)'); b.set_ylabel('Cross section $\\sigma$ (m$^2$)')
 b.legend(frameon=False,fontsize=7,loc='lower right',bbox_to_anchor=(1,0.08)); b.set_title('(b) minimum detectable cross section ($z=7$)',loc='left',fontsize=8)

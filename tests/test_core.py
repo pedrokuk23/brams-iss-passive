@@ -98,7 +98,7 @@ def test_teme_to_itrs_against_astropy():
     """TEME->Earth-fixed rotation of the pipeline (GMST IAU-82, no polar motion) against astropy's TEME->ITRS
     (IAU-82 GMST plus polar motion). The difference must be at the polar-motion level (tens of metres at most)."""
     astropy = pytest.importorskip('astropy')
-    from astropy.utils import iers; iers.conf.auto_download = False
+    from astropy.utils import iers; iers.conf.auto_download = False; iers.conf.auto_max_age = None   # offline: bundled tables only
     from astropy.coordinates import TEME, ITRS, CartesianRepresentation
     from astropy.time import Time; import astropy.units as u
     import datetime as dt

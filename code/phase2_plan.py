@@ -1,4 +1,4 @@
-# Phase 2 (validation campaign, 19 Oct - 2 Nov 2026): which 5-min recordings to retrieve and which objects to search in them.
+# Phase 2 (test campaign, 19 Oct - 2 Nov 2026): which 5-min recordings to retrieve and which objects to search in them.
 # Target classes: ISS complex, AST SpaceMobile, Starlink (DTC, V2-mini, and V1.x as a control). For every object, day and
 # receiver, the predicted geometry on a 10-s grid gives the 5-min slots in which the object stays >= 20 s in the usable
 # Doppler band, and the cross section sigma_min it would need for z = 7 (radar equation, PROTOCOL item 5).

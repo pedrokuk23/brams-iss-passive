@@ -28,5 +28,5 @@ ax[0].set_title('(a) Ottignies, 3 Nov 2026, 10:10:00 UTC',fontsize=8); ax[1].set
 ax[0].set_ylabel('Doppler (Hz)')
 for a in ax: a.set_xlabel('Time (s)'); a.set_ylim(-75,75); a.set_xlim(0,300)
 ax[1].legend(fontsize=7,loc='upper center',bbox_to_anchor=(0.5,-0.22),ncol=3); ax[1].annotate('no ADS-B match',xy=(262,-5),xytext=(205,-58),fontsize=7,color='#444',arrowprops=dict(arrowstyle='->',color='#666',lw=0.7))
-plt.tight_layout(); plt.savefig(OUT+'fig_aircraft_example.pdf'); plt.savefig(OUT+'fig_aircraft_example.png')
+plt.tight_layout(); plt.savefig(OUT+'fig_aircraft_example.pdf'); plt.savefig(OUT+'fig_aircraft_example.png',dpi=330)
 print(sorted(ok))

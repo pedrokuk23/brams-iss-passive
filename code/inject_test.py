@@ -24,6 +24,8 @@ if _SUB!='none':
     if len(path)<len(_keep): print(f'warning: {len(_keep)-len(path)} files of {_SUB} are missing; results will differ')
 BY=json.load(open('../results/phase2_byfile.json')); S=json.load(open('../results/phase2_summary.json'))
 ZTH={k:v['z_th'] for k,v in S['thresholds'].items()}; DET={(d['file'],d['obj']) for d in S['detections']}
+DETS={}
+for d in S['detections']: DETS.setdefault(d['file'],[]).append(d)
 sets={}
 for f in sorted(glob.glob('../data/tle/phase2/*.txt')):
     L=[l.rstrip('\n') for l in open(f)]
@@ -34,17 +36,29 @@ def satrec(nm,jd0):
     return Satrec.twoline2rv(*sets[nm][int(np.argmin(abs(E-jd0)))])
 rng=np.random.default_rng(11)
 files=sorted(k for k in path if k[-6:] in ('BEOUDS','BEHUMA') and k in BY)
-files=[files[i] for i in sorted(rng.choice(len(files),int(os.environ.get('NFILE','24')),replace=False))]
+files=[files[i] for i in sorted(rng.choice(len(files),int(os.environ.get('NFILE','96')),replace=False))]
 LEVELS=[0.5,0.75,1.0,1.25,1.5,2.0,3.0]; TG=20.0; out=[]
 for k in files:
     md,x,_=bwav.read(path[k]); fs=md['samplerate']; fb,bb0,ts=baseband(x,fs)
     t0=md['start_us']/1e6; jd0=t0/86400+2440587.5
     TX=F.ecef(md['beacon_lat'],md['beacon_long'],md['beacon_alt']/1000); RX=F.ecef(md['ant_lat'],md['ant_long'],md['ant_alt']/1000)
-    cand=[p for p in BY[k] if (k,p['obj']) not in DET and p['obj'] in sets]
-    if not cand: continue
-    p=cand[int(rng.integers(len(cand)))]; tg,fdg,rr=F.doppler(satrec(p['obj'],jd0),t0,TX,RX)
-    fmax=0.9*min(fb,fs/2-fb); fd=np.interp(ts,tg,fdg); band=(abs(fd)>30)&(abs(fd)<fmax)
-    if band.sum()<20*fs: continue
+    # candidate tracks: undetected passes of objects other than the ISS complex whose predicted Doppler does not run
+    # within 3 Hz of the track of an echo detected in the same recording for 5 s or more (a clean track)
+    fmax=0.9*min(fb,fs/2-fb)
+    echo=[]
+    for d in DETS.get(k,[]):
+        if d['obj'] not in sets: continue
+        te,fe,_=F.doppler(satrec(d['obj'],jd0),t0,TX,RX); echo.append((te,fe,d['tau'],d['nu']))
+    cand=[p for p in BY[k] if (k,p['obj']) not in DET and p['obj'] in sets and p['cls']!='ISS complex']
+    p=None
+    for j in rng.permutation(len(cand)):
+        q=cand[j]; tg,fdg,rr=F.doppler(satrec(q['obj'],jd0),t0,TX,RX)
+        fd=np.interp(ts,tg,fdg); band=(abs(fd)>30)&(abs(fd)<fmax)
+        if band.sum()<20*fs: continue
+        tt=np.arange(0,300,0.5); fq=np.interp(tt,tg,fdg); inb=(abs(fq)>30)&(abs(fq)<fmax)
+        if any(np.sum(inb&(abs(fq-(np.interp(tt+tau,te,fe)+nu))<3))*0.5>=5 for te,fe,tau,nu in echo): continue
+        p=q; break
+    if p is None: continue
     nb=int(band.sum()/fs/0.5); tb=ts[band]; tc=0.5*(tb[0]+tb[-1])
     # noise density along the echo track, block by block: the recording is dechirped along the prediction and the noise
     # per 0.5-s block is the median power 13-40 Hz from the track (as the limiter of the search measures it); the
@@ -73,5 +87,5 @@ for env in ('steady','glint'):
     for lev in LEVELS:
         q=[o for o in out if o['env']==env and o['level']==lev]
         if q: summ[env][str(lev)]=dict(n=len(q),pd=float(np.mean([o['det'] for o in q])),median_z_over_pred=float(np.median([o['z']/o['z_pred'] for o in q])))
-json.dump(dict(summary=summ,glint_full_width_s=TG,rows=out),open('../results/inject_test.json','w'),indent=1)
+json.dump(dict(summary=summ,glint_full_width_s=TG,n_recordings=len({o['file'] for o in out}),rows=out),open(os.environ.get('OUTFILE','../results/inject_test.json'),'w'),indent=1)
 print(json.dumps(summ,indent=1))

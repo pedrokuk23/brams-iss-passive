@@ -61,12 +61,19 @@ scatter=dict(n_nights=len(g),within_sd_ms=float(np.sqrt(np.sum(np.square(within)
              between_sd_of_means_ms=float(means.std(ddof=1)),mean_of_night_means_ms=float(means.mean()),
              se_night_level_ms=float(means.std(ddof=1)/np.sqrt(len(means))),
              nights_one_file=all(len({r['oem'] for r in fresh if r['night']==n})==1 for n in g))
-out=dict(rule='latest OEM file created before the pass; age from its START_TIME (propagation span) and from creation',
+# mean offset of the fresh predictions: a constant against an error that grows quadratically from the initial state
+# of the file (as a drag-model error does), both with one free parameter
+af=np.array([r['age_start_h'] for r in fresh]); yf=np.array([r['diff_ms'] for r in fresh])
+qa=float(np.sum(af**2*yf)/np.sum(af**4))
+growth=dict(const_rms_ms=float(np.sqrt(np.mean((yf-yf.mean())**2))),quad_coef_ms_per_h2=qa,quad_rms_ms=float(np.sqrt(np.mean((yf-qa*af**2)**2))),
+            phase1_fresh_mean_ms=float(np.mean([r['diff_ms'] for r in fresh if r['campaign']==1])),
+            phase1_all_mean_ms=float(np.mean([r['diff_ms'] for r in rows if r['campaign']==1])))
+out=dict(growth=growth,rule='latest OEM file created before the pass; age from its START_TIME (propagation span) and from creation',
          latency_ms=dict(phase1_HU=L1,phase2_HUM=Q['latency_v5_HUM']['L_ms']),
          by_start_age=binned('age_start_h'),by_start_age_excl_20261025=binned('age_start_h',True),
          by_creation_age=binned('age_created_h'),fresh_regression=reg,fresh_scatter=scatter,rows=rows)
 json.dump(out,open(R+'iss_oem_combined.json','w'),indent=1)
 for k in ('by_start_age_excl_20261025','by_creation_age'):
     print(k); [print('  ',a,{kk:round(vv,1) if isinstance(vv,float) else vv for kk,vv in b.items()}) for a,b in out[k].items()]
-print(reg); print(scatter)
+print(reg); print(scatter); print(growth)
 for r in rows[:5]: print(r['pass_'],r['oem'],round(r['age_created_h'],1),round(r['age_start_h'],1),round(r['diff_ms'],1))

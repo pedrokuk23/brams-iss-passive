@@ -1,5 +1,5 @@
 {
- "n": 61,
+ "n": 78,
  "entries": [
   {
    "key": "p1_pairs_rms",
@@ -140,7 +140,7 @@
   {
    "key": "p2_rx_agree",
    "value": 4.7506473243807585,
-   "text": "agree to 4.8~ms (standard deviation, 97 degrees of freedom)",
+   "text": "the receivers of a pass agree to 4.8~ms",
    "where": [
     "main"
    ]
@@ -166,7 +166,7 @@
   {
    "key": "both_fresh_mean",
    "value": 26.996120245444732,
-   "text": "a mean of $+27$~ms",
+   "text": "a mean of $+27$~ms and a standard deviation of 25~ms",
    "where": [
     "main"
    ]
@@ -198,7 +198,7 @@
   {
    "key": "within_night",
    "value": 9.509235636015212,
-   "text": "scatter by 10~ms (standard deviation, 10 degrees of freedom), against 26~ms between the means of the seven nights",
+   "text": "scatter by 10~ms, against 26~ms between the means of the seven nights",
    "where": [
     "main"
    ]
@@ -206,7 +206,7 @@
   {
    "key": "night_mean",
    "value": 29.28336519250176,
-   "text": "($+29\\pm10$~ms over the seven nights)",
+   "text": "($+29\\pm10$~ms over the nights)",
    "where": [
     "main"
    ]
@@ -214,7 +214,15 @@
   {
    "key": "age_1_2d",
    "value": 132.5717350672287,
-   "text": "133~ms rms for 1--2 days (16 passes, of which the two of Phase~1 agree to 22~ms)",
+   "text": "133~ms rms for 1--2 days",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "age_1_2d_tab",
+   "value": 132.5717350672287,
+   "text": "133~ms (16)",
    "where": [
     "main"
    ]
@@ -222,7 +230,15 @@
   {
    "key": "age_2d",
    "value": 359.27789750820614,
-   "text": "359~ms beyond two days (6 passes)",
+   "text": "359~ms beyond two days",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "age_2d_tab",
+   "value": 359.27789750820614,
+   "text": "359~ms (6)",
    "where": [
     "main"
    ]
@@ -230,17 +246,105 @@
   {
    "key": "creation_rms",
    "value": 242.03785326546856,
-   "text": "becomes 242~ms (21 passes)",
+   "text": "gives 242~ms for predictions created less than one day before the pass",
    "where": [
     "main"
    ]
   },
   {
-   "key": "creation_rms_abs",
+   "key": "creation_rms_tab",
    "value": 242.03785326546856,
-   "text": "242~ms counting age from file creation",
+   "text": "242~ms (21)",
    "where": [
-    "abstract"
+    "main"
+   ]
+  },
+  {
+   "key": "tab_all_24",
+   "value": 183.88653196432654,
+   "text": "184~ms (19)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "tab_all_48",
+   "value": 637.6212014383913,
+   "text": "638~ms (9)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "tab_cre_24",
+   "value": 358.94977340740854,
+   "text": "359~ms (18)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "tab_cre_48",
+   "value": 359.27789750820614,
+   "text": "359~ms (6)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "growth_quad",
+   "value": 24.11079009443003,
+   "text": "fits the 17 differences to 24~ms rms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "growth_p1",
+   "value": 8.972914216507368,
+   "text": "average $+9$~ms and all five passes of Phase~1 $-3.5$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "nonov_formal",
+   "value": 0.7547896309121751,
+   "text": "0.8--3.9~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "nonov_chi2",
+   "value": null,
+   "text": "reduced chi-square of 1.2--3.8 over the four sets and gives 8.2--9.0~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "far_p2_4rx",
+   "value": 0.11952823804004736,
+   "text": "0.12\\% in Phase~2 (0.04--0.23\\%)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "maub_det",
+   "value": 37.0,
+   "text": "its 37 Phase~2 detections (27 of the ISS complex and 10 of DTC satellites)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "maub_rates",
+   "value": null,
+   "text": "ISS and DTC rates of Phase~2 are 43\\% and 14.6\\%",
+   "where": [
+    "main"
    ]
   },
   {
@@ -262,7 +366,7 @@
   {
    "key": "order_n",
    "value": 16.0,
-   "text": "(16, 15 and 11 passes)",
+   "text": "(16, 15 and 11 passes of Phase~2)",
    "where": [
     "main"
    ]
@@ -321,7 +425,7 @@
   {
    "key": "far_p1",
    "value": 0.12105277042534668,
-   "text": "0.12\\% in Phase~1",
+   "text": "0.12\\% per pass in Phase~1 (95\\% range over the splits 0.05--0.21\\%)",
    "where": [
     "main"
    ]
@@ -329,7 +433,7 @@
   {
    "key": "far_p2",
    "value": 0.15951577022708033,
-   "text": "0.16\\% in Phase~2",
+   "text": "0.16\\% over all five receivers",
    "where": [
     "main"
    ]
@@ -337,7 +441,7 @@
   {
    "key": "far_pooled_abstract",
    "value": null,
-   "text": "0.12--0.16\\%",
+   "text": "0.12\\% per pass",
    "where": [
     "abstract",
     "main"
@@ -380,7 +484,7 @@
    "value": 6.905232639247231,
    "text": "about 7 exceedances are expected",
    "where": [
-    "main"
+    "supp"
    ]
   },
   {
@@ -388,7 +492,7 @@
    "value": 0.16002574951405377,
    "text": "0.16 for a Poisson count, 0.22 for the exact",
    "where": [
-    "main"
+    "supp"
    ]
   },
   {
@@ -396,7 +500,7 @@
    "value": 0.3499299442057993,
    "text": "0.35\\% of passes for a Poisson count",
    "where": [
-    "main"
+    "supp"
    ]
   },
   {
@@ -404,7 +508,7 @@
    "value": 0.5901955196841302,
    "text": "or 0.6\\% without",
    "where": [
-    "main"
+    "supp"
    ]
   },
   {
@@ -412,13 +516,37 @@
    "value": 1.2422525176435566,
    "text": "one-sided 95\\% upper bound 1.2\\%",
    "where": [
+    "supp"
+   ]
+  },
+  {
+   "key": "inj_n",
+   "value": 96.0,
+   "text": "baseband of 96 Phase~2 recordings",
+   "where": [
     "main"
    ]
   },
   {
-   "key": "inj_clean",
+   "key": "inj_steady",
    "value": null,
-   "text": "steady echo is detected in 15, 40, 60 and 100\\% and the glint in 10, 40, 50 and 95\\%",
+   "text": "steady echo was detected in 17, 46, 76 and 91\\%",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "inj_glint",
+   "value": null,
+   "text": "full width in 16, 32, 66 and 83\\%",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "inj_half",
+   "value": 1.2844827586206897,
+   "text": "detected at 1.3 (steady) and 1.4 (glint) times",
    "where": [
     "main"
    ]
@@ -442,7 +570,15 @@
   {
    "key": "glm_or",
    "value": 15.905259858653254,
-   "text": "is 16 (95\\% interval 8.9--29 with errors clustered by satellite, 7.1--36 clustered by recording; 12,031 passes of 3,327 satellites)",
+   "text": "is 16 (95\\% interval 8.9--29 with errors clustered by satellite, 7.1--36 clustered by five-minute slot or by satellite and slot together; 12,031 passes of 3,327 satellites)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "glm_ridge",
+   "value": 16.683997314132743,
+   "text": "a ridge-penalized fit gives 17",
    "where": [
     "main"
    ]
@@ -474,7 +610,7 @@
   {
    "key": "cat_alt",
    "value": 175.0,
-   "text": "for 175 of the 1,575 detections that could be tested (of 1,577) another object",
+   "text": "175 of the 1,575 detections that could be tested (of 1,577) another object",
    "where": [
     "main"
    ]

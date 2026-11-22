@@ -3,7 +3,7 @@
 # Clopper-Pearson intervals; expected false alarms; detection probability versus the cross section needed by the model.
 import os, json, glob, re, numpy as np
 from scipy.stats import beta
-# Phase 2 (PROTOCOL item 6): the same rule, applied unchanged to the validation campaign, 19 Oct - 2 Nov 2026.
+# Phase 2 (PROTOCOL item 6): the same rule, applied unchanged to the test campaign, 19 Oct - 2 Nov 2026.
 _seen={}
 for f in sorted(glob.glob(os.environ.get('P2GLOB','../results/p2_[cd][le]*.json'))):   # shards of one run only (run_all.sh sets P2GLOB)
     for r in json.load(open(f)):

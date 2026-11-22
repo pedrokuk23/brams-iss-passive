@@ -1,4 +1,11 @@
 {
+ "growth": {
+  "const_rms_ms": 24.270352235501576,
+  "quad_coef_ms_per_h2": 0.10391011020522188,
+  "quad_rms_ms": 24.11079009443003,
+  "phase1_fresh_mean_ms": 8.972914216507368,
+  "phase1_all_mean_ms": -3.503957115826803
+ },
  "rule": "latest OEM file created before the pass; age from its START_TIME (propagation span) and from creation",
  "latency_ms": {
   "phase1_HU": 8.70828128529105,

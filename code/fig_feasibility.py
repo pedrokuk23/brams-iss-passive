@@ -10,7 +10,7 @@ fig,ax=plt.subplots(figsize=(6.3,3.1)); ax.axis('off'); ax.set_xlim(-1,101); ax.
 W=18.4; X=[0,20.4,40.8,61.2,81.6]
 B=['1. Geometry\n$30<|f_D|<900$\nHz for 20 s?',
    '2. Sensitivity\n$\\sigma_\\min$, Eq. (10)\n(range, gains,\n$z_\\mathrm{th}$, $T_\\mathrm{eff}$)',
-   '3. Target\nplate: $4\\pi A^2/\\lambda^2$\nglint: $T_g/2$\ntumbling: $\\lambda P/2\\pi L$',
+   '3. Target\nplate: $4\\pi A^2/\\lambda^2$\nglint: $T_g/2$\ntumbling: $\\lambda P/4\\pi L$',
    '4. Margin\n$M=\\sigma_\\max/\\sigma_\\min$',
    '5. Group\narray in shadow\narray in sunlight\nlarge structure']
 for x,t in zip(X,B):
@@ -18,8 +18,8 @@ for x,t in zip(X,B):
 for x in X[:-1]: ax.annotate('',xy=(x+W+2.0,34),xytext=(x+W+0.4,34),arrowprops=dict(arrowstyle='->',lw=0.7))
 ax.text(X[0]+W/2,24.3,'no: not observable',ha='center',fontsize=7,color='0.3')
 D=[(0.5,'$M<1$: not visible in any\nattitude (detected in 0.13%\nand 0.40% of passes)','#f4cccc'),
-   (34.5,'$1\\leq M<10$: marginal\nPhase 1 fit: arrays 0.1-20%,\nISS 70-99%','#fff2cc'),
-   (68.5,'$M\\geq10$, Phase 1 fit:\nshadow 20-90%, sunlit 1-30%,\nISS >95% (Phase 2 lower)','#d9ead3')]
+   (34.5,'$1\\leq M<10$: marginal\nPhase 1 fit: arrays 0.1–20%,\nISS 70–99%','#fff2cc'),
+   (68.5,'$M\\geq10$, Phase 1 fit:\nshadow 20–90%, sunlit 1–30%,\nISS >95% (Phase 2 lower)','#d9ead3')]
 for x,t,c in D:
     ax.add_patch(FancyBboxPatch((x,6),31,11,boxstyle='round,pad=0.3',fc=c,ec='k',lw=0.6)); ax.text(x+15.5,11.5,t,ha='center',va='center',fontsize=7)
 ax.plot([81.6+W/2]*2,[26.6,21],color='k',lw=0.6); ax.plot([16,81.6+W/2],[21,21],color='k',lw=0.6)

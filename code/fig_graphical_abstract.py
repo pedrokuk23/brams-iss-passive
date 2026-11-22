@@ -1,30 +1,31 @@
-# Graphical abstract (Elsevier: about 13 x 5 cm displayed, legible fonts): (a) blind search of the validation campaign,
-# detection fraction per class against the pooled false-alarm rate; (b) ISS timing against NASA predictions propagated
-# less than one day (both campaigns) and older ones.
-import numpy as np, json
+# Graphical abstract (Elsevier: at least 1328 x 531 pixels, read at about 13 x 5 cm): smallest cross section that the
+# network detects against range, for a steady echo and for glints at Oudsbergen, with the objects detected (ISS,
+# Starlink DTC, BlueBird array) and the upper limit for Envisat; based on Fig. 8b of the article.
+import json, numpy as np, matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+exec(open('detect_theory.py').read().split("cn=json.load")[0])
+T=json.load(open('../results/detect_theory.json')); cn=json.load(open('../results/detectability_cn0.json'))
+G={k:10**(v/10) for k,v in T['Geff_dB'].items()}
 exec(open('figstyle.py').read())
-P2=json.load(open('../results/phase2_summary.json')); C=json.load(open('../results/iss_oem_combined.json'))
-fig,ax=plt.subplots(1,2,figsize=(5.4,2.25),gridspec_kw=dict(width_ratios=[1.25,1],wspace=0.55))
-b=ax[0]
-cls=[('ISS complex','ISS'),('AST SpaceMobile','BlueBird'),('Starlink DTC','Starlink DTC'),('Starlink V2-mini','V2-mini'),('Starlink V1.x','V1.x')]
-for i,(c,lab) in enumerate(cls):
-    v=P2['classes'][c]['all']; lo,hi=v['ci']
-    b.errorbar(100*v['pd'],i,xerr=[[100*(v['pd']-lo)],[100*(hi-v['pd'])]],fmt='o',color='#2b5d8a',ms=4,lw=1,capsize=2)
-b.axvspan(0.12,0.16,color='#c0392b',alpha=0.4,lw=0)
-b.annotate('false alarms',(0.18,len(cls)-0.75),ha='left',va='center',fontsize=7,color='#c0392b')
-b.set_xscale('log'); b.set_xlim(0.08,100); b.set_ylim(len(cls)-0.4+0.3,-0.6)
-b.set_yticks(range(len(cls))); b.set_yticklabels([l for _,l in cls],fontsize=8); b.tick_params(labelsize=7.5)
-b.set_xlabel('Passes detected (%)',fontsize=8); b.set_title('Blind search, 24,284 passes',fontsize=8.5)
-for s_ in ['top','right']: b.spines[s_].set_visible(False)
-c=ax[1]; R=[r for r in C['rows'] if r['oem']!='20261025T0255']
-old=[r for r in R if r['age_start_h']>=24]; fr=[r for r in R if r['age_start_h']<24]
-c.plot([r['dt_oem_ms'] for r in old],[r['dt_ms'] for r in old],'o',mfc='none',mec='#aaa',ms=3.5,mew=0.7,label='> 1 day')
-c.plot([r['dt_oem_ms'] for r in fr],[r['dt_ms'] for r in fr],'o',color='#2b5d8a',ms=4,label='< 1 day')
-c.plot([-400,400],[-400,400],':',color='#888',lw=0.6); c.set_xlim(-550,550); c.set_ylim(-300,300)
-c.set_xticks([-400,0,400]); c.set_yticks([-200,0,200]); c.tick_params(labelsize=7.5)
-c.set_xlabel('NASA prediction (ms)',fontsize=8); c.set_ylabel('Measured $\\delta t$ (ms)',fontsize=8)
-s=C['by_start_age_excl_20261025']['0-24 h|both']
-c.set_title('ISS timing: %.0f ms rms\n(%d passes, prediction < 1 day)'%(s['rms_ms'],s['n']),fontsize=8.5)
-c.legend(fontsize=7,loc='upper left',handletextpad=0.2,borderpad=0.2)
-for s_ in ['top','right']: c.spines[s_].set_visible(False)
-plt.savefig(OUT+'graphical_abstract.png',dpi=300,bbox_inches='tight',pad_inches=0.05)
+plt.rcParams.update({'axes.spines.top':False,'axes.spines.right':False,'font.size':9})
+fig,b=plt.subplots(figsize=(8.0,3.2))
+Rk=np.linspace(250,1000,200); c=COL['BEOUDS']
+b.fill_between(Rk,[T['EN0_min_window']/50/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],5e5,color=c,alpha=0.07,lw=0)
+b.semilogy(Rk,[T['EN0_min_window']/50/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],'-',color=c,lw=2,label='detectable: steady 50-s echo')
+for Tg,ls in [(16,'--'),(2,':')]:
+    b.semilogy(Rk,[T['EN0_min_window']/Tg/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],ls,color=c,lw=1.5,label=f'detectable: glint of {Tg} s')
+iss=[(([x['rr_at_peak'] for x in cn if x['label']==r['label']][0]),r['sigma_m2']) for r in T['iss_sigma']]
+x,y=np.array(iss).T; b.semilogy(x,y,'o',ms=5,color='#c0392b',mec='white',mew=0.5,ls='',label='ISS')
+ce=json.load(open('../results/close_echo.json'))['echoes']
+clear={'STARLINK-11196 [DTC]','STARLINK-11136 [DTC]','STARLINK-11330 [DTC]','STARLINK-11317 [DTC]','STARLINK-11488 [DTC]','STARLINK-11466 [DTC]'}
+d=np.array([(e['rr_km'],e['sigma_m2']) for e in ce if e['obj'] in clear]).T
+b.semilogy(d[0],d[1],'^',ms=6,color='#e67e22',mec='white',mew=0.5,ls='',label='Starlink DTC')
+b.semilogy(538,T['sigma_bluebird_m2'],'*',ms=13,color='#2c3e50',ls='',label='BlueBird array')
+ul=T['envisat_upper_limits']['BEOUDS']
+b.annotate('',xy=(ul['R_km'],ul['sigma_ul_window']*0.4),xytext=(ul['R_km'],ul['sigma_ul_window']),arrowprops=dict(arrowstyle='->',color='#555',lw=1.2))
+b.plot(ul['R_km'],ul['sigma_ul_window'],'v',color='#555',ms=6); b.text(ul['R_km']+12,ul['sigma_ul_window']*0.55,'Envisat, tumbling:\nnot detected',fontsize=8,va='center',color='#555')
+for k,lab in [('plate_15m','15-m flat plate'),('plate_5m','5-m flat plate'),('resonant_wire','resonant $\\lambda/2$ wire')]:
+    v=T['ref_sigma_m2'][k]; b.axhline(v,color='#bbb',lw=0.8,ls=(0,(2,2))); b.text(990,v*1.2,lab,fontsize=8,color='#777',ha='right')
+b.set_xlim(250,1000); b.set_ylim(3,5e5); b.set_xlabel('Geometric mean range (km)'); b.set_ylabel('Radar cross section (m$^2$)')
+b.set_title('An open meteor radar network (BRAMS, 50 MHz) as a multistatic sensor of objects in low Earth orbit',loc='left',fontsize=9.5)
+b.legend(frameon=False,fontsize=8,loc='upper left',bbox_to_anchor=(1.0,1.0))
+fig.tight_layout(); fig.savefig(FIGDIR+'graphical_abstract.png',dpi=332,facecolor='white'); from PIL import Image; Image.open(FIGDIR+'graphical_abstract.png').convert('RGB').save(FIGDIR+'graphical_abstract.png'); fig.savefig(FIGDIR+'graphical_abstract.pdf')
