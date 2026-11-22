@@ -8,6 +8,7 @@ import glob, json, os, numpy as np
 from sgp4.api import Satrec, WGS72
 from scipy.optimize import least_squares
 from astropy.time import Time
+from astropy.utils import iers; iers.conf.auto_download=False; iers.conf.iers_degraded_accuracy='warn'; iers.conf.auto_max_age=None
 from astropy.coordinates import GCRS, TEME, CartesianRepresentation, CartesianDifferential
 import astropy.units as u
 D='../data/'; Q=json.load(open('../results/phase2_iss_summary.json'))

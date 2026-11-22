@@ -1,54 +1,54 @@
 {
  "gain_correction_dB": {
   "BEHUMA": -1.0,
-  "BEOTTI": 0.0,
-  "FRMAUB": -2.0,
-  "BEUCCE": 1.0
+  "BEOTTI": -1.0,
+  "FRMAUB": -1.0,
+  "BEUCCE": 0.0
  },
  "by_class": {
   "ISS complex": {
    "n": 419,
    "observed": 171,
-   "predicted": 242.8,
+   "predicted": 251.2,
    "pred_95": [
-    213,
-    274
+    221,
+    283
    ]
   },
   "AST SpaceMobile": {
    "n": 318,
    "observed": 39,
-   "predicted": 22.9,
+   "predicted": 20.4,
    "pred_95": [
-    14,
-    33
+    12,
+    30
    ]
   },
   "Starlink DTC": {
    "n": 3035,
    "observed": 402,
-   "predicted": 370.8,
+   "predicted": 326.8,
    "pred_95": [
-    334,
-    409
+    292,
+    363
    ]
   },
   "Starlink V2-mini": {
    "n": 12031,
    "observed": 933,
-   "predicted": 1021.8,
+   "predicted": 941.0,
    "pred_95": [
-    960,
-    1085
+    881,
+    1002
    ]
   },
   "Starlink V1.x": {
    "n": 5700,
    "observed": 47,
-   "predicted": 13.1,
+   "predicted": 12.8,
    "pred_95": [
-    7,
-    21
+    6,
+    20
    ]
   }
  },
@@ -56,46 +56,46 @@
   "BEOUDS": {
    "n": 10397,
    "observed": 950,
-   "predicted": 865.0,
+   "predicted": 791.1,
    "pred_95": [
-    808,
-    923
+    736,
+    847
    ]
   },
   "BEHUMA": {
    "n": 10036,
    "observed": 522,
-   "predicted": 669.2,
+   "predicted": 622.6,
    "pred_95": [
-    619,
-    720
+    574,
+    672
    ]
   },
   "BEOTTI": {
    "n": 442,
    "observed": 60,
-   "predicted": 55.8,
+   "predicted": 55.1,
    "pred_95": [
-    42,
-    71
+    41,
+    70
    ]
   },
   "FRMAUB": {
    "n": 184,
    "observed": 37,
-   "predicted": 23.6,
+   "predicted": 26.8,
    "pred_95": [
-    15,
-    34
+    17,
+    37
    ]
   },
   "BEUCCE": {
    "n": 444,
    "observed": 23,
-   "predicted": 57.7,
+   "predicted": 56.6,
    "pred_95": [
-    43,
-    73
+    42,
+    72
    ]
   }
  },
@@ -104,9 +104,9 @@
    {
     "lo": 0,
     "hi": 1,
-    "n": 160,
-    "observed": 5,
-    "predicted": 0.2,
+    "n": 147,
+    "observed": 2,
+    "predicted": 0.1,
     "pred_95": [
      0,
      1
@@ -115,45 +115,45 @@
    {
     "lo": 1,
     "hi": 3,
-    "n": 78,
-    "observed": 29,
-    "predicted": 64.3,
+    "n": 81,
+    "observed": 27,
+    "predicted": 63.3,
     "pred_95": [
-     49,
-     80
+     48,
+     79
     ]
    },
    {
     "lo": 3,
     "hi": 10,
-    "n": 111,
-    "observed": 67,
-    "predicted": 108.5,
+    "n": 108,
+    "observed": 62,
+    "predicted": 105.0,
     "pred_95": [
-     89,
-     129
+     85,
+     126
     ]
    },
    {
     "lo": 10,
     "hi": 30,
-    "n": 70,
-    "observed": 70,
-    "predicted": 69.8,
+    "n": 72,
+    "observed": 69,
+    "predicted": 71.8,
     "pred_95": [
-     54,
-     87
+     56,
+     89
     ]
    },
    {
     "lo": 30,
     "hi": 100,
-    "n": 0,
-    "observed": 0,
-    "predicted": 0,
+    "n": 11,
+    "observed": 11,
+    "predicted": 11.0,
     "pred_95": [
-     0,
-     0
+     5,
+     18
     ]
    },
    {
@@ -172,88 +172,20 @@
    {
     "lo": 0,
     "hi": 1,
-    "n": 1086,
-    "observed": 9,
-    "predicted": 1.1,
+    "n": 182,
+    "observed": 1,
+    "predicted": 0.2,
     "pred_95": [
      0,
-     3
+     1
     ]
    },
    {
     "lo": 1,
     "hi": 3,
-    "n": 859,
-    "observed": 13,
-    "predicted": 1.6,
-    "pred_95": [
-     0,
-     4
-    ]
-   },
-   {
-    "lo": 3,
-    "hi": 10,
-    "n": 4312,
-    "observed": 727,
-    "predicted": 524.7,
-    "pred_95": [
-     480,
-     570
-    ]
-   },
-   {
-    "lo": 10,
-    "hi": 30,
-    "n": 1031,
-    "observed": 287,
-    "predicted": 539.7,
-    "pred_95": [
-     495,
-     586
-    ]
-   },
-   {
-    "lo": 30,
-    "hi": 100,
-    "n": 110,
-    "observed": 43,
-    "predicted": 103.7,
-    "pred_95": [
-     84,
-     124
-    ]
-   },
-   {
-    "lo": 100,
-    "hi": 1000000000.0,
-    "n": 0,
-    "observed": 0,
-    "predicted": 0,
-    "pred_95": [
-     0,
-     0
-    ]
-   }
-  ],
-  "plate_sunlit": [
-   {
-    "lo": 0,
-    "hi": 1,
-    "n": 2278,
-    "observed": 0,
-    "predicted": 2.3,
-    "pred_95": [
-     0,
-     6
-    ]
-   },
-   {
-    "lo": 1,
-    "hi": 3,
-    "n": 1689,
-    "observed": 34,
-    "predicted": 1.7,
+    "n": 1669,
+    "observed": 21,
+    "predicted": 2.1,
     "pred_95": [
      0,
      5
@@ -262,45 +194,113 @@
    {
     "lo": 3,
     "hi": 10,
-    "n": 7893,
-    "observed": 46,
-    "predicted": 47.3,
+    "n": 2208,
+    "observed": 79,
+    "predicted": 185.2,
     "pred_95": [
-     34,
-     61
+     159,
+     212
     ]
    },
    {
     "lo": 10,
     "hi": 30,
-    "n": 1628,
-    "observed": 245,
-    "predicted": 104.0,
+    "n": 3137,
+    "observed": 914,
+    "predicted": 782.4,
     "pred_95": [
-     84,
-     124
+     728,
+     838
     ]
    },
    {
     "lo": 30,
     "hi": 100,
-    "n": 197,
-    "observed": 17,
-    "predicted": 101.6,
+    "n": 200,
+    "observed": 64,
+    "predicted": 169.0,
     "pred_95": [
-     82,
-     122
+     144,
+     195
     ]
    },
    {
     "lo": 100,
     "hi": 1000000000.0,
-    "n": 1,
+    "n": 2,
     "observed": 0,
-    "predicted": 0.9,
+    "predicted": 2.0,
     "pred_95": [
      0,
-     3
+     5
+    ]
+   }
+  ],
+  "plate_sunlit": [
+   {
+    "lo": 0,
+    "hi": 1,
+    "n": 379,
+    "observed": 0,
+    "predicted": 0.4,
+    "pred_95": [
+     0,
+     2
+    ]
+   },
+   {
+    "lo": 1,
+    "hi": 3,
+    "n": 3408,
+    "observed": 21,
+    "predicted": 3.4,
+    "pred_95": [
+     0,
+     7
+    ]
+   },
+   {
+    "lo": 3,
+    "hi": 10,
+    "n": 4020,
+    "observed": 25,
+    "predicted": 24.4,
+    "pred_95": [
+     15,
+     35
+    ]
+   },
+   {
+    "lo": 10,
+    "hi": 30,
+    "n": 5548,
+    "observed": 261,
+    "predicted": 86.3,
+    "pred_95": [
+     69,
+     105
+    ]
+   },
+   {
+    "lo": 30,
+    "hi": 100,
+    "n": 321,
+    "observed": 35,
+    "predicted": 41.4,
+    "pred_95": [
+     29,
+     54
+    ]
+   },
+   {
+    "lo": 100,
+    "hi": 1000000000.0,
+    "n": 10,
+    "observed": 0,
+    "predicted": 4.3,
+    "pred_95": [
+     1,
+     9
     ]
    }
   ]
@@ -308,37 +308,37 @@
  "all": {
   "n": 21503,
   "observed": 1592,
-  "predicted": 1671.3,
+  "predicted": 1552.2,
   "pred_95": [
-   1592,
-   1752
+   1475,
+   1630
   ]
  },
  "impossible": {
   "phase1": {
-   "n": 9978,
-   "k": 13,
+   "n": 9043,
+   "k": 4,
    "ci": [
-    0.0006938980521876414,
-    0.002226910562397963
+    0.0001205330642092907,
+    0.0011321524609998552
    ]
   },
   "phase2": {
-   "n": 3524,
-   "k": 14,
+   "n": 708,
+   "k": 3,
    "ci": [
-    0.002173593908777178,
-    0.006656638253978048
+    0.0008746845659581018,
+    0.012332807853884277
    ]
   }
  },
  "by_class_plates_only": {
   "n": 21084,
   "observed": 1421,
-  "predicted": 1428.5,
+  "predicted": 1301.0,
   "pred_95": [
-   1355,
-   1503
+   1231,
+   1372
   ]
  },
  "table": [
@@ -347,10 +347,10 @@
    "rx": "BEOUDS",
    "n": 85,
    "observed": 42,
-   "predicted": 59.9,
+   "predicted": 63.2,
    "pred_95": [
-    45,
-    75
+    48,
+    79
    ]
   },
   {
@@ -358,10 +358,10 @@
    "rx": "BEHUMA",
    "n": 85,
    "observed": 45,
-   "predicted": 59.6,
+   "predicted": 61.7,
    "pred_95": [
-    45,
-    75
+    47,
+    78
    ]
   },
   {
@@ -369,7 +369,7 @@
    "rx": "BEOTTI",
    "n": 85,
    "observed": 40,
-   "predicted": 49.7,
+   "predicted": 49.6,
    "pred_95": [
     36,
     64
@@ -380,10 +380,10 @@
    "rx": "FRMAUB",
    "n": 78,
    "observed": 27,
-   "predicted": 23.5,
+   "predicted": 26.7,
    "pred_95": [
-    14,
-    33
+    17,
+    37
    ]
   },
   {
@@ -391,7 +391,7 @@
    "rx": "BEUCCE",
    "n": 86,
    "observed": 17,
-   "predicted": 50.1,
+   "predicted": 50.0,
    "pred_95": [
     37,
     64
@@ -402,10 +402,10 @@
    "rx": "BEOUDS",
    "n": 139,
    "observed": 21,
-   "predicted": 13.6,
+   "predicted": 12.0,
    "pred_95": [
-    7,
-    21
+    6,
+    19
    ]
   },
   {
@@ -413,10 +413,10 @@
    "rx": "BEHUMA",
    "n": 143,
    "observed": 16,
-   "predicted": 8.5,
+   "predicted": 7.8,
    "pred_95": [
     3,
-    15
+    14
    ]
   },
   {
@@ -446,7 +446,7 @@
    "rx": "BEUCCE",
    "n": 17,
    "observed": 1,
-   "predicted": 0.4,
+   "predicted": 0.3,
    "pred_95": [
     0,
     2
@@ -457,10 +457,10 @@
    "rx": "BEOUDS",
    "n": 1146,
    "observed": 225,
-   "predicted": 207.5,
+   "predicted": 180.7,
    "pred_95": [
-    180,
-    236
+    155,
+    208
    ]
   },
   {
@@ -468,10 +468,10 @@
    "rx": "BEHUMA",
    "n": 1186,
    "observed": 143,
-   "predicted": 150.6,
+   "predicted": 134.9,
    "pred_95": [
-    127,
-    175
+    113,
+    158
    ]
   },
   {
@@ -479,10 +479,10 @@
    "rx": "BEOTTI",
    "n": 299,
    "observed": 19,
-   "predicted": 5.6,
+   "predicted": 5.0,
    "pred_95": [
     1,
-    11
+    10
    ]
   },
   {
@@ -501,10 +501,10 @@
    "rx": "BEUCCE",
    "n": 303,
    "observed": 5,
-   "predicted": 7.0,
+   "predicted": 6.1,
    "pred_95": [
     2,
-    13
+    11
    ]
   },
   {
@@ -512,10 +512,10 @@
    "rx": "BEOUDS",
    "n": 6119,
    "observed": 632,
-   "predicted": 577.5,
+   "predicted": 528.8,
    "pred_95": [
-    531,
-    625
+    484,
+    574
    ]
   },
   {
@@ -523,10 +523,10 @@
    "rx": "BEHUMA",
    "n": 5904,
    "observed": 301,
-   "predicted": 444.3,
+   "predicted": 412.2,
    "pred_95": [
-    403,
-    486
+    373,
+    452
    ]
   },
   {
@@ -556,7 +556,7 @@
    "rx": "BEOUDS",
    "n": 2908,
    "observed": 30,
-   "predicted": 6.5,
+   "predicted": 6.4,
    "pred_95": [
     2,
     12
@@ -567,10 +567,10 @@
    "rx": "BEHUMA",
    "n": 2718,
    "observed": 17,
-   "predicted": 6.2,
+   "predicted": 6.0,
    "pred_95": [
     2,
-    12
+    11
    ]
   },
   {
@@ -578,7 +578,7 @@
    "rx": "BEOTTI",
    "n": 36,
    "observed": 0,
-   "predicted": 0.2,
+   "predicted": 0.1,
    "pred_95": [
     0,
     1
@@ -609,31 +609,31 @@
  ],
  "no_sunlight_split": {
   "observed": 1592,
-  "predicted": 1924.9
+  "predicted": 1849.0
  },
  "no_gain_correction": {
   "observed": 1592,
-  "predicted": 1620.7,
+  "predicted": 1572.2,
   "by_rx": {
    "BEOUDS": {
     "observed": 950,
-    "predicted": 704.9
+    "predicted": 681.8
    },
    "BEHUMA": {
     "observed": 522,
-    "predicted": 782.3
+    "predicted": 747.3
    },
    "BEOTTI": {
     "observed": 60,
-    "predicted": 53.3
+    "predicted": 57.6
    },
    "FRMAUB": {
     "observed": 37,
-    "predicted": 32.1
+    "predicted": 31.2
    },
    "BEUCCE": {
     "observed": 23,
-    "predicted": 48.1
+    "predicted": 54.4
    }
   }
  }

@@ -10,9 +10,9 @@ plt.rcParams.update({'axes.spines.top':False,'axes.spines.right':False,'font.siz
 fig,b=plt.subplots(figsize=(8.0,3.2))
 Rk=np.linspace(250,1000,200); c=COL['BEOUDS']
 b.fill_between(Rk,[T['EN0_min_window']/50/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],5e5,color=c,alpha=0.07,lw=0)
-b.semilogy(Rk,[T['EN0_min_window']/50/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],'-',color=c,lw=2,label='detectable: steady 50-s echo')
+b.semilogy(Rk,[T['EN0_min_window']/50/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],'-',color=c,lw=2,label='Oudsbergen limit, steady 50-s echo')
 for Tg,ls in [(16,'--'),(2,':')]:
-    b.semilogy(Rk,[T['EN0_min_window']/Tg/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],ls,color=c,lw=1.5,label=f'detectable: glint of {Tg} s')
+    b.semilogy(Rk,[T['EN0_min_window']/Tg/cn0(1.,r*1e3,G['BEOUDS']) for r in Rk],ls,color=c,lw=1.5,label=f'Oudsbergen limit, {Tg}-s glint')
 iss=[(([x['rr_at_peak'] for x in cn if x['label']==r['label']][0]),r['sigma_m2']) for r in T['iss_sigma']]
 x,y=np.array(iss).T; b.semilogy(x,y,'o',ms=5,color='#c0392b',mec='white',mew=0.5,ls='',label='ISS')
 ce=json.load(open('../results/close_echo.json'))['echoes']
@@ -22,7 +22,7 @@ b.semilogy(d[0],d[1],'^',ms=6,color='#e67e22',mec='white',mew=0.5,ls='',label='S
 b.semilogy(538,T['sigma_bluebird_m2'],'*',ms=13,color='#2c3e50',ls='',label='BlueBird array')
 ul=T['envisat_upper_limits']['BEOUDS']
 b.annotate('',xy=(ul['R_km'],ul['sigma_ul_window']*0.4),xytext=(ul['R_km'],ul['sigma_ul_window']),arrowprops=dict(arrowstyle='->',color='#555',lw=1.2))
-b.plot(ul['R_km'],ul['sigma_ul_window'],'v',color='#555',ms=6); b.text(ul['R_km']+12,ul['sigma_ul_window']*0.55,'Envisat, tumbling:\nnot detected',fontsize=8,va='center',color='#555')
+b.plot(ul['R_km'],ul['sigma_ul_window'],'v',color='#555',ms=6); b.text(ul['R_km']-12,ul['sigma_ul_window']*0.22,'Envisat, tumbling:\nnot detected',fontsize=8,va='center',ha='right',color='#555')
 for k,lab in [('plate_15m','15-m flat plate'),('plate_5m','5-m flat plate'),('resonant_wire','resonant $\\lambda/2$ wire')]:
     v=T['ref_sigma_m2'][k]; b.axhline(v,color='#bbb',lw=0.8,ls=(0,(2,2))); b.text(990,v*1.2,lab,fontsize=8,color='#777',ha='right')
 b.set_xlim(250,1000); b.set_ylim(3,5e5); b.set_xlabel('Geometric mean range (km)'); b.set_ylabel('Radar cross section (m$^2$)')

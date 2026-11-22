@@ -2,7 +2,8 @@
 # and the link between echo energy and the detection statistic; calibrated and tested with the measured echoes.
 import json, numpy as np
 c=299792458.; f0=49.97e6; lam=c/f0; kB=1.380649e-23
-Pt=120.                                   # W, beacon power at the amplifier output (BRAMS beacon page, 2020 upgrade)
+Pt=340.                                   # W, beacon power (BRAMS data record, doi:10.18758/x620ti37: about 340 W); the gains below are
+                                          # calibrated on an echo, so only the product Pt Gt Gr enters sigma_min
 Fa=52-23*np.log10(f0/1e6); Tsky=290*10**(Fa/10)     # ITU-R P.372 median galactic noise: Fa = 52 - 23 log10(f_MHz) dB
 K4=(4*np.pi)**3
 def cn0(sigma,R,G): return Pt*G*lam**2*sigma/(K4*R**4*kB*Tsky)          # C/N0 in Hz for R = sqrt(R1 R2) in m

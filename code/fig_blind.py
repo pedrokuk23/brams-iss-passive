@@ -19,7 +19,7 @@ cl=['Starlink V2-mini','Starlink DTC','AST SpaceMobile','Starlink V1.x']; lab=['
 for j,(ph,mk,dx) in enumerate((('phase1','o',-0.2),('phase2','s',0.2))):
     for g,col,ddx in (('plate_shadow','#222',-0.07),('plate_sunlit','#eda100',0.07)):
         for i,c in enumerate(cl):
-            r=S['eclipse'][ph][f'{c}|{g}']; y=max(r['pd'],1e-3); l,h=min(r['ci_cluster'][0],r['ci_object'][0]),max(r['ci_cluster'][1],r['ci_object'][1])   # wider of the two bootstraps
+            r=S['eclipse'][ph][f'{c}|{g}']; y=max(r['pd'],1e-3); l,h=r['ci_twoway']   # two-way bootstrap over satellites and time clusters
             b.errorbar(i+dx+ddx,y,yerr=[[y-max(l,1e-3)],[max(h-y,0)]],fmt=mk,color=col,mfc=col if g=='plate_shadow' else 'white',ms=4,capsize=1.5,lw=0.8,
                        label=(f"{'Phase 1' if ph=='phase1' else 'Phase 2'}, {'Earth shadow' if g=='plate_shadow' else 'sunlit'}" if i==0 else None))
 b.set_yscale('log'); b.set_ylim(8e-4,4); b.set_xticks(range(4)); b.set_xticklabels(lab); b.set_xlim(-0.6,3.6)

@@ -1,6 +1,6 @@
 import numpy as np, json, sys, datetime as dt
 from sgp4.propagation import gstime
-from astropy.utils import iers; iers.conf.auto_download=False; iers.conf.iers_degraded_accuracy='warn'
+from astropy.utils import iers; iers.conf.auto_download=False; iers.conf.iers_degraded_accuracy='warn'; iers.conf.auto_max_age=None
 from astropy.time import Time
 from astropy.coordinates import GCRS, ITRS, CartesianRepresentation, CartesianDifferential
 import astropy.units as u

@@ -7,7 +7,7 @@ the second machine. The feasibility row below therefore refers to the earlier mo
 model predicts 1,671 (`results/cluster_stats.json`). The ISS timing rows refer to the first interpolation of the NASA
 ephemeris (cubic Hermite); the published numbers use a 10-point Lagrange interpolation of the full archived files and
 the Phase 2 ISS timing (`phase2_iss_timing.py`, `iss_oem_combined.py`, `sgp4_oem_fit.py`), which were rerun from the
-raw recordings and reproduced byte for byte on the main machine.
+raw recordings and reproduced byte for byte on the main machine. The revisions of 22 Nov 2026 (echo energy of the detectability model at the exact search frequency, beacon power of 340 W, one transmitter position for every receiver with receiver offsets relative to Oudsbergen, two-way bootstrap intervals, joint admissible-offset test of the catalog association) were computed on the main machine only.
 
 Two kinds of interval appear in the paper for the blind search: a bootstrap over recordings (`ci_cluster`) and one
 over satellites (`ci_object`); the table of the paper gives the wider of the two.

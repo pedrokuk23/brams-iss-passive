@@ -16,3 +16,5 @@ then open each URL in the same browser session).
 | `phase2/gp_2026-10-19_24.txt`, `phase2/gp_2026-10-24_29.txt`, `phase2/gp_2026-10-29_11-03.txt` | Phase 2 (19 Oct - 2 Nov 2026): all element sets of objects with mean motion above 14.85 rev/day (low Earth orbit below about 650 km) with epochs in each window, retrieved by the author from the `gp_history` class; the middle file holds about half of the sets per object per day, which still covers every day of its window. Each recording is processed with the set of epoch closest to it | `https://www.space-track.org/basicspacedata/query/class/gp_history/EPOCH/<start>--<end>/MEAN_MOTION/%3E14.85/orderby/NORAD_CAT_ID,EPOCH/format/3le` with the windows of the file names |
 
 Cite as: U.S. Space Command, Space-Track.org, general perturbations element sets (gp and gp_history classes), accessed November 2026.
+
+SHA-256 checksums of `leo.txt` and of the three Phase 2 history files (`phase2/`) are in `SHA256SUMS_catalog`.

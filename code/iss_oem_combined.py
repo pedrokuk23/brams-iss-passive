@@ -1,6 +1,6 @@
 # ISS timing against the NASA OEM predictions, both campaigns with one rule (Sec. 6 and Supplementary S10).
 # For every pass: the Doppler-equivalent offset delta t (mean over the receivers of the pass, version-5 receivers
-# corrected for their fitted latency: Phase 1 Humain and Uccle, iss_checks2.json; Phase 2 Humain, Uccle and
+# and Ottignies corrected for their fitted offsets relative to Oudsbergen: Phase 1, iss_checks2.json; Phase 2 Humain, Uccle and
 # Maubeuge, phase2_iss_summary.json) and delta t_OEM of the latest OEM file created before the pass (mean over the same
 # receivers). Two ages of that prediction are given: from its initial state (START_TIME, the propagation span) and
 # from its creation. Reads iono_fit_v2.json, oem_cmp_v2.json, iss_checks2.json, phase2_iss_summary.json;
@@ -10,7 +10,7 @@ R='../results/'
 def ts(s): return dt.datetime.strptime(s,'%Y-%m-%dT%H:%M').replace(tzinfo=dt.timezone.utc).timestamp()
 F=json.load(open(R+'iono_fit_v2.json')); O=json.load(open(R+'oem_cmp_v2.json')); D=json.load(open(R+'iss_checks2.json'))['latency_model']
 Q=json.load(open(R+'phase2_iss_summary.json'))
-V5_1=('BEHUMA','BEUCCE'); L1=D['latency_ms']   # joint model of Sec. 6 (iss_checks2.py)
+V5_1=('BEHUMA','BEUCCE'); L1=D['latency_ms']; LO1=D['ottignies_offset_ms']   # receiver offsets of Sec. 6 (iss_checks2.py)
 # Phase 1 OEM files (data/oem_archive): creation and initial state
 P1FILES={'1102':dict(created=ts('2026-11-02T15:17'),start=ts('2026-11-02T12:00'),name='20261102T1517'),
          '1104':dict(created=ts('2026-11-04T16:10'),start=ts('2026-11-04T12:00'),name='20261104T1610')}
@@ -19,7 +19,7 @@ p1=sorted(k for k in F if len(k)==13)
 for k in p1:
     rx=F[k]['receivers']; t=dt.datetime.strptime(k,'%Y%m%d_%H%M').replace(tzinfo=dt.timezone.utc).timestamp()+150.
     lab=max((l for l,v in P1FILES.items() if v['created']<t), key=lambda l:P1FILES[l]['created'])
-    d=[F[k+'_'+r]['dt_ms']-(L1 if r in V5_1 else 0.) for r in rx]
+    d=[F[k+'_'+r]['dt_ms']-(L1 if r in V5_1 else LO1 if r=='BEOTTI' else 0.) for r in rx]
     o=[O[k+'_'+r+'_'+lab]['dt_ms'] for r in rx]
     rows.append(dict(campaign=1,pass_=k,receivers=rx,dt_ms=float(np.mean(d)),oem=P1FILES[lab]['name'],dt_oem_ms=float(np.mean(o)),
                      age_created_h=(t-P1FILES[lab]['created'])/3600.,age_start_h=(t-P1FILES[lab]['start'])/3600.,
@@ -69,7 +69,7 @@ growth=dict(const_rms_ms=float(np.sqrt(np.mean((yf-yf.mean())**2))),quad_coef_ms
             phase1_fresh_mean_ms=float(np.mean([r['diff_ms'] for r in fresh if r['campaign']==1])),
             phase1_all_mean_ms=float(np.mean([r['diff_ms'] for r in rows if r['campaign']==1])))
 out=dict(growth=growth,rule='latest OEM file created before the pass; age from its START_TIME (propagation span) and from creation',
-         latency_ms=dict(phase1_HU=L1,phase2_HUM=Q['latency_v5_HUM']['L_ms']),
+         latency_ms=dict(phase1_HU=L1,phase1_ottignies=LO1,phase2_HUM=Q['latency_v5_HUM']['L_ms'],phase2_ottignies=Q['latency_v5_HUM']['ottignies_ms']),
          by_start_age=binned('age_start_h'),by_start_age_excl_20261025=binned('age_start_h',True),
          by_creation_age=binned('age_created_h'),fresh_regression=reg,fresh_scatter=scatter,rows=rows)
 json.dump(out,open(R+'iss_oem_combined.json','w'),indent=1)

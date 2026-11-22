@@ -1,9 +1,9 @@
 {
- "n": 78,
+ "n": 86,
  "entries": [
   {
    "key": "p1_pairs_rms",
-   "value": 20.16171952137214,
+   "value": 19.738021572873595,
    "text": "an rms of 20~ms",
    "where": [
     "main"
@@ -11,15 +11,15 @@
   },
   {
    "key": "p1_pairs_mean",
-   "value": -0.006577693573739829,
-   "text": "a mean of 0~ms",
+   "value": -3.7423155954576135,
+   "text": "a mean of $-4$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_perpass_rms",
-   "value": 18.11053910768291,
+   "value": 18.259196924290908,
    "text": "with an rms of 18~ms",
    "where": [
     "main"
@@ -27,47 +27,47 @@
   },
   {
    "key": "p1_perpass_0",
-   "value": 5.76028211625238,
-   "text": "$+6$",
+   "value": 5.3165614776782775,
+   "text": "$+5$",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_perpass_1",
-   "value": -1.8381175901757416,
-   "text": "$-2$",
+   "value": -5.039339630115705,
+   "text": "$-5$",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_perpass_2",
-   "value": -21.15559431728005,
-   "text": "$-21$",
+   "value": -23.945417557775087,
+   "text": "$-24$",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_perpass_3",
-   "value": -16.085550018328213,
-   "text": "$-16$",
+   "value": -20.320283316165966,
+   "text": "$-20$",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_perpass_4",
-   "value": 29.95153614108898,
-   "text": "$+30$",
+   "value": 25.04064008129842,
+   "text": "$+25$",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_slope",
-   "value": 0.908366801638178,
+   "value": 0.9128038022740165,
    "text": "$0.91\\pm0.11$",
    "where": [
     "main"
@@ -75,15 +75,23 @@
   },
   {
    "key": "p1_latency",
-   "value": 8.807138173062903,
-   "text": "$8.7\\pm1.1$~ms",
+   "value": 9.220675790408432,
+   "text": "$9.2\\pm1.2$~ms",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "p1_ottignies",
+   "value": -18.917954470925025,
+   "text": "$-18.9\\pm1.2$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "p1_oem_range_lo",
-   "value": -167.81822617465897,
+   "value": -167.81846591049984,
    "text": "$-168$ to $+87$~ms",
    "where": [
     "main"
@@ -107,39 +115,39 @@
   },
   {
    "key": "p2_n_fits",
-   "value": 140.0,
-   "text": "140 receiver fits",
+   "value": 139.0,
+   "text": "139 receiver fits",
    "where": [
     "main"
    ]
   },
   {
    "key": "p2_lag_H",
-   "value": 10.90362770910065,
-   "text": "$10.9\\pm0.8$, $7.9\\pm1.0$ and $9.8\\pm0.6$~ms",
+   "value": 10.721729026897913,
+   "text": "$10.7\\pm0.9$, $6.6\\pm2.0$ and $7.3\\pm1.3$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "p2_lat_HU",
-   "value": 8.421676402319918,
-   "text": "$8.4\\pm1.0$~ms",
+   "value": 7.639154823498252,
+   "text": "$7.6\\pm1.1$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "p2_lat_HUM",
-   "value": 10.134757967429458,
-   "text": "$10.1\\pm0.8$~ms",
+   "value": 9.686165762372362,
+   "text": "$9.7\\pm1.0$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "p2_rx_agree",
-   "value": 4.7506473243807585,
+   "value": 4.799607090612742,
    "text": "the receivers of a pass agree to 4.8~ms",
    "where": [
     "main"
@@ -147,7 +155,7 @@
   },
   {
    "key": "both_fresh_rms",
-   "value": 36.302073025404866,
+   "value": 36.44396174184094,
    "text": "36~ms rms",
    "where": [
     "main",
@@ -165,7 +173,7 @@
   },
   {
    "key": "both_fresh_mean",
-   "value": 26.996120245444732,
+   "value": 27.083766350691935,
    "text": "a mean of $+27$~ms and a standard deviation of 25~ms",
    "where": [
     "main"
@@ -181,7 +189,7 @@
   },
   {
    "key": "both_fresh_m",
-   "value": 268.635340387996,
+   "value": 269.6853168896229,
    "text": "about 270~m",
    "where": [
     "main"
@@ -189,7 +197,7 @@
   },
   {
    "key": "both_slope",
-   "value": 0.9665409821520785,
+   "value": 0.969178998729768,
    "text": "slope of $0.97\\pm0.08$ ($r=0.96$)",
    "where": [
     "main"
@@ -197,7 +205,7 @@
   },
   {
    "key": "within_night",
-   "value": 9.509235636015212,
+   "value": 9.540709972592273,
    "text": "scatter by 10~ms, against 26~ms between the means of the seven nights",
    "where": [
     "main"
@@ -205,7 +213,7 @@
   },
   {
    "key": "night_mean",
-   "value": 29.28336519250176,
+   "value": 29.284049292991078,
    "text": "($+29\\pm10$~ms over the nights)",
    "where": [
     "main"
@@ -213,7 +221,7 @@
   },
   {
    "key": "age_1_2d",
-   "value": 132.5717350672287,
+   "value": 132.6326058253475,
    "text": "133~ms rms for 1--2 days",
    "where": [
     "main"
@@ -221,7 +229,7 @@
   },
   {
    "key": "age_1_2d_tab",
-   "value": 132.5717350672287,
+   "value": 132.6326058253475,
    "text": "133~ms (16)",
    "where": [
     "main"
@@ -229,7 +237,7 @@
   },
   {
    "key": "age_2d",
-   "value": 359.27789750820614,
+   "value": 359.3252651491283,
    "text": "359~ms beyond two days",
    "where": [
     "main"
@@ -237,7 +245,7 @@
   },
   {
    "key": "age_2d_tab",
-   "value": 359.27789750820614,
+   "value": 359.3252651491283,
    "text": "359~ms (6)",
    "where": [
     "main"
@@ -245,7 +253,7 @@
   },
   {
    "key": "creation_rms",
-   "value": 242.03785326546856,
+   "value": 242.15218391596702,
    "text": "gives 242~ms for predictions created less than one day before the pass",
    "where": [
     "main"
@@ -253,7 +261,7 @@
   },
   {
    "key": "creation_rms_tab",
-   "value": 242.03785326546856,
+   "value": 242.15218391596702,
    "text": "242~ms (21)",
    "where": [
     "main"
@@ -261,7 +269,7 @@
   },
   {
    "key": "tab_all_24",
-   "value": 183.88653196432654,
+   "value": 184.04687588673056,
    "text": "184~ms (19)",
    "where": [
     "main"
@@ -269,7 +277,7 @@
   },
   {
    "key": "tab_all_48",
-   "value": 637.6212014383913,
+   "value": 637.7454562093966,
    "text": "638~ms (9)",
    "where": [
     "main"
@@ -277,7 +285,7 @@
   },
   {
    "key": "tab_cre_24",
-   "value": 358.94977340740854,
+   "value": 359.05468473711596,
    "text": "359~ms (18)",
    "where": [
     "main"
@@ -285,7 +293,7 @@
   },
   {
    "key": "tab_cre_48",
-   "value": 359.27789750820614,
+   "value": 359.3252651491283,
    "text": "359~ms (6)",
    "where": [
     "main"
@@ -293,7 +301,7 @@
   },
   {
    "key": "growth_quad",
-   "value": 24.11079009443003,
+   "value": 24.177720987716388,
    "text": "fits the 17 differences to 24~ms rms",
    "where": [
     "main"
@@ -301,15 +309,15 @@
   },
   {
    "key": "growth_p1",
-   "value": 8.972914216507368,
-   "text": "average $+9$~ms and all five passes of Phase~1 $-3.5$~ms",
+   "value": 8.46787348712627,
+   "text": "average $+8$~ms and all five passes of Phase~1 $-4.0$~ms",
    "where": [
     "main"
    ]
   },
   {
    "key": "nonov_formal",
-   "value": 0.7547896309121751,
+   "value": 0.7708219910657453,
    "text": "0.8--3.9~ms",
    "where": [
     "main"
@@ -318,7 +326,7 @@
   {
    "key": "nonov_chi2",
    "value": null,
-   "text": "reduced chi-square of 1.2--3.8 over the four sets and gives 8.2--9.0~ms",
+   "text": "reduced chi-square of 1.3--3.6 over the four sets and gives 8.6--10.0~ms",
    "where": [
     "main"
    ]
@@ -349,15 +357,15 @@
   },
   {
    "key": "lat_p1_s10",
-   "value": 8.70828128529105,
-   "text": "8.7~ms in Phase~1, Humain and Uccle",
+   "value": 9.220675790408432,
+   "text": "9.2~ms in Phase~1, Humain and Uccle",
    "where": [
     "supp"
    ]
   },
   {
    "key": "order_dt",
-   "value": -101.91667716212245,
+   "value": -101.80764659478172,
    "text": "$-102$, $-31$ and $+98$~ms on average",
    "where": [
     "main"
@@ -373,7 +381,7 @@
   },
   {
    "key": "post_rms",
-   "value": 85.5472229650285,
+   "value": 85.6594229852459,
    "text": "(86~ms rms over 41 passes)",
    "where": [
     "main"
@@ -390,7 +398,7 @@
   },
   {
    "key": "sgp4_r",
-   "value": 0.9094854701786341,
+   "value": 0.9098194136387723,
    "text": "$r=0.91$",
    "where": [
     "main",
@@ -399,7 +407,7 @@
   },
   {
    "key": "sgp4_order",
-   "value": -105.77413252064397,
+   "value": -105.7750120444644,
    "text": "($-106$, $-54$ and $+57$~ms",
    "where": [
     "main",
@@ -416,7 +424,7 @@
   },
   {
    "key": "sgp4_scatter",
-   "value": 94.11650368361593,
+   "value": 94.28455756925709,
    "text": "from 94 to 42~ms",
    "where": [
     "supp"
@@ -441,16 +449,15 @@
   {
    "key": "far_pooled_abstract",
    "value": null,
-   "text": "0.12\\% per pass",
+   "text": "0.12\\% per search",
    "where": [
-    "abstract",
-    "main"
+    "abstract"
    ]
   },
   {
    "key": "coinc",
    "value": 330.0,
-   "text": "Of the 6,830 passes",
+   "text": "Of the 6,830 Phase~2 passes",
    "where": [
     "main"
    ]
@@ -561,23 +568,23 @@
   },
   {
    "key": "feas_pred",
-   "value": 1671.3,
-   "text": "1,671",
+   "value": 1552.2,
+   "text": "1,552",
    "where": [
     "main"
    ]
   },
   {
    "key": "glm_or",
-   "value": 15.905259858653254,
-   "text": "is 16 (95\\% interval 8.9--29 with errors clustered by satellite, 7.1--36 clustered by five-minute slot or by satellite and slot together; 12,031 passes of 3,327 satellites)",
+   "value": 16.227530602078186,
+   "text": "is 16 (95\\% interval 9.0--29 with errors clustered by satellite, 7.1--37 clustered by five-minute slot or by satellite and slot together; 12,031 passes of 3,327 satellites)",
    "where": [
     "main"
    ]
   },
   {
    "key": "glm_ridge",
-   "value": 16.683997314132743,
+   "value": 16.78490222604252,
    "text": "a ridge-penalized fit gives 17",
    "where": [
     "main"
@@ -585,15 +592,15 @@
   },
   {
    "key": "glm_alt",
-   "value": 28.48445018664123,
-   "text": "(odds ratio 28, 16--52), and absent below (0.9, 0.4--1.9)",
+   "value": 31.931757746789046,
+   "text": "(odds ratio 32, 17--60), and absent below (1.1, 0.5--2.2)",
    "where": [
     "main"
    ]
   },
   {
    "key": "glm_concl",
-   "value": 15.905259858653254,
+   "value": 16.227530602078186,
    "text": "with 16 times higher odds",
    "where": [
     "main"
@@ -627,6 +634,62 @@
    "key": "cat_ast",
    "value": 10.0,
    "text": "up to 10 of the 46 BlueBird detections and 15 of the 61 V1.x",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "det_gains",
+   "value": 7.750326503460228,
+   "text": "7.8~dB at Oudsbergen, close to the nominal value, and 2.7 and $-3.0$~dB at Ottignies and Maubeuge",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "det_zratio",
+   "value": 0.8114100236633114,
+   "text": "is 0.81 of the value of Eq.~(\\ref{eq:zE}) in median (10--90\\% range 0.35--1.02",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "det_iss_steady",
+   "value": 3202.2909307493037,
+   "text": "$3.2\\times10^3$~m$^2$ in median (10--90\\%: $1.9$--$5.1\\times10^3$~m$^2$)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "det_lmin_D",
+   "value": 4.450000000000004,
+   "text": "Oudsbergen & 7.8 & 3.7~m & 4.5~m & 5.6~m & 8.2~m",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "feas_imp",
+   "value": 3.0,
+   "text": "detected in 4 of 9,043 cases in Phase~1 (0.04\\%) and 3 of 708 in Phase~2 (0.42\\%)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "tab7_v2",
+   "value": 0.06796791622768969,
+   "text": "8.5 (6.8--10.6)",
+   "where": [
+    "main"
+   ]
+  },
+  {
+   "key": "tab7_iss",
+   "value": 0.32239518924726823,
+   "text": "42 (32--51)",
    "where": [
     "main"
    ]

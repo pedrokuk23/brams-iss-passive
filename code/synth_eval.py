@@ -42,7 +42,7 @@ ax[1].set_xlabel(r'Injected amplitude / noise rms'); ax[1].set_ylabel(r'$P_d$ ($
 ax[1].set_title('(b) Detection probability',fontsize=8)
 m=ok&np.isfinite(e)
 ax[2].scatter(z[m],e[m],s=4,color='#2a78d6',alpha=0.6,lw=0); ax[2].axhline(0,color='#555',lw=0.6); ax[2].set_xscale('log')
-ax[2].set_ylim(-20,20); ax[2].set_xlabel(r'Detection statistic $z$'); ax[2].set_ylabel(r'$\hat{\delta t}-\delta t$ (ms)'); ax[2].set_title(r'(c) Error of $\hat{\delta t}$',fontsize=8)
+ax[2].set_ylim(-40,40); ax[2].set_xlabel(r'Detection statistic $z$'); ax[2].set_ylabel(r'$\hat{\delta t}-\delta t$ (ms)'); ax[2].set_title(r'(c) Error of $\hat{\delta t}$',fontsize=8)
 for a_ in ax:
     for s_ in ['top','right']: a_.spines[s_].set_visible(False)
 plt.tight_layout(); plt.savefig(OUT+'fig_synthetic.pdf'); plt.savefig(OUT+'fig_synthetic.png')

@@ -82,3 +82,12 @@ One procedure for every object and every recording.
   (`shadow_strata.py`, `confound_checks.py`); the geometry test (`sun_geometry.py`); the ISS timing of Phase 2 (`phase2_iss_timing.py`). None of them changes the search,
   the thresholds or the association of items 1-6.
 - Item 6b: "before any class result was reported" — the reclassifications were made after the search output existed.
+- Item 4b, window for the nulls: the code used for both phases (`near()` in `blind_analyze.py` and `phase2_analyze.py`)
+  applies the same window to candidates and nulls, 3 Hz and 1.5 s, not the 5 s and 5 Hz written above; the published
+  thresholds and rates were obtained with 3 Hz and 1.5 s.
+- Later analyses (22 Nov 2026), none of which changes the search, the thresholds or the association: the echo energy of
+  the detectability model is evaluated at the exact frequency of the search instead of the nearest 2-Hz bin of a 0.5-s
+  block; the gains are calibrated with a beacon power of 340 W; one transmitter position is used for every receiver
+  (`code/bwav.py`); intervals of the detection rates use a two-way bootstrap over satellites and time clusters, and over
+  physical passes for the ISS complex; the multi-receiver test of `catalog_association.py` uses the full sets of
+  admissible timing offsets.

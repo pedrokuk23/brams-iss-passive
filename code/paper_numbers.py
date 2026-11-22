@@ -11,17 +11,19 @@ f0=lambda x:'%.0f'%x; f1=lambda x:'%.1f'%x; f2=lambda x:'%.2f'%x
 def pm(x):  # signed integer as in the tex ($+31$ or $-102$)
     return '$%+.0f$'%x
 # ---------------- Sec. 6, Phase 1
-F=J('iono_fit_v2.json'); D=J('receiver_delay.json')
-pairs=np.array([v['dt_ms']-v['oem_ms'] for k,v in F.items() if len(k)>13])
+F=J('iono_fit_v2.json'); LM=J('iss_checks2.json')['latency_model']
+_off={'BEOTTI':LM['ottignies_offset_ms'],'BEHUMA':LM['latency_ms'],'BEUCCE':LM['latency_ms']}
+pairs=np.array([v['dt_ms']-_off.get(k[14:],0.0)-v['oem_ms'] for k,v in F.items() if len(k)>13])   # after the receiver offsets
 pp=np.array([F[k]['dt_ms']-F[k]['oem_ms'] for k in sorted(F) if len(k)==13])
 add('p1_pairs_rms',np.sqrt(np.mean(pairs**2)),'an rms of %s~ms'%f0(np.sqrt(np.mean(pairs**2))))
-add('p1_pairs_mean',pairs.mean(),'a mean of %s~ms'%f0(abs(pairs.mean())))
+add('p1_pairs_mean',pairs.mean(),'a mean of $%+.0f$~ms'%pairs.mean())
 add('p1_perpass_rms',np.sqrt(np.mean(pp**2)),'with an rms of %s~ms'%f0(np.sqrt(np.mean(pp**2))))
 for i,x in enumerate(pp): add('p1_perpass_%d'%i,x,pm(x))
 X=np.array([F[k]['oem_ms'] for k in sorted(F) if len(k)==13]); Y=np.array([F[k]['dt_ms'] for k in sorted(F) if len(k)==13])
 sl,ic=np.polyfit(X,Y,1); res=Y-sl*X-ic; se=np.sqrt(res@res/3/np.sum((X-X.mean())**2))
 add('p1_slope',sl,'$%s\\pm%s$'%(f2(sl),f2(se)))
-add('p1_latency',D['delay_ms'],'%s~ms'%f1(D['delay_ms']) if False else '$8.7\\pm1.1$~ms')   # joint model of the text (iss_checks2)
+add('p1_latency',LM['latency_ms'],'$%s\\pm%s$~ms'%(f1(LM['latency_ms']),f1(LM['latency_se_ms'])))
+add('p1_ottignies',LM['ottignies_offset_ms'],'$%s\\pm%s$~ms'%(f1(LM['ottignies_offset_ms']),f1(LM['ottignies_offset_se_ms'])))
 add('p1_oem_range_lo',X.min(),'$%.0f$ to $%+.0f$~ms'%(X.min(),X.max()))
 # ---------------- Sec. 6, Phase 2 and both campaigns
 Q=J('phase2_iss_summary.json'); C=J('iss_oem_combined.json'); G=J('sgp4_oem_fit.json')
@@ -73,9 +75,9 @@ add('sgp4_scatter',gs['dt_rms_ms'],'from %s to %s~ms'%(f0(gs['dt_rms_ms']),f0(gs
 S2=J('phase2_summary.json'); B=J('blind_summary.json')
 add('far_p1',B['far_checks']['split_half']['all']['far']*100,'0.%s\\%% per pass in Phase~1 (95\\%% range over the splits %s--%s\\%%)'%(('%.2f'%(B['far_checks']['split_half']['all']['far']*100))[2:],f2(B['far_checks']['split_half']['all']['range_95'][0]*100),f2(B['far_checks']['split_half']['all']['range_95'][1]*100)))
 add('far_p2',S2['far_checks']['split_half']['all']['far']*100,'0.%s\\%% over all five receivers'%('%.2f'%(S2['far_checks']['split_half']['all']['far']*100))[2:])
-add('far_pooled_abstract',None,'0.12\\% per pass',('abstract','main'))
+add('far_pooled_abstract',None,'0.12\\% per search',('abstract',))
 CO=J('coincidence.json')['pass']['all non-ISS']; CN=J('coincidence.json')['null']['all non-ISS']
-add('coinc',CO['detected_at_least_2'],'Of the %s passes'%format(CO['n_groups'],',').replace(',',','))
+add('coinc',CO['detected_at_least_2'],'Of the %s Phase~2 passes'%format(CO['n_groups'],',').replace(',',','))
 add('coinc2',CO['detected_at_least_2'],'%d were detected at one receiver or more and %d at two or more, against %d expected'%(CO['detected_at_least_1'],CO['detected_at_least_2'],round(CO['expected_at_least_2_if_independent'])))
 add('coinc_tau',CO['dtau_s_frac_le1'],'within 1~s in %d of the %d pairs'%(round(CO['dtau_s_frac_le1']*CO['n_pairs']),CO['n_pairs']))
 add('coinc_null',CN['detected_at_least_1'],'at one receiver in %d cases and never at two'%CN['detected_at_least_1'])
@@ -105,6 +107,17 @@ add('cat_n',CA['n_objects_in_catalog'],'each of the %s objects'%format(CA['n_obj
 add('cat_alt',CA['n_with_alternative'],'%d of the %s detections that could be tested (of %s) another object'%(CA['n_with_alternative'],format(CA['n_checked'],','),format(CA['n_detections'],',')))
 add('cat_multi',CA['n_multi_rx_alternative_surviving'],'in only %d of %d'%(CA['n_multi_rx_alternative_surviving'],CA['n_multi_rx']))
 add('cat_ast',CA['ambiguous_by_class']['AST SpaceMobile'],'up to %d of the %d BlueBird detections and %d of the %d V1.x'%(CA['ambiguous_by_class']['AST SpaceMobile'],CA['by_class']['AST SpaceMobile']['n'],CA['ambiguous_by_class']['Starlink V1.x'],CA['by_class']['Starlink V1.x']['n']))
+# ---------------- Sec. 9 and 10.5, detectability and feasibility
+TD=J('detect_theory.json'); g=TD['Geff_dB']
+add('det_gains',g['BEOUDS'],'%s~dB at Oudsbergen, close to the nominal value, and %s and $%s$~dB at Ottignies and Maubeuge'%(f1(g['BEOUDS']),f1(g['BEOTTI']),f1(g['FRMAUB'])))
+zr=TD['z_obs_over_pred']; add('det_zratio',zr['median'],'is %s of the value of Eq.~(\\ref{eq:zE}) in median (10--90\\%% range %s--%s'%(f2(zr['median']),f2(zr['p10']),f2(zr['p90'])))
+se=TD['iss_sigma_energy_50s_m2']; add('det_iss_steady',se['median'],'$%s\\times10^3$~m$^2$ in median (10--90\\%%: $%s$--$%s\\times10^3$~m$^2$)'%(f1(se['median']/1e3),f1(se['p10']/1e3),f1(se['p90']/1e3)),('main',))
+Lm=TD['Lmin_m']['BEOUDS']; add('det_lmin_D',Lm['420'],'Oudsbergen & %s & %s~m & %s~m & %s~m & %s~m'%(f1(g['BEOUDS']),f1(Lm['350']+1e-9),f1(Lm['420']+1e-9),f1(Lm['530']+1e-9),f1(Lm['780']+1e-9)))
+FVn=J('feasibility_validation.json'); im=FVn['impossible']
+add('feas_imp',im['phase2']['k'],'detected in %d of %s cases in Phase~1 (%s\\%%) and %d of %s in Phase~2 (%s\\%%)'%(im['phase1']['k'],format(im['phase1']['n'],','),f2(100*im['phase1']['k']/im['phase1']['n']),im['phase2']['k'],format(im['phase2']['n'],','),f2(100*im['phase2']['k']/im['phase2']['n'])))
+CSn=J('cluster_stats.json')['classes']; v2=CSn['phase2']['Starlink V2-mini']; iss2=CSn['phase2']['ISS complex']
+add('tab7_v2',v2['ci_twoway'][0],'8.5 (%s--%s)'%(f1(100*v2['ci_twoway'][0]),f1(100*v2['ci_twoway'][1])))
+add('tab7_iss',iss2['ci_pass'][0],'42 (%s--%s)'%(f0(100*iss2['ci_pass'][0]),f0(100*iss2['ci_pass'][1])))
 out=dict(n=len(reg),entries=reg,
          stale=['20--60~ms','18--39~ms','61~ms rms in','21~ms rms','sub-kilometer level','in 19 passes','set by the predictions','45 Phase~2 recordings',
                 'A likely cause','comparable to the drift','day-old','20-ms agreement','20--125~km','In near-zenith passes','declared by the author','designed after the Phase~2','first version, used to select','four of five receivers','below 0.2\\%','\\amarelo{20~ms rms','Poisson probability of 10 or more','about 0.35\\% of passes)'])

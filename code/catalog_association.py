@@ -73,18 +73,20 @@ for n,d in enumerate(dets):
         Xa,ea=ecef_doppler(SatrecArray([recs[c] for c in cand]),tt); fda,_=bist(Xa,TX,RX,tt)
         for j,c in enumerate(cand):
             if same_object(names[c],d['obj']): continue
-            bestr=None
+            bestr=None; adm=[]
             for tp in F.TAUS:
                 f2=np.interp(tw+tp,tt-t0,fda[j]); dif=(f2-trk)[ok]; m=np.mean(dif)
                 if abs(m)>12: continue
                 r=np.sqrt(np.mean((dif-m)**2))
+                if r<3.0: adm.append(float(tp))        # every tau of the grid at which this object fits (nu profiled)
                 if bestr is None or r<bestr[0]: bestr=(r,tp,m)
-            if bestr is not None and bestr[0]<3.0: comp.append(dict(name=names[c],rms_hz=float(bestr[0]),tau=float(bestr[1]),nu=float(bestr[2])))
+            if bestr is not None and bestr[0]<3.0: comp.append(dict(name=names[c],rms_hz=float(bestr[0]),tau=float(bestr[1]),nu=float(bestr[2]),taus_ok=adm))
     out.append(dict(file=d['file'],obj=d['obj'],cls=d['class'],z=d['z'],tau=d['tau'],n_compatible=len(comp),compatible=comp))
     if n%100==0: print(n,len(dets),flush=True)
 res=[o for o in out if o['n_compatible'] is not None]
 # multi-receiver test: a real echo of the attributed object has the same tau at every receiver of the slot (tau is a
-# property of the orbit); an alternative object must also fit every receiver with one common tau' (within 1 s)
+# property of the orbit); an alternative object must also fit every receiver with one common tau' (within 1 s), tested on
+# the full sets of admissible tau (rms < 3 Hz with nu profiled), not on the best-fitting tau alone
 G={}
 for o in res: G.setdefault((o['file'][:13],o['obj']),[]).append(o)
 for k,g in G.items():
@@ -92,8 +94,10 @@ for k,g in G.items():
     alts=set.intersection(*[{a['name'] for a in o['compatible']} for o in g])
     surv=[]
     for nm in alts:
-        ts=[[a['tau'] for a in o['compatible'] if a['name']==nm][0] for o in g]
-        if max(ts)-min(ts)<=1.0: surv.append(nm)
+        # admissible sets of tau at each receiver; the alternative survives if one 1-s window holds an admissible tau of
+        # every receiver (a common timing offset), not only if the best-fitting taus agree
+        S_=[[a['taus_ok'] for a in o['compatible'] if a['name']==nm][0] for o in g]
+        if any(all(any(t0<=t<=t0+1.0 for t in s) for s in S_) for s0 in S_ for t0 in s0): surv.append(nm)
     for o in g: o['multi_rx']=len(g); o['alternatives_surviving_multi_rx']=surv
 multi=[o for o in res if o.get('multi_rx',0)>=2]
 summ=dict(n_detections=len(out),n_checked=len(res),n_with_alternative=sum(o['n_compatible']>0 for o in res),

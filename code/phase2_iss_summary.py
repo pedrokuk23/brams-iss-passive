@@ -26,27 +26,26 @@ for g in groups:
         for k,v in fits.items():
             if k[:13]==s and (k[-6:] not in rx or v['n']>rx[k[-6:]]['n']): rx[k[-6:]]=v
     passes[g[0]]=rx
-# --- latency fit: dt = a_pass + L*[receiver in v5]
+# --- receiver offsets (rx_offsets.py): dt = a_pass + b[group], Oudsbergen as reference; version-5 group either Humain
+#     and Uccle (as in Phase 1) or Humain, Uccle and Maubeuge (used for the correction); Ottignies has its own offset
+from rx_offsets import fit_offsets
 def latency(v5):
-    rows=[(p,r,v['dt_ms']) for p,rx in passes.items() for r,v in rx.items()]
-    P=sorted(passes); A=np.zeros((len(rows),len(P)+1)); y=np.zeros(len(rows))
-    for i,(p,r,d) in enumerate(rows): A[i,P.index(p)]=1; A[i,-1]=1.0*(r in v5); y[i]=d
-    x,*_=np.linalg.lstsq(A,y,rcond=None); res=y-A@x; dof=len(y)-np.linalg.matrix_rank(A)
-    s2=res@res/dof; C=np.linalg.pinv(A.T@A)*s2
-    return dict(L_ms=float(x[-1]),L_se_ms=float(np.sqrt(C[-1,-1])),resid_sd_ms=float(np.sqrt(s2)),
-                resid_rms_ms=float(np.sqrt(np.mean(res**2))),n_fits=len(y),dof=int(dof))
+    M=fit_offsets([(p,r,v['dt_ms'],v.get('sdt_ms')) for p,rx in passes.items() for r,v in rx.items()],v5=v5)
+    return dict(L_ms=M['offsets_ms']['v5'],L_se_ms=M['offsets_se_ms']['v5'],ottignies_ms=M['offsets_ms']['ottignies'],
+                ottignies_se_ms=M['offsets_se_ms']['ottignies'],resid_sd_ms=M['resid_sd_ms'],resid_rms_ms=M['resid_rms_ms'],
+                n_fits=M['n'],dof=M['dof'])
 lat=latency(V5); latM=latency(V5M)
-# per-receiver offset relative to the version-4 receivers (Ottignies, Oudsbergen) of the same pass
+# per-receiver offset relative to Oudsbergen in the same pass
 rel={}
 for r in ('BEHUMA','BEUCCE','FRMAUB','BEOTTI','BEOUDS'):
     d=[]
     for p,rx in passes.items():
-        ref=[rx[q]['dt_ms'] for q in ('BEOTTI','BEOUDS') if q in rx and q!=r]
+        ref=[rx[q]['dt_ms'] for q in ('BEOUDS',) if q in rx and q!=r]
         if r in rx and ref: d.append(rx[r]['dt_ms']-np.mean(ref))
     if d: rel[r]=dict(mean_ms=float(np.mean(d)),se_ms=float(np.std(d,ddof=1)/np.sqrt(len(d))) if len(d)>1 else None,n=len(d))
 # correction applied below: the latency fitted with all three version-5 receivers (Maubeuge lags like Humain and Uccle)
-L=latM['L_ms']
-def corr(r,v): return v['dt_ms']-(L if r in V5M else 0.0)
+L=latM['L_ms']; LO=latM['ottignies_ms']
+def corr(r,v): return v['dt_ms']-(L if r in V5M else LO if r=='BEOTTI' else 0.0)
 # --- per pass: mean corrected dt, OEM dt (mean over receivers) per file
 OEMSTART={}
 per=[]

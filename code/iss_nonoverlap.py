@@ -25,15 +25,14 @@ for r in rows: r['dt_full_ms']=full[r['key']]['dt_ms']; r['sdt_full_ms']=full[r[
 ratio=np.array([r['spread_sd_ms']/r['formal_one_set_ms'] for r in rows])
 # latency model per set
 def latency(ph):
-    passes=sorted({r['key'][:13] for r in rows}); X=np.zeros((len(rows),len(passes)+1)); y=np.array([r['dt_sets_ms'][ph] for r in rows]); s=np.array([r['sdt_sets_ms'][ph] for r in rows])
-    for i,r in enumerate(rows): X[i,passes.index(r['key'][:13])]=1; X[i,-1]=1 if r['key'][14:] in V5 else 0
-    b=np.linalg.lstsq(X,y,rcond=None)[0]; e=y-X@b; dof=len(y)-X.shape[1]
-    return dict(latency_ms=float(b[-1]),resid_sd_ms=float(np.sqrt(e@e/dof)),chi2_red=float(np.sum((e/s)**2)/dof),dof=dof)
+    from rx_offsets import fit_offsets
+    M=fit_offsets([(r['key'][:13],r['key'][14:],r['dt_sets_ms'][ph],r['sdt_sets_ms'][ph]) for r in rows],v5=('BEHUMA','BEUCCE'))
+    return dict(latency_ms=M['offsets_ms']['v5'],ottignies_offset_ms=M['offsets_ms']['ottignies'],resid_sd_ms=M['resid_sd_ms'],chi2_red=M['chi2_red'],dof=M['dof'])
 L=[latency(ph) for ph in range(4)]
 out=dict(n_receiver_passes=len(rows),spread_over_formal_median=float(np.median(ratio)),spread_over_formal_range=[float(ratio.min()),float(ratio.max())],
          formal_one_set_ms=[float(min(r['formal_one_set_ms'] for r in rows)),float(max(r['formal_one_set_ms'] for r in rows))],
          max_abs_mean_minus_full_ms=float(max(abs(r['dt_mean_ms']-r['dt_full_ms']) for r in rows)),
-         latency_by_set=L,chi2_red_median=float(np.median([x['chi2_red'] for x in L])),latency_range_ms=[min(x['latency_ms'] for x in L),max(x['latency_ms'] for x in L)],rows=rows)
+         latency_by_set=L,chi2_red_median=float(np.median([x['chi2_red'] for x in L])),latency_range_ms=[min(x['latency_ms'] for x in L),max(x['latency_ms'] for x in L)],ottignies_range_ms=[min(x['ottignies_offset_ms'] for x in L),max(x['ottignies_offset_ms'] for x in L)],rows=rows)
 json.dump(out,open('../results/iss_nonoverlap.json','w'),indent=1)
 print({k:v for k,v in out.items() if k!='rows'})
 for r in rows: print(r['key'],round(r['dt_full_ms'],1),np.round(r['dt_sets_ms'],1),round(r['spread_sd_ms'],1),round(r['formal_one_set_ms'],1),round(r['sdt_full_ms'],1))

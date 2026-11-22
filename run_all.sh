@@ -18,7 +18,7 @@ python3 iss_table.py && python3 iss_table_v2.py       # ISS detection without/wi
 CLEAN=1 OUT=../results/iono_tracks_clean_sdr.json python3 iono_track.py $(for p in $ISS; do ls ../data/raw_wav/RAD_BEDOUR_${p}_*_SYS001.wav; done | grep -v BEOTTI)
 python3 -c "import json;a=json.load(open('../results/iono_tracks.json'));b=json.load(open('../results/iono_tracks_clean_sdr.json'));m={k:v for k,v in a.items() if k.endswith('BEOTTI')};m.update(b);json.dump(m,open('../results/iono_tracks_v2.json','w'))"
 TRACKS=../results/iono_tracks_v2.json OUT=../results/oem_cmp_v2.json python3 oem_cmp.py
-python3 iono_fit_v2.py && python3 receiver_delay.py && python3 iono_sens_v2.py && python3 gnss_tec_cmp.py   # Table 4, Secs. 6-7
+python3 iono_fit_v2.py && python3 iono_sens_v2.py && python3 gnss_tec_cmp.py   # Table 4, Secs. 6-7
 python3 iono_checks.py                                 # WGS84 height, identifiability and injection tests (Sec. 7)
 python3 iss_checks2.py                                 # Doppler-equivalent offset vs geometric along-track, latency model, light time (Secs. 2.4, 6.1)
 python3 iss_nonoverlap.py                              # timing fits with non-overlapping windows (Sec. 6.1)

@@ -11,7 +11,7 @@ sel=[('STARLINK-11196 [DTC]','20261103_0040_BEOUDS','echo'),('STARLINK-11136 [DT
      ('STARLINK-11488 [DTC]','20261104_0125_BEOUDS','echo'),('STARLINK-11466 [DTC]','20261104_0130_BEOUDS','echo'),
      ('STARLINK-11293 [DTC]','20261104_0125_BEOUDS','short echo'),('STARLINK-11340 [DTC]','20261103_2350_BEOUDS','burst (meteor)')]
 _G=dict(globals()); exec(open('figstyle.py').read()); plt.rcParams.update({'font.size':7})
-fig,ax=plt.subplots(2,4,figsize=(7.2,3.6),sharey=True)
+fig,ax=plt.subplots(4,2,figsize=(6.4,7.6),sharey=True)
 for a,(obj,f,kind),L in zip(ax.flat,sel,'abcdefgh'):
     r=C[(obj,f)]; p=D+f'RAD_BEDOUR_{f}_SYS001.wav'; md,x,_=bwav.read(p); fs=md['samplerate']; fb,bb,ts=baseband(x,fs); bb=maybe_clean(bb,ts,fs)
     g=GeoSat(p,obj); s,vb=snr_map(bb,ts,fs,fb,g,r['tau'],dfs=DF); t=(np.arange(len(s))+0.5)*0.5
@@ -20,6 +20,8 @@ for a,(obj,f,kind),L in zip(ax.flat,sel,'abcdefgh'):
     a.set_title(f"({L}) {obj.replace(' [DTC]','')}\n{int(f[6:8])} Nov {f[9:11]}:{f[11:13]} UTC, $z$={r['z']:.0f}, $\\tau$={r['tau']:+.1f} s".replace('-','\u2212').replace('STARLINK\u2212','STARLINK-'),fontsize=7)
     a.text(-23.5,17,kind,fontsize=7,color='#b03a2e' if kind!='echo' else '#1c5cab',bbox=dict(fc='white',ec='none',pad=0.5))
     a.set_xlim(-25,25)
-for a in ax[1]: a.set_xlabel('Time from echo peak (s)')
+for a in ax[-1]: a.set_xlabel('Time from echo peak (s)')
 for a in ax[:,0]: a.set_ylabel('Residual frequency (Hz)')
-fig.tight_layout(); fig.savefig(FIGDIR+'fig_starlink.png',dpi=330)
+fig.subplots_adjust(hspace=0.7,wspace=0.12)
+cb=fig.colorbar(ax[0,0].collections[0],ax=ax,shrink=0.5,pad=0.02); cb.set_label('Block power above noise (dB)')
+fig.savefig(FIGDIR+'fig_starlink.png',dpi=330,bbox_inches='tight')

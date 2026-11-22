@@ -17,9 +17,14 @@ for x,t in zip(X,B):
     ax.add_patch(FancyBboxPatch((x,27),W,14,boxstyle='round,pad=0.3',fc='#eeeeee',ec='k',lw=0.6)); ax.text(x+W/2,34,t,ha='center',va='center',fontsize=7)
 for x in X[:-1]: ax.annotate('',xy=(x+W+2.0,34),xytext=(x+W+0.4,34),arrowprops=dict(arrowstyle='->',lw=0.7))
 ax.text(X[0]+W/2,24.3,'no: not observable',ha='center',fontsize=7,color='0.3')
-D=[(0.5,'$M<1$: not visible in any\nattitude (detected in 0.13%\nand 0.40% of passes)','#f4cccc'),
-   (34.5,'$1\\leq M<10$: marginal\nPhase 1 fit: arrays 0.1–20%,\nISS 70–99%','#fff2cc'),
-   (68.5,'$M\\geq10$, Phase 1 fit:\nshadow 20–90%, sunlit 1–30%,\nISS >95% (Phase 2 lower)','#d9ead3')]
+# box labels from the fitted curves (feasibility_curve.json) and the M<1 counts (feasibility_validation.json)
+_C=json.load(open('../results/feasibility_curve.json'))['groups']; _I=json.load(open('../results/feasibility_validation.json'))['impossible']
+def _P(g,M): a,b=_C[g]['a'],_C[g]['b']; return 1/(1+np.exp(-(a+b*np.log10(M))))
+def _pc(v): return f"{100*v:.2g}%" if v<0.1 else f"{100*v:.0f}%"
+_i1,_i2=(100*_I[p]['k']/_I[p]['n'] for p in ('phase1','phase2'))
+D=[(0.5,f'$M<1$: nominally not visible in\nany attitude (detected in {_i1:.2f}%\nand {_i2:.2f}% of passes)','#f4cccc'),
+   (34.5,f'$1\\leq M<10$: marginal\nPhase 1 fit: arrays {_pc(min(_P("plate_sunlit",1),_P("plate_shadow",1)))}–{_pc(_P("plate_shadow",10))},\nISS {_pc(_P("structure",1))}–{_pc(_P("structure",10))}','#fff2cc'),
+   (68.5,f'$M\\geq10$, Phase 1 fit:\nshadow {_pc(_P("plate_shadow",10))}–{_pc(_P("plate_shadow",100))}, sunlit {_pc(_P("plate_sunlit",10))}–{_pc(_P("plate_sunlit",100))},\nISS >{_pc(_P("structure",10))[:-1]}% (Phase 2 lower)','#d9ead3')]
 for x,t,c in D:
     ax.add_patch(FancyBboxPatch((x,6),31,11,boxstyle='round,pad=0.3',fc=c,ec='k',lw=0.6)); ax.text(x+15.5,11.5,t,ha='center',va='center',fontsize=7)
 ax.plot([81.6+W/2]*2,[26.6,21],color='k',lw=0.6); ax.plot([16,81.6+W/2],[21,21],color='k',lw=0.6)

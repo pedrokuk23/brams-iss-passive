@@ -16,8 +16,9 @@ def cols(key):
     S=np.array([stec(TX,p,1.0)+stec(p,RX,1.0) for p in X]); dS=np.gradient(S,t)
     mt=-np.interp(tc,t,dfd); off=PPS[key]*1e-3
     cache[key]=(a[:,1]-mt*off,mt,K*np.interp(tc,t,dS)); return cache[key]   # observação já corrigida do erro de relógio
-def fit(keys):
-    obs=np.concatenate([cols(k)[0] for k in keys]); mt=np.concatenate([cols(k)[1] for k in keys]); mi=np.concatenate([cols(k)[2] for k in keys])
+def fit(keys,off=None):
+    # off: receiver offsets in ms (rx_offsets.py), removed from each record before a joint fit
+    obs=np.concatenate([cols(k)[0]-(cols(k)[1]*(off.get(k[14:],0.0)*1e-3) if off else 0.0) for k in keys]); mt=np.concatenate([cols(k)[1] for k in keys]); mi=np.concatenate([cols(k)[2] for k in keys])
     A=np.column_stack([mt,mi]); p,*_=np.linalg.lstsq(A,obs,rcond=None); r=obs-A@p; rms=np.sqrt(np.mean(r**2))
     C=np.linalg.inv(A.T@A)*rms**2*len(obs)/max(len(obs)-2,1)
     return dict(n=int(len(obs)),dt_ms=p[0]*1e3,sdt_ms=np.sqrt(C[0,0])*1e3,Nm=p[1],rms=rms)
@@ -28,8 +29,14 @@ for p in passes:
     keys=[k for k in tr if k.startswith(p) and len(cleaned(tr[k]))>=NMIN]
     for k in keys:
         r=fit([k]); r['oem_ms']=oem(k); r['pps_ms']=PPS[k]; res[k]=r
+# joint fit of each pass after removing the receiver offsets relative to Oudsbergen (Ottignies; Humain and Uccle)
+from rx_offsets import fit_offsets, correction
+OFF=fit_offsets([(k[:13],k[14:],v['dt_ms'],v['sdt_ms']) for k,v in res.items()],v5=('BEHUMA','BEUCCE'))
+offms={rx:correction(rx,OFF,v5=('BEHUMA','BEUCCE')) for rx in ('BEOTTI','BEOUDS','BEHUMA','BEUCCE')}
+for p in passes:
+    keys=[k for k in tr if k.startswith(p) and len(cleaned(tr[k]))>=NMIN]
     if keys:
-        r=fit(keys); r['receivers']=[k[14:] for k in keys]; r['oem_ms']=float(np.mean([oem(k) for k in keys])); res[p]=r
+        r=fit(keys,offms); r['receivers']=[k[14:] for k in keys]; r['oem_ms']=float(np.mean([oem(k) for k in keys])); r['offsets_removed_ms']=offms; res[p]=r
 for k,v in res.items():
     print(f"{k:22s} n={v['n']:3d} δt={v['dt_ms']:+7.1f}±{v['sdt_ms']:4.1f} ms  OEM {v['oem_ms']:+7.1f}  dif {v['dt_ms']-v['oem_ms']:+6.1f}  Nm={v['Nm']:.2e} rms={v['rms']:.2f}")
 json.dump(res,open('../results/iono_fit_v2.json','w'),indent=1)

@@ -60,14 +60,15 @@ def test_line_removal_keeps_swept_echo():
 
 def test_published_numbers():
     F = json.load(open(os.path.join(RES, 'iono_fit_v2.json')))
+    L = json.load(open(os.path.join(RES, 'iss_checks2.json')))['latency_model']
+    off = {'BEOTTI': L['ottignies_offset_ms'], 'BEHUMA': L['latency_ms'], 'BEUCCE': L['latency_ms']}
     rec = {k: v for k, v in F.items() if len(k) > 13}
-    d = np.array([v['dt_ms']-v['oem_ms'] for v in rec.values()])
-    assert len(d) == 16 and abs(np.sqrt(np.mean(d**2))-20.2) < 0.2   # 10-point Lagrange OEM interpolation
+    d = np.array([v['dt_ms'] - off.get(k[14:], 0.0) - v['oem_ms'] for k, v in rec.items()])
+    assert len(d) == 16 and abs(np.sqrt(np.mean(d**2)) - 19.7) < 0.2   # after the receiver offsets
     passes = [k for k in F if len(k) == 13]
-    pp = np.array([F[p]['dt_ms']-F[p]['oem_ms'] for p in passes])
-    assert abs(np.sqrt(np.mean(pp**2))-18.1) < 0.2
-    D = json.load(open(os.path.join(RES, 'receiver_delay.json')))
-    assert abs(D['delay_ms']-8.8) < 0.1 and abs(D['rms_dev_after_ms']-1.6) < 0.05
+    pp = np.array([F[p]['dt_ms'] - F[p]['oem_ms'] for p in passes])
+    assert abs(np.sqrt(np.mean(pp**2)) - 18.3) < 0.2
+    assert abs(L['latency_ms'] - 9.2) < 0.1 and abs(L['ottignies_offset_ms'] + 18.9) < 0.1 and abs(L['resid_sd_dof_ms'] - 1.9) < 0.05
 
 @pytest.mark.skipif(not glob.glob(os.path.join(ROOT, 'data', 'raw_wav', '*.wav')), reason='raw BRAMS WAV files not present')
 def test_raw_checksums():
@@ -182,3 +183,17 @@ def test_statistic_energy_relation():
     import json
     d = json.load(open(os.path.join(ROOT, 'results', 'detect_theory.json')))
     assert 0.8 < d['z_obs_over_pred']['median'] < 1.25
+
+
+def test_echo_power_at_exact_frequency():
+    """The echo power of detectability.blocks() is evaluated at the exact search frequency nu: a tone on the 0.5-Hz
+    search grid between two 2-Hz bins of a 0.5-s block must keep its full power (a nearest-bin estimate loses 0.9 dB at
+    0.5 Hz and 3.9 dB at 1 Hz from the bin)."""
+    import numpy as np
+    fs = 6048.0; B = int(0.5 * fs); n = np.arange(B)
+    for nu in (2.0, 2.5, 3.0, -10.5):
+        Y = np.exp(2j * np.pi * nu * n / fs)[None, :]
+        p = np.abs(np.mean(Y * np.exp(-2j * np.pi * nu * n[None, :] / fs), axis=1)) ** 2
+        assert abs(10 * np.log10(p[0])) < 1e-9
+    src = open(os.path.join(os.path.dirname(__file__), '..', 'code', 'detectability.py')).read()
+    assert 'Pnu=np.abs(np.mean(Y*np.exp(-2j*np.pi*nu' in src

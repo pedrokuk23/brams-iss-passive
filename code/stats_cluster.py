@@ -1,4 +1,5 @@
-# Uncertainties that respect the grouping of the data. Passes searched in the same recording share its noise and
+# Uncertainties that respect the grouping of the data (Table 7 uses the two-way interval; the ISS complex the interval
+# over physical passes). Passes searched in the same recording share its noise and
 # interference (and Starlink satellites of one train pass together), so detection probabilities are given with 95%
 # intervals from a bootstrap over recordings (files), next to the binomial Clopper-Pearson interval. The feasibility
 # prediction of Phase 2 from Phase 1 gets a predictive interval that includes the uncertainty of the Phase 1 curve
@@ -28,14 +29,44 @@ def boot_obj(U):
     for _ in range(NB):
         i=rng.integers(0,len(G),len(G)); r.append(k[i].sum()/n[i].sum())
     return [float(x) for x in np.percentile(r,[2.5,97.5])]
+def tclusters(U):
+    """Time clusters: five-minute slots merged when consecutive (an ISS pass can span two slots), shared by receivers."""
+    sl=sorted({u['file'][:13] for u in U}); import datetime as _d
+    ts=[_d.datetime.strptime(s,'%Y%m%d_%H%M') for s in sl]; lab={}; c=0
+    for i,s in enumerate(sl):
+        if i and (ts[i]-ts[i-1]).total_seconds()>300: c+=1
+        lab[s]=c
+    return {u['file'][:13]:lab[u['file'][:13]] for u in U}
+def boot_twoway(U):
+    """Two-way (pigeonhole) bootstrap: satellites and time clusters resampled independently, each pass weighted by the
+    product of the multiplicities of its satellite and its time cluster (Owen 2007)."""
+    tc=tclusters(U); so=sorted({(u['r']['obj'] if 'r' in u else 'x') if u['cls']!='ISS complex' else 'ISS' for u in U}); si={s:i for i,s in enumerate(so)}
+    a=np.array([si[(u['r']['obj'] if 'r' in u else 'x') if u['cls']!='ISS complex' else 'ISS'] for u in U]); b=np.array([tc[u['file'][:13]] for u in U])
+    d=np.array([u['det'] for u in U],float); nA=len(so); nB=b.max()+1; r=[]
+    for _ in range(NB):
+        wa=np.bincount(rng.integers(0,nA,nA),minlength=nA); wb=np.bincount(rng.integers(0,nB,nB),minlength=nB); w=wa[a]*wb[b]
+        if w.sum()>0: r.append((w*d).sum()/w.sum())
+    return [float(x) for x in np.percentile(r,[2.5,97.5])], int(nA), int(nB)
+def boot_pass(U):
+    """ISS complex: bootstrap over physical passes (time clusters), all receivers and recordings of a pass together."""
+    tc=tclusters(U); b=np.array([tc[u['file'][:13]] for u in U]); d=np.array([u['det'] for u in U],float); nB=b.max()+1; r=[]
+    k=np.bincount(b,weights=d,minlength=nB); n=np.bincount(b,minlength=nB)
+    for _ in range(NB):
+        i=rng.integers(0,nB,nB); r.append(k[i].sum()/n[i].sum())
+    return [float(x) for x in np.percentile(r,[2.5,97.5])], int(nB)
 def row(U):
     k=sum(u['det'] for u in U); n=len(U)
-    return dict(n=n,k=int(k),pd=k/n if n else None,ci_binomial=cp(k,n) if n else None,ci_cluster=boot_rate(U) if n else None,
+    out=dict(n=n,k=int(k),pd=k/n if n else None,ci_binomial=cp(k,n) if n else None,ci_cluster=boot_rate(U) if n else None,
                 ci_object=boot_obj(U) if n else None,n_files=len(files(U)))
-out=dict(n_boot=NB,classes={},eclipse={},feasibility={})
+    if n:
+        if all(u['cls']=='ISS complex' for u in U): out['ci_pass'],out['n_passes']=boot_pass(U)
+        out['ci_twoway'],out['n_sat'],out['n_timeclusters']=boot_twoway(U)
+    return out
+out=dict(n_boot=NB,classes={},eclipse={},feasibility={},classes_phase2_without_maubeuge={})
 for ph,U in (('phase1',U1),('phase2',U2m)):
     out['classes'][ph]={c:row([u for u in U if u['cls']==c]) for c in CL}
     out['eclipse'][ph]={f'{c}|{g}':row([u for u in U if u['cls']==c and u['grp']==g]) for c in CL if c!='ISS complex' for g in ('plate_shadow','plate_sunlit')}
+out['classes_phase2_without_maubeuge']={c:row([u for u in U2m if u['cls']==c and not u['file'].endswith('FRMAUB')]) for c in CL}
 # feasibility: curve from Phase 1, prediction of Phase 2 (Phase 1 thresholds in both phases)
 C=fit_curve(U1); F1=files(U1); F2=files(U2); P=[]; O=[]
 pred=sum(pd_of(C,u) for u in U2); obs=sum(u['det'] for u in U2)

@@ -49,6 +49,9 @@ for case in ('pass','null'):
         res[cls]=dict(n_groups=n2,detected_at_least_1=int(k1),detected_at_least_2=int(kge2),expected_at_least_2_if_independent=float(exp2),
                       per_receiver_fraction={st:float(v) for st,v in p.items()},
                       dtau_s_median=float(np.median(dtau)) if dtau else None,dtau_s_frac_le1=float(np.mean(np.array(dtau)<=1.0)) if dtau else None,n_pairs=len(dtau))
+    # expectation with the per-receiver fractions of each class (detection rates differ by class)
+    if 'all non-ISS' in res:
+        res['all non-ISS']['expected_at_least_2_within_class']=float(sum(v['expected_at_least_2_if_independent'] for c,v in res.items() if c!='all non-ISS'))
     out[case]=res
 json.dump(out,open('../results/coincidence.json','w'),indent=1)
 for case in out:

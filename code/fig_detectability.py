@@ -32,7 +32,7 @@ b.text(300,3.2e3,'Starlink\nDTC',fontsize=7,ha='center')
 b.semilogy(538,T['sigma_bluebird_m2'],'*',ms=10,color='none',mec='#222',mew=0.8)
 ul=T['envisat_upper_limits']['BEOUDS']
 b.annotate('',xy=(ul['R_km'],ul['sigma_ul_window']*0.45),xytext=(ul['R_km'],ul['sigma_ul_window']),arrowprops=dict(arrowstyle='->',color='#222',lw=1))
-b.plot(ul['R_km'],ul['sigma_ul_window'],'v',color='#222',ms=5); b.text(ul['R_km']-10,ul['sigma_ul_window']*0.5,'Envisat\n(upper limit)',fontsize=7,va='top',ha='right')
+b.plot(ul['R_km'],ul['sigma_ul_window'],'v',color='#222',ms=5); b.text(ul['R_km']-10,ul['sigma_ul_window']*0.5,'Envisat\n(nominal limit)',fontsize=7,va='top',ha='right')
 
 b.text(445,1.6e5,'ISS',fontsize=7); b.text(548,5.5e4,'BlueBird\narray',fontsize=7)
 for k,lab in [('resonant_wire','resonant $\\lambda/2$ wire'),('plate_5m','5-m flat plate'),('plate_15m','15-m flat plate'),('rayleigh_sphere_1m','sphere, 1-m diameter')]:

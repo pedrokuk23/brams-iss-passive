@@ -61,7 +61,7 @@ def test_glint_energy_tends_to_half_width():
 def test_sigma_min_scaling():
     import brams_feasibility as BF
     s50 = BF.sigma_min(400, 50.0); s25 = BF.sigma_min(400, 25.0, T_arc=50.0)
-    assert 90 < s50 < 110                                         # pocket value of Eq. (11), about 100 m^2
+    assert 70 < s50 < 85                                          # pocket value of Eq. (11), about 77 m^2
     assert s25 / s50 == pytest.approx(2.0, rel=1e-6)              # half the energy-equivalent duration
     assert BF.sigma_min(800, 50.0) / s50 == pytest.approx(16.0, rel=1e-6)
 

@@ -14,9 +14,12 @@ def blocks(path,name,tau,nu,Tb=0.5):
     fd=np.interp(ts+tau,g.t,g.fd); y=bb*np.exp(-2j*np.pi*np.cumsum(fd)/fs)
     valid=(np.abs(fd)>30)&(np.abs(fd)<fmax); vb=valid[:nb*B].reshape(nb,B).all(1)
     Y=y[:nb*B].reshape(nb,B); F=np.fft.fftshift(np.fft.fft(Y,axis=1),axes=1)/B; f=np.fft.fftshift(np.fft.fftfreq(B,1/fs))
-    P=np.abs(F)**2; i0=np.argmin(abs(f-nu)); noise_cols=(abs(f)>14)&(abs(f)<40)
+    P=np.abs(F)**2; noise_cols=(abs(f)>14)&(abs(f)<40)
     noise=np.median(P[:,noise_cols],axis=1)/np.log(2)          # median of exponential -> mean
-    snr=P[:,i0]/noise-1; tb=(np.arange(nb)+0.5)*Tb
+    # echo power at the exact frequency nu of the search (the FFT bins of a 0.5-s block are 2 Hz apart, nu is on a
+    # 0.5-Hz grid), with the same normalization as F
+    Pnu=np.abs(np.mean(Y*np.exp(-2j*np.pi*nu*np.arange(B)[None,:]/fs),axis=1))**2
+    snr=Pnu/noise-1; tb=(np.arange(nb)+0.5)*Tb
     k=np.argmin(g.rr); tca=g.t[k]
     return dict(t=tb[vb],snr=snr[vb],nb=int(vb.sum()),rr=np.interp(tb[vb],g.t,g.rr),tca=float(tca),rrmin=float(g.rr.min()))
 def summarize(r,Tb=0.5,label=''):
