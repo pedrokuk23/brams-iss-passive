@@ -53,7 +53,7 @@ for kk,lab in (('by_start_age','all'),('by_creation_age','cre')):
     for bb in ('24-48 h|both','48- h|both'):
         e=C[kk][bb]; add('tab_%s_%s'%(lab,bb[:2]),e['rms_ms'],'%s~ms (%d)'%(f0(e['rms_ms']),e['n']))
 gr=C['growth']; add('growth_quad',gr['quad_rms_ms'],'fits the 17 differences to %s~ms rms'%f0(gr['quad_rms_ms']))
-add('growth_p1',gr['phase1_fresh_mean_ms'],'average $%+.0f$~ms and all five passes of Phase~1 $%+.1f$~ms'%(gr['phase1_fresh_mean_ms'],gr['phase1_all_mean_ms']))
+add('growth_p1',gr['phase1_fresh_mean_ms'],'average $%+.0f$~ms, and all five passes of Phase~1 average $%+.1f$~ms'%(gr['phase1_fresh_mean_ms'],gr['phase1_all_mean_ms']))
 NO=J('iss_nonoverlap.json')
 add('nonov_formal',NO['formal_one_set_ms'][0],'%s--%s~ms'%(f1(NO['formal_one_set_ms'][0]),f1(NO['formal_one_set_ms'][1])),('main',))
 add('nonov_chi2',None,'reduced chi-square of %s--%s over the four sets and gives %s--%s~ms'%(f1(min(x['chi2_red'] for x in NO['latency_by_set'])),f1(max(x['chi2_red'] for x in NO['latency_by_set'])),f1(NO['latency_range_ms'][0]),f1(NO['latency_range_ms'][1])))
@@ -104,13 +104,13 @@ add('glm_alt',ab['1']['or_shadow'],'(odds ratio %s, %s--%s), and absent below (%
 add('glm_concl',cs['or_shadow'],'with %s times higher odds'%f0(cs['or_shadow']))
 CA=J('catalog_association.json')['summary']
 add('cat_n',CA['n_objects_in_catalog'],'each of the %s objects'%format(CA['n_objects_in_catalog'],','))
-add('cat_alt',CA['n_with_alternative'],'%d of the %s detections that could be tested (of %s) another object'%(CA['n_with_alternative'],format(CA['n_checked'],','),format(CA['n_detections'],',')))
+add('cat_alt',CA['n_with_alternative'],'%d of the %s detections that could be tested (of %s), another object'%(CA['n_with_alternative'],format(CA['n_checked'],','),format(CA['n_detections'],',')))
 add('cat_multi',CA['n_multi_rx_alternative_surviving'],'in only %d of %d'%(CA['n_multi_rx_alternative_surviving'],CA['n_multi_rx']))
 add('cat_ast',CA['ambiguous_by_class']['AST SpaceMobile'],'up to %d of the %d BlueBird detections and %d of the %d V1.x'%(CA['ambiguous_by_class']['AST SpaceMobile'],CA['by_class']['AST SpaceMobile']['n'],CA['ambiguous_by_class']['Starlink V1.x'],CA['by_class']['Starlink V1.x']['n']))
 # ---------------- Sec. 9 and 10.5, detectability and feasibility
 TD=J('detect_theory.json'); g=TD['Geff_dB']
 add('det_gains',g['BEOUDS'],'%s~dB at Oudsbergen, close to the nominal value, and %s and $%s$~dB at Ottignies and Maubeuge'%(f1(g['BEOUDS']),f1(g['BEOTTI']),f1(g['FRMAUB'])))
-zr=TD['z_obs_over_pred']; add('det_zratio',zr['median'],'is %s of the value of Eq.~(\\ref{eq:zE}) in median (10--90\\%% range %s--%s'%(f2(zr['median']),f2(zr['p10']),f2(zr['p90'])))
+zr=TD['z_obs_over_pred']; add('det_zratio',zr['median'],'to the value of Eq.~(\\ref{eq:zE}) is %s (10--90\\%% range %s--%s'%(f2(zr['median']),f2(zr['p10']),f2(zr['p90'])))
 se=TD['iss_sigma_energy_50s_m2']; add('det_iss_steady',se['median'],'$%s\\times10^3$~m$^2$ in median (10--90\\%%: $%s$--$%s\\times10^3$~m$^2$)'%(f1(se['median']/1e3),f1(se['p10']/1e3),f1(se['p90']/1e3)),('main',))
 Lm=TD['Lmin_m']['BEOUDS']; add('det_lmin_D',Lm['420'],'Oudsbergen & %s & %s~m & %s~m & %s~m & %s~m'%(f1(g['BEOUDS']),f1(Lm['350']+1e-9),f1(Lm['420']+1e-9),f1(Lm['530']+1e-9),f1(Lm['780']+1e-9)))
 FVn=J('feasibility_validation.json'); im=FVn['impossible']

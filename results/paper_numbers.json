@@ -310,7 +310,7 @@
   {
    "key": "growth_p1",
    "value": 8.46787348712627,
-   "text": "average $+8$~ms and all five passes of Phase~1 $-4.0$~ms",
+   "text": "average $+8$~ms, and all five passes of Phase~1 average $-4.0$~ms",
    "where": [
     "main"
    ]
@@ -617,7 +617,7 @@
   {
    "key": "cat_alt",
    "value": 175.0,
-   "text": "175 of the 1,575 detections that could be tested (of 1,577) another object",
+   "text": "175 of the 1,575 detections that could be tested (of 1,577), another object",
    "where": [
     "main"
    ]
@@ -649,7 +649,7 @@
   {
    "key": "det_zratio",
    "value": 0.8114100236633114,
-   "text": "is 0.81 of the value of Eq.~(\\ref{eq:zE}) in median (10--90\\% range 0.35--1.02",
+   "text": "to the value of Eq.~(\\ref{eq:zE}) is 0.81 (10--90\\% range 0.35--1.02",
    "where": [
     "main"
    ]
